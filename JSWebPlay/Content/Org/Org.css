@@ -1,0 +1,132 @@
+﻿canvas
+{
+	border-width: 5px;
+	border-style: double;
+	border-color: rgb(120, 120, 120);
+	position: relative;
+	left: 3px;
+	background-color: rgb(196, 225, 255);
+	border-radius: 10px;
+}
+
+div#empDetail 
+{
+	display: none;
+	position: fixed;
+	left: 50px;
+	top: 150px;
+	width: 900px;
+	height: 380px;
+	background-color: black;
+	color: yellow;
+	text-align: center;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+div#empInfo 
+{
+	text-align: left;
+	display: inline-block;
+	width: 100%;
+}
+
+.infoLine 
+{
+	clear: both;
+	font-size: 14pt;
+}
+
+.infoLine label 
+{
+	display: block;
+	float: left;
+	text-align: right;
+	width: 400px;
+	margin-right: 10px;
+}
+
+.infoData {
+	text-align: left;
+	float: left;
+}
+
+section#empReports {
+	text-align: left;
+	display: inline-block;
+	width: 100%;
+}
+
+
+div#directReports 
+{
+	float: left;
+	width: 45%;
+	margin-left: 5px;
+}
+
+div#empDetail > h1
+{
+	text-align: center;
+	font-size: 18pt;
+	color: white;
+}
+
+div#empDetail section#empReports h1
+{
+	text-align: center;
+	font-size: 12pt;
+	color: darkcyan;
+}
+
+div#inDirectReports {
+	float: right;
+	width: 45%;
+	margin-right: 5px;
+}
+
+ul#directReportsList {
+	height: 150px;
+	overflow-y: scroll;
+	background-color: rgb(10, 10, 10);
+	border-radius: 10px;
+}
+ul#inDirectReportsList {
+	height: 150px;
+	overflow-y: scroll;
+	background-color: rgb(10, 10, 10);
+	border-radius: 10px;
+}
+
+span.reportName 
+{
+	font-size: 13pt;
+	cursor: pointer;
+}
+
+span.reportTitle {
+	color: white;
+	font-style: italic;
+	font-size: 10pt;
+}
+
+span#infoDataSupervisor
+{
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+input#closeEmpDetailBtn {
+	background-color: white;
+	color: black;
+	font-size: 14pt;
+	width: 200px;
+}
+
+input#closeEmpDetailBtn {
+	background-color: rgb(10, 10, 10);
+	border-radius: 5px;
+	color: yellow;
+	width: 100px;
+
+}

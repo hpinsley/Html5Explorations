@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<game>
+  <categories>
+    <category title="School Time">
+      <questions>
+        <question q="Richard’s undergraduate major at Johns Hopkins" a="What is Chemistry?" />
+        <question q="The NSAC (National Student Advertising Competition) tag line made famous by the American Airlines team" a="What is, &quot;What a wonderful world&quot;?" />
+        <question q="During his short career as a Chemist, the number of labs he destroyed by fire and or hazardous mercury spills" a="What is 2?" />
+        <question q="&quot;Everywhere you want to be&quot;" a="What was the tag line for the Visa team?" />
+        <question q="The number of times Professor Klein led his team to the NSAC finals" a="What is 5? (AA, Visa, Red Cross, Kodak, Florida USA)." />
+      </questions>
+    </category>
+
+    <category title="Quirks">
+      <questions>
+        <question q="A common technique to identify Richard’s glass" a="Which one has an oil slick in it?" />
+        <question q="The number of seats Richard, Barbara (and Elijah) typically purchase on Jet Blue" a="What is 3?" />
+        <question q="The name affectionately given to the fictitious airline used to reunite Richard’s family in Las Vegas" a="What is Air Klein?" />
+        <question q="The defacto standard for deep philosophical questions from Richard" a="What is Multiple Choice?" />
+        <question q="2 things Richard brings to every restaurant - no matter how fancy" a="What are peanuts and caffeine free diet coke?" />
+      </questions>
+    </category>
+
+    <category title="Sports &amp; Leisure">
+      <questions>
+        <question q="Alpine and Boca are two" a="What are country clubs?" />
+        <question q="Richard’s favorite baseball pitcher" a="Who is Matthew Pinsley?" />
+        <question q="The loneliest number and the number of times Richard has played tennis with Howard" a="What is 1? ‘nuff said." />
+        <question q="Known for his high serving percentage in Tennis, this is the other unusual quality of Richard’s tennis serve" a="What are all SECOND serves?" />
+        <question q="Not bridge champion, not tennis champion, Richard’s greatest accomplishment at the Alpine Country Club" a="What is getting a locker with his name on it?" />
+      </questions>
+    </category>
+
+    <category title="Bed, Bath &amp; Beyond">
+      <questions>
+        <question q="The substance commonly found on Richard’s chin during dinner" a="What is Salad Dressing?" />
+        <question q="The effervescent weapon famously used to sink Richard’s boats" a="What was 100 Alka Seltzer tablets thrown into his bath with him in it?" />
+        <question q="Typically beginning at 4:00 PM" a="What is Nap Time?" />
+        <question q="Richards favorite bath time toy" a="What are yellow rubber duckies?" />
+        <question q="Weigh before, weigh after, then subtract" a="What is Richard’s formula for measuring stool productivity?" />
+      </questions>
+    </category>
+
+    <category title="Hodgepodge">
+      <questions>
+        <question q="Though not a photographer and never arrested, this was the nickname, given to Richard during his time at John’s Hopkins" a="What is &quot;Flash&quot;?" />
+        <question q="4’ even" a="How tall is Richard?" />
+        <question q="Richard’s most frequently visited city (other than NYC and Boca)" a="What is Albuquerque New Mexico?" />
+        <question q="A famous reaction when receiving clothes as gifts" a="What is throwing them across the room?" />
+        <question q="A sweet treat or a blunt force weapon in the hands of Barbara" a="What is a bag of marshmallows?" />
+      </questions>
+    </category>
+
+  </categories>
+</game>

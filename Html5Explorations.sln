@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSWebPlay", "JSWebPlay\JSWebPlay.csproj", "{7335CD11-D710-4D97-9AE5-1A7B07369929}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileAppTest", "MobileAppTest\MobileAppTest.csproj", "{E242E5CC-0202-44C2-9360-ADBE0F8B75CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrgServices", "OrgServices\OrgServices.csproj", "{4C5CEF06-0C5F-4BFC-AE4C-EB284CEA2320}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrgServices.Tests", "OrgServices.Tests\OrgServices.Tests.csproj", "{1527A9F2-CB7B-4ECF-921D-8E27E05CE3F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Utilities.csproj", "{E1B4A7EC-0A1A-4C2D-8EF7-B62A66B112CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities.Tests", "Utilities.Tests\Utilities.Tests.csproj", "{6D88CDDA-6C2E-48BE-B2BD-401E19D29B73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7335CD11-D710-4D97-9AE5-1A7B07369929}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7335CD11-D710-4D97-9AE5-1A7B07369929}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7335CD11-D710-4D97-9AE5-1A7B07369929}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7335CD11-D710-4D97-9AE5-1A7B07369929}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E242E5CC-0202-44C2-9360-ADBE0F8B75CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E242E5CC-0202-44C2-9360-ADBE0F8B75CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E242E5CC-0202-44C2-9360-ADBE0F8B75CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E242E5CC-0202-44C2-9360-ADBE0F8B75CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C5CEF06-0C5F-4BFC-AE4C-EB284CEA2320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C5CEF06-0C5F-4BFC-AE4C-EB284CEA2320}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C5CEF06-0C5F-4BFC-AE4C-EB284CEA2320}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C5CEF06-0C5F-4BFC-AE4C-EB284CEA2320}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1527A9F2-CB7B-4ECF-921D-8E27E05CE3F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1527A9F2-CB7B-4ECF-921D-8E27E05CE3F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1527A9F2-CB7B-4ECF-921D-8E27E05CE3F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1527A9F2-CB7B-4ECF-921D-8E27E05CE3F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1B4A7EC-0A1A-4C2D-8EF7-B62A66B112CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1B4A7EC-0A1A-4C2D-8EF7-B62A66B112CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1B4A7EC-0A1A-4C2D-8EF7-B62A66B112CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1B4A7EC-0A1A-4C2D-8EF7-B62A66B112CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D88CDDA-6C2E-48BE-B2BD-401E19D29B73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D88CDDA-6C2E-48BE-B2BD-401E19D29B73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D88CDDA-6C2E-48BE-B2BD-401E19D29B73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D88CDDA-6C2E-48BE-B2BD-401E19D29B73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div data-role="page">
+<div data-role="header">
+     <h1>Expense Tracker Mobile</h1>
+</div>
+<div data-role="content">  
+<ul data-role="listview">
+    
+     <li>@Html.ActionLink("Home", "Index", "Home")</li>
+     <li>@Html.ActionLink("Category", "Create", "Home")</li>                    
+     <li>@Html.ActionLink("Expense", "Index", "Home")</li>
+</ul>
+</div>
+<div data-role="footer">      
+    Shiju Varghese | <a href="http://weblogs.asp.net/shijuvarghese">Blog
+    </a> | <a href="http://twitter.com/shijucv">Twitter</a>
+  </div>
+</div>

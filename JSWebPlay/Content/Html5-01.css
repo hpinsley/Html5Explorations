@@ -1,0 +1,63 @@
+﻿body
+{
+	font-size: 12pt;
+	color: black;
+	font-family: Cambria;
+}
+
+header
+{
+	background-image: url('Images/Hydrangeas.jpg');
+	color: yellow;
+	background-color: blue;
+}
+
+
+nav {
+	height: 50px;
+	background-color: black;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+nav ul li {
+	width: 100px;
+	float: left;
+	
+}
+
+header {
+	float: left;
+	width: 600px;
+}
+
+section#mainSection 
+{
+	padding: 20px;
+	float: left;
+	width: 600px;
+	height: 400px;
+	background-color: gray;
+}
+
+aside
+{
+	padding: 10px;
+	font-size: 16pt;
+	float: right;
+	width: 200px;
+	height: 400px;
+	border-left: 1px solid black;
+	background-image: url('Images/Desert.jpg');
+}
+
+footer#mainFooter
+{
+	clear: left;
+	width: 600px;
+	background-color: teal;
+}

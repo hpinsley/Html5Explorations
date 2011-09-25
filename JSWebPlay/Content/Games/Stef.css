@@ -1,0 +1,15 @@
+﻿img#richard
+{
+	width: 100px;
+	height: 100px;
+	margin-left: 100px;
+}
+
+canvas {
+	width: 400px;
+	height: 400px;
+	background-color: rgb(181, 238, 220);
+	border: 5px solid green;
+	margin-left: 200px;
+	border-radius: 10px;
+}

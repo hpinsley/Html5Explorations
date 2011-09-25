@@ -1,0 +1,142 @@
+body
+{
+    font-size: .85em;
+    font-family: "Trebuchet MS", Verdana, Helvetica, Sans-Serif;
+    color: #232323;
+    background-color: #fff;
+	margin: 0px;
+	padding: 0px;
+}
+
+header,
+footer,
+nav,
+section {
+    display: block;
+}
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+
+fieldset 
+{
+    border:1px solid #ddd;
+    padding:0 1.4em 1.4em 1.4em;
+    margin:0 0 1.5em 0;
+}
+
+legend 
+{
+    font-size:1.2em;
+    font-weight: bold;
+}
+
+textarea 
+{
+    min-height: 75px;
+}
+
+.editor-label 
+{
+    margin: 1em 0 0 0;
+}
+
+.editor-field 
+{
+    margin:0.5em 0 0 0;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error
+{
+    color: #ff0000;
+}
+
+.field-validation-valid
+{
+    display: none;
+}
+
+.input-validation-error
+{
+    border: 1px solid #ff0000;
+    background-color: #ffeeee;
+}
+
+.validation-summary-errors
+{
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.validation-summary-valid
+{
+    display: none;
+}
+
+/* Menu */
+ul#mainMenu {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;	
+	width: 100%;
+	height: 40px;
+	background-color: rgb(25, 25, 75);
+}
+
+ul#mainMenu li {
+	display: block;
+	float: left;
+	margin-left: 20px;
+	width: 130px;
+	position: relative;
+	height: 40px;
+	text-align: center;
+	border-radius: 7px;
+}
+
+ul#mainMenu a 
+{
+	color: yellow;
+	position: relative;
+	top: 5px;
+	font-size: 16pt;
+	text-decoration: none;
+}
+
+ul#mainMenu a:hover
+{
+	color: red;
+}
+
+ul#mainMenu ul.dropdownMenuHidden
+{
+	display: none;
+}
+
+ul#mainMenu ul.dropdownMenuShown {
+	position: relative;
+	margin: 15px 0px 0px 0px;
+	padding: 0px;
+	left: 0px;
+	font-size: 16pt;
+	z-index: 100;
+}
+
+ul#mainMenu ul.dropdownMenuShown li
+{
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	background-color: rgb(25, 25, 75);
+	color: green;
+	position: relative;
+	clear: both;
+	display: block;
+	width: 130px;
+	height: 40px;
+	text-align: center;
+	border-radius: 0px;
+}

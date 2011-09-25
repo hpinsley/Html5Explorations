@@ -1,0 +1,10 @@
+/_ReSharper.Html5Explorations
+/*/bin
+/*/obj
+*.log
+*.log.*
+*.jpg
+*.JPG
+*.suo
+*.ReSharper.user
+

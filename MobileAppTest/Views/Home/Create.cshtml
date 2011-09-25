@@ -1,0 +1,31 @@
+﻿@model MobileAppTest.Models.Category
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div data-role="page">
+    <div data-role="header">
+        <h1>
+            Create Category</h1>
+        @Html.ActionLink("Home", "Index", "Home", null, new { @class = "ui-btn-right" })
+    </div>
+    <div data-role="content">
+        @using (Html.BeginForm("Create", "Home", FormMethod.Post)) {
+            <div data-role="fieldcontain">
+                @Html.LabelFor(model => model.Name)
+                @Html.EditorFor(model => model.Name)
+                <div>
+                    @Html.ValidationMessageFor(m => m.Name)
+                </div>
+            </div>
+            <div data-role="fieldcontain">
+                @Html.LabelFor(model => model.Description)
+                @Html.EditorFor(model => model.Description)
+            </div>           
+            <div class="ui-body ui-body-b">
+                <button type="submit" data-role="button" data-theme="b">
+                    Save</button>
+            </div>
+        }
+    </div>
+</div>
