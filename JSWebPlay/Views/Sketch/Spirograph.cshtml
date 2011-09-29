@@ -2,27 +2,32 @@
     ViewBag.Title = "Spirograph";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
 <link href="@Url.Content("~/Content/Sketch/Spirograph.css")" rel="stylesheet" type="text/css" />
 <script src="@Url.Content("~/Scripts/Sketch/Spirograph.js")" type="text/javascript"></script>
+<div id="leftPanel">
 
-<div id="board">
-    <div id="leftPanel">
-        <div>
-            <label>Count:</label>
-            <input type="number" id="ctlCount" min="1" max="100" value="10"/>
+    <section id="valueInputs">
+        <div class="row">
+            <label>
+                Count:</label>
+            <input type="number" id="ctlCount" min="1" max="100" value="100" />
         </div>
-        <div>
-            <label>Size:</label>
-            <input type="number" id="ctlSize" min="1" max="500" value="100"/>
+        <div class="row">
+            <label>
+                Size:</label>
+            <input type="number" id="ctlSize" min="1" max="500" value="340" />
         </div>
+    </section>
 
-        <div id="shapes">
-            <input type="radio" id="ctlTriangle" name="shapeChoice" value="Triangle" /><label for="CtlTriangle" checked="checked">Triangle</label>
-            <input type="radio" id="ctlSquare" name="shapeChoice" value="Square" /><label for="CtlSquare">Square</label>
-        </div>
+    <section id="shapeSelection">
+        <input type="radio" checked="checked" id="ctlTriangle" name="shapeChoice" value="Triangle" />
+        <label for="CtlTriangle">Triangle</label>
+        <input type="radio" id="ctlSquare" name="shapeChoice" value="Square" />
+        <label for="CtlSquare">Square</label>
+    </section>
 
-        <input type="button" id="CtlDraw" value="Draw"/>
-    </div>
-    <canvas></canvas>
+    <input type="button" id="CtlDraw" value="Draw" />
+
 </div>
+<canvas>
+</canvas>
