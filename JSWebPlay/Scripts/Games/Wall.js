@@ -4,10 +4,10 @@
     this.color = 'green';
 }
 
-Wall.prototype.strokeWidth = 1;
+Wall.prototype.lineWidth = 1;
 
 Wall.prototype.draw = function (ctx) {
-    ctx.lineWidth = this.strokeWidth;
+    ctx.lineWidth = this.lineWidth;
     ctx.strokeStyle = this.color;
     ctx.beginPath();
     ctx.moveTo(this.p1.x, this.p1.y);

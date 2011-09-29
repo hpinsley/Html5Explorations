@@ -28,7 +28,7 @@ function MazeGame(rows, cols, boardWidth, boardHeight) {
 MazeGame.prototype.eraseUserPath = function (ctx) {
 
     ctx.strokeStyle = "black";
-    ctx.strokeWidth = 1;
+    ctx.lineWidth = 1;
 
     var oldComposite = ctx.globalCompositeOperation;
     var oldAlpha = ctx.globalAlpha;

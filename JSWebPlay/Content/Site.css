@@ -140,3 +140,11 @@ ul#mainMenu ul.dropdownMenuShown li
 	text-align: center;
 	border-radius: 0px;
 }
+
+section#intro {
+	font-size: 14pt;
+	color: blue;
+	margin-left: 50px;
+	margin-right: 50px;
+	
+}

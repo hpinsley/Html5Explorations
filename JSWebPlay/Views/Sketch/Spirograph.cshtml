@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "Spirograph";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link href="@Url.Content("~/Content/Sketch/Spirograph.css")" rel="stylesheet" type="text/css" />
+<script src="@Url.Content("~/Scripts/Sketch/Spirograph.js")" type="text/javascript"></script>
+
+<div id="board">
+    <div id="leftPanel">
+        <div>
+            <label>Count:</label>
+            <input type="number" id="ctlCount" min="1" max="100" value="10"/>
+        </div>
+        <div>
+            <label>Size:</label>
+            <input type="number" id="ctlSize" min="1" max="500" value="100"/>
+        </div>
+
+        <div id="shapes">
+            <input type="radio" id="ctlTriangle" name="shapeChoice" value="Triangle" /><label for="CtlTriangle" checked="checked">Triangle</label>
+            <input type="radio" id="ctlSquare" name="shapeChoice" value="Square" /><label for="CtlSquare">Square</label>
+        </div>
+
+        <input type="button" id="CtlDraw" value="Draw"/>
+    </div>
+    <canvas></canvas>
+</div>

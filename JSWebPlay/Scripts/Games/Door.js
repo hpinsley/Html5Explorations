@@ -4,7 +4,7 @@
     this.isOpen = false;
 }
 
-Door.prototype.strokeWidth = 1;
+Door.prototype.lineWidth = 1;
 
 Door.prototype.openDoor = function () {
     this.isOpen = true;
@@ -16,7 +16,7 @@ Door.prototype.makeIntoWall = function () {
 
 Door.prototype.draw = function (ctx) {
     var color = (this.isOpen ? 'white' : 'black');
-    ctx.lineWidth = this.strokeWidth;
+    ctx.lineWidth = this.lineWidth;
     ctx.strokeStyle = color;
     ctx.beginPath();
     ctx.moveTo(this.p1.x, this.p1.y);

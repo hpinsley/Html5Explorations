@@ -65,6 +65,7 @@
     <Compile Include="Controllers\GameController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\OrgController.cs" />
+    <Compile Include="Controllers\SketchController.cs" />
     <Compile Include="Services\Implementations\GameService.cs" />
     <Compile Include="Services\Interfaces\IGameService.cs" />
     <Compile Include="Global.asax.cs">
@@ -95,6 +96,7 @@
     <Content Include="Content\Games\Maze.css" />
     <Content Include="Content\Images\Dicky Face.png" />
     <Content Include="Content\Org\Org.css" />
+    <Content Include="Content\Sketch\Spirograph.css" />
     <Content Include="Scripts\Games\Cell.js" />
     <Content Include="Scripts\Games\Stack.js" />
     <Content Include="Scripts\Games\Wall.js" />
@@ -168,6 +170,7 @@
     <Content Include="Scripts\Org\Org.js" />
     <Content Include="Scripts\Org\Scale.js" />
     <Content Include="Scripts\Shared\site.js" />
+    <Content Include="Scripts\Sketch\Spirograph.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -231,6 +234,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Game\StefGame.cshtml" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Views\Sketch\Spirograph.cshtml" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

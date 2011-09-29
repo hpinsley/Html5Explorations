@@ -53,7 +53,7 @@ function showSolution() {
 
     var ctx = mazeContext();
     ctx.strokeStyle = "red";
-    ctx.strokeWidth = 1;
+    ctx.lineWidth = 1;
     maze.connectCellPath(cells, ctx);
 };
 
