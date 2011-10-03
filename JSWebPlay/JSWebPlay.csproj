@@ -170,6 +170,7 @@
     <Content Include="Scripts\Org\Org.js" />
     <Content Include="Scripts\Org\Scale.js" />
     <Content Include="Scripts\Shared\site.js" />
+    <Content Include="Scripts\Sketch\SketchDraw.js" />
     <Content Include="Scripts\Sketch\Spirograph.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
