@@ -36,18 +36,26 @@ function drawShapes(shapeCount, shapeSize, ctx) {
     if ($("input#ctlTriangle")[0].checked) {
         draw = getTriangleFunc(shapeSize);
     }
-    else {
+    else if ($("input#ctlSquare")[0].checked) {
         draw = getSquareFunc(shapeSize);
     }
+    else if ($("input#ctlOval")[0].checked) {
+        draw = getOvalFunc(shapeSize);
+    }
 
-    
+   
     var angleDelta = Math.PI * 2 / shapeCount;
     for (var i = 0; i < shapeCount; ++i) {
+        ctx.strokeStyle = getRandomStrokeStyle();
         ctx.rotate(angleDelta);
         draw(ctx);
     }
     ctx.restore();
 };
+
+function getRandomStrokeStyle() {
+    return "rgb(40,40,40)";
+}
 
 function getTriangleFunc(size) {
 
@@ -83,6 +91,21 @@ function getSquareFunc(size) {
         ctx.lineTo(-half, half);
         ctx.lineTo(-half, -half);
         ctx.stroke();
+    };
+    return draw;
+};
+
+function getOvalFunc(size) {
+
+    //Draw a squre centered at the origin
+    var draw = function (ctx) {
+        ctx.save();
+        var radius = size / 2;
+        ctx.scale(1, 0.75);
+        ctx.beginPath();
+        ctx.arc(0, 0, radius, 0, 2 * Math.PI, false);
+        ctx.stroke();
+        ctx.restore();
     };
     return draw;
 };

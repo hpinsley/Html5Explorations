@@ -41,12 +41,13 @@ section#valueInputs label {
 section#valueInputs input[type="number"] 
 {
 	float: left;
-	width: 40px;
+	width: 80px;
 	font-size: 14pt;
 }
 
 section#shapeSelection {
 	clear: both;
+	font-size: 18pt;
 }
 
 input[type="button"] {
@@ -55,3 +56,16 @@ input[type="button"] {
 	font-family: arial;
 	margin: 5px;
 }
+
+section#shapeSelection input[type='radio'] 
+{
+	clear: both;
+	float: left;
+	margin-top: 8px;
+}
+section#shapeSelection label
+{
+	float: left;
+	margin-left: 10px;
+}
+
