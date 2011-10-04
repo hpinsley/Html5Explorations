@@ -37,6 +37,33 @@
     <Reference Include="EntityFramework">
       <HintPath>..\packages\EntityFramework.4.1.10331.0\lib\EntityFramework.dll</HintPath>
     </Reference>
+    <Reference Include="IronRuby">
+      <HintPath>..\packages\IronRuby.1.1.3\Lib\IronRuby.dll</HintPath>
+    </Reference>
+    <Reference Include="IronRuby.Libraries">
+      <HintPath>..\packages\IronRuby.1.1.3\Lib\IronRuby.Libraries.dll</HintPath>
+    </Reference>
+    <Reference Include="IronRuby.Libraries.Yaml">
+      <HintPath>..\packages\IronRuby.1.1.3\Lib\IronRuby.Libraries.Yaml.dll</HintPath>
+    </Reference>
+    <Reference Include="Jurassic">
+      <HintPath>..\packages\SassAndCoffee.Core.1.1\lib\net40\Jurassic.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamic">
+      <HintPath>..\packages\IronRuby.1.1.3\Lib\Microsoft.Dynamic.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Scripting">
+      <HintPath>..\packages\IronRuby.1.1.3\Lib\Microsoft.Scripting.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Scripting.Metadata">
+      <HintPath>..\packages\IronRuby.1.1.3\Lib\Microsoft.Scripting.Metadata.dll</HintPath>
+    </Reference>
+    <Reference Include="SassAndCoffee.AspNet">
+      <HintPath>..\packages\SassAndCoffee.AspNet.1.1\lib\net40\SassAndCoffee.AspNet.dll</HintPath>
+    </Reference>
+    <Reference Include="SassAndCoffee.Core">
+      <HintPath>..\packages\SassAndCoffee.Core.1.1\lib\net40\SassAndCoffee.Core.dll</HintPath>
+    </Reference>
     <Reference Include="System.Data.Entity" />
     <Reference Include="System.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Web.WebPages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
@@ -60,6 +87,9 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="V8Bridge.Interface">
+      <HintPath>..\packages\SassAndCoffee.Core.1.1\lib\net40\V8Bridge.Interface.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\GameController.cs" />
@@ -96,7 +126,9 @@
     <Content Include="Content\Games\Maze.css" />
     <Content Include="Content\Images\Dicky Face.png" />
     <Content Include="Content\Org\Org.css" />
+    <Content Include="Content\qunit.css" />
     <Content Include="Content\Sketch\Spirograph.css" />
+    <Content Include="Scripts\Home\CalcLib.js" />
     <Content Include="Scripts\Games\Cell.js" />
     <Content Include="Scripts\Games\Stack.js" />
     <Content Include="Scripts\Games\Wall.js" />
@@ -146,6 +178,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Html5-01.htm" />
     <Content Include="Scripts\Games\GameData.js" />
+    <Content Include="Scripts\Home\CalcTests.js" />
     <Content Include="Scripts\Home\Factorial.js" />
     <Content Include="Scripts\Home\Fib.js" />
     <Content Include="Scripts\Home\NumberForm.js" />
@@ -169,6 +202,7 @@
     <Content Include="Scripts\Org\ViewOrg.js" />
     <Content Include="Scripts\Org\Org.js" />
     <Content Include="Scripts\Org\Scale.js" />
+    <Content Include="Scripts\qunit.js" />
     <Content Include="Scripts\Shared\site.js" />
     <Content Include="Scripts\Sketch\SketchDraw.js" />
     <Content Include="Scripts\Sketch\Spirograph.js" />
