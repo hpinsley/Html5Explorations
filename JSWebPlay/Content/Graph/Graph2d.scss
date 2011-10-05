@@ -1,0 +1,50 @@
+﻿$panelColor: teal;
+$totalHeight: 600px;
+$totalWidth: 800px;
+$inputHeight: 100px;
+$inputPaddingBottom: 5px;
+$lowerPanelsTop: $inputHeight + $inputPaddingBottom;
+$lowerPanelBottomMargin: 5px;
+$lowerPanelsHeight: $totalHeight - ($inputHeight + $inputPaddingBottom + $lowerPanelBottomMargin)
+$controlPanelWidth: 100px;
+$controlPanelMargin: 5px;
+$plotPanelLeft: $controlPanelWidth + $controlPanelMargin;
+$plotPanelRightMargin: 5px;
+$plotPanelWidth: $totalWidth - ($plotPanelLeft + $plotPanelRightMargin)
+
+body {
+	font: {
+			size: 9pt;
+			weight: bold;
+			name: Verdana;
+		}
+}
+
+section#inputSection {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: $inputHeight;
+	background-color: $panelColor;
+}
+
+section#controlsSection {
+	position: absolute;
+	left: 0px;
+	top: $lowerPanelsTop;
+	width: $controlPanelWidth;
+	height: $lowerPanelsHeight;
+	background-color: $panelColor;
+}
+
+section#plotSection {
+	position: absolute;
+	left: $plotPanelLeft;
+	top: $lowerPanelsTop;
+	width: $plotPanelWidth;
+	height: $lowerPanelsHeight;
+	background-color: $panelColor;
+}
+
+

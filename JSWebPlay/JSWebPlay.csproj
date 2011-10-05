@@ -93,6 +93,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\GameController.cs" />
+    <Compile Include="Controllers\GraphController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\OrgController.cs" />
     <Compile Include="Controllers\SketchController.cs" />
@@ -122,12 +123,14 @@
     <Content Include="Content\Data\EmpInfo-03.xml" />
     <Content Include="Content\Data\game-02.xml" />
     <Content Include="Content\Games\Stef.css" />
-    <Content Include="Content\Games\Jeopardy.css" />
+    <Content Include="Content\Games\Jeopardy.scss" />
     <Content Include="Content\Games\Maze.css" />
+    <Content Include="Content\Graph\Graph2d.scss" />
     <Content Include="Content\Images\Dicky Face.png" />
     <Content Include="Content\Org\Org.css" />
     <Content Include="Content\qunit.css" />
-    <Content Include="Content\Sketch\Spirograph.css" />
+    <Content Include="Content\Sketch\Spirograph.scss" />
+    <Content Include="Scripts\Graph\Graph2d.js" />
     <Content Include="Scripts\Home\CalcLib.js" />
     <Content Include="Scripts\Games\Cell.js" />
     <Content Include="Scripts\Games\Stack.js" />
@@ -178,7 +181,8 @@
     <Content Include="Content\Site.css" />
     <Content Include="Html5-01.htm" />
     <Content Include="Scripts\Games\GameData.js" />
-    <Content Include="Scripts\Home\CalcTests.js" />
+    <Content Include="Scripts\Home\FibonacciTests.js" />
+    <Content Include="Scripts\Home\FactorialTests.js" />
     <Content Include="Scripts\Home\Factorial.js" />
     <Content Include="Scripts\Home\Fib.js" />
     <Content Include="Scripts\Home\NumberForm.js" />
@@ -206,7 +210,9 @@
     <Content Include="Scripts\Shared\site.js" />
     <Content Include="Scripts\Sketch\SketchDraw.js" />
     <Content Include="Scripts\Sketch\Spirograph.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -270,7 +276,9 @@
   <ItemGroup>
     <Content Include="Views\Game\StefGame.cshtml" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Views\Graph\Graph2d.cshtml" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Sketch\Spirograph.cshtml" />
   </ItemGroup>

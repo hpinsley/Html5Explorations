@@ -1,4 +1,10 @@
-﻿body
+﻿$body-background-color: #80B4E6;
+$background-color: #000099;
+$category-color: yellow;
+$category-revealed-color: #FFFF00;
+$control-button-color: yellow;
+
+body
 {
 	padding: 0px;
 	margin: 0px;
@@ -6,7 +12,7 @@
 	height: 630px;
 	font-family: 'Comic Sans MS';
 	font-size: 12pt;
-	background-color: #80B4E6;
+	background-color: $body-background-color;
 }
 
 input[type='button'] {
@@ -15,12 +21,6 @@ input[type='button'] {
 
 .clear {
 	clear: both;
-}
-
-header
-{
-	margin-top: 0px;
-	height: 85px;
 }
 
 img.headshot
@@ -49,31 +49,23 @@ h1, h2 {
 	margin: 0px;
 }
 
-header section#headers 
-{
-}
-header h1
-{
-	text-align: center;
-	font-size: 64pt;
-	color: #000099;
-	font-family: 'Times New Roman' , Times, serif;
-}
+header {
+	margin-top: 0px;
+	height: 85px;
 
-header h2 {
-	text-align: center;
+	h1 {
+		text-align: center;
+		font-size: 64pt;
+		color: $background-color;
+		font-family: 'Times New Roman' , Times, serif;
+	}
+	h2 {
+		text-align: center;
+	}
 }
 
 section#boardSection {
 	width: 100%;
-}
-
-#cardTable 
-{
-	position: absolute;
-	left: 17px;
-	top: 100px;
-	border-radius: 5pt;
 }
 
 img#bigRichardImg {
@@ -87,53 +79,56 @@ div#bigRichard {
 	display: none;
 }
 
-#cardTable th {
-	height: 75px;
-	/* width: 160px; */
-	width: 193px;
-	text-align: center;
-	vertical-align: middle;
-	border-radius: 20px;
-}
+#cardTable {
 
-#cardTable td {
-	height: 75px;
-	text-align: center;
-	vertical-align: middle;
-	border-radius: 20px;
-}
+	position: absolute;
+	left: 17px;
+	top: 100px;
+	border-radius: 5pt;
 
-#cardTable .categoryBoxHidden
-{
-	background-color: #000099;
-	color: white;
-	font-size: 20pt;
-	font-weight: bold;
-	font-family: Arial, Helvetica, sans-serif;
-}
-
-#cardTable .categoryBoxRevealed
-{
-	padding: 5px;
-	background-color: #000099;
-	color: #FFFF00;
-	font-size: 18pt;
-	font-family: Arial, Helvetica, sans-serif;
-}
-
-#cardTable .hiddenQuestion
-{
-	color: white;
-	font-weight: bold;
-	font-size: 24pt;
-	background-color: #000099;
-	cursor: pointer;
-}
-
-#cardTable .usedQuestion
-{
-	background-color: #000099;
-	color: #000099;		/* hide the text make it same as bg */
+	th {
+		height: 75px;
+		/* width: 160px; */
+		width: 193px;
+		text-align: center;
+		vertical-align: middle;
+		border-radius: 20px;
+	}
+	td {
+		height: 75px;
+		text-align: center;
+		vertical-align: middle;
+		border-radius: 20px;
+	}
+	.categoryBoxHidden
+	{
+		background-color: $background-color;
+		color: $category-color;
+		font-size: 20pt;
+		font-weight: bold;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	.categoryBoxRevealed
+	{
+		padding: 5px;
+		background-color: $background-color;
+		color: $category-revealed-color;
+		font-size: 18pt;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	.hiddenQuestion
+	{
+		color: white;
+		font-weight: bold;
+		font-size: 24pt;
+		background-color: $background-color;
+		cursor: pointer;
+	}
+	.usedQuestion
+	{
+		background-color: $background-color;
+		color: $background-color;		/* hide the text make it same as bg */
+	}
 }
 
 div#revealedQuestion 
@@ -184,7 +179,7 @@ input#CtlRevealAnswerBtn
 	font-weight: bold;
 	font-size: 16pt;
 	text-align: center;
-	background-color: #000099;
+	background-color: $background-color;
 	border-radius: 10pt;
 	color: white;
 }
@@ -196,7 +191,7 @@ div#revealedAnswer
 	top: 10px;
 	height: 580px;
 	width: 990px;
-	border: 1px solid #000099;
+	border: 1px solid $background-color;
 	background-color: white;
 	z-index: 1;
 	font-size: 48pt;
@@ -212,7 +207,7 @@ div#answerText {
 	position: absolute;
 	top: 50%;
 	margin-top: -50px;
-	color: #000099;
+	color: $background-color;
 	text-align: center;
 	font-weight: bold;
 }
@@ -236,8 +231,8 @@ input#CtlRevealedAnswerCloseBtn
 	font-weight: bold;
 	font-size: 16pt;
 	text-align: center;
-	background-color: #000099;
-	color: white;
+	background-color: $background-color;
+	color: $control-button-color;
 	font-weight: bold;
 	border-radius: 10pt;
 }
@@ -250,9 +245,8 @@ input.controlButton
 {
 	height: 30px;
 	width: 100px;
-	background-color: red;
 	border-radius: 6pt;
 	margin: 10px 0px 0px 24px;
-	background-color: #000099;
-	color: white;
+	background-color: $background-color;
+	color: $control-button-color;
 }

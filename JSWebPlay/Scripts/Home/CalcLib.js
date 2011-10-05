@@ -1,27 +1,38 @@
 ﻿var CalcLib = (function () {
 
-    var logger = function () { };
-
     var my = {};
 
-    my.setLogger = function (logFunc) {
-        logger = logFunc;
-    };
-
-    my.factorial = (function() {
+    my.factorial = (function () {
         var vals = [1, 1];
 
-        return function(n) {
+        return function (n) {
+            if (n < 0)
+                return undefined;
+
             if (vals.length > n) {
-                logger("Quick return " + n + " factorial = " + vals[n]);
                 return vals[n];
             }
 
             vals[n] = n * my.factorial(n - 1);
-            logger("Storing value " + vals[n] + " in slot " + n);
             return vals[n];
         };
-    }());
+    } ());
+
+    my.fib = (function () {
+        var vals = [0, 1, 1, 2];
+
+        return function (n) {
+            if (n < 0)
+                return undefined;
+            
+            if (vals.length > n) {
+                return vals[n];
+            }
+
+            vals[n] = my.fib(n - 2) + my.fib(n - 1);
+            return vals[n];
+        };
+    } ());
 
     return my;
 } ());
