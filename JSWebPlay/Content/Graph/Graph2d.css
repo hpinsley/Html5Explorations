@@ -1,0 +1,27 @@
+body {
+  font-size: 8pt;
+  font-weight: bold; }
+
+section#inputSection {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100px;
+  background-color: teal; }
+
+section#controlsSection {
+  position: absolute;
+  left: 0px;
+  top: 105px;
+  width: 100px;
+  height: 490px;
+  background-color: teal; }
+
+section#plotSection {
+  position: absolute;
+  left: 105px;
+  top: 105px;
+  width: 690px;
+  height: 490px;
+  background-color: teal; }

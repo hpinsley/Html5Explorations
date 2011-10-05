@@ -1,0 +1,52 @@
+canvas {
+  position: absolute;
+  top: 40px;
+  height: 600px;
+  left: 230px;
+  width: 600px;
+  background-color: teal; }
+
+div#leftPanel {
+  position: absolute;
+  left: 20px;
+  top: 40px;
+  height: 600px;
+  width: 200px; }
+
+div.row {
+  clear: both;
+  height: 40px;
+  margin: 0px; }
+
+section#valueInputs {
+  padding-top: 10px;
+  font-size: 14pt;
+  margin: 3px;
+  border: 1px solid black; }
+  section#valueInputs label {
+    float: left;
+    width: 70px;
+    color: blue;
+    text-align: right;
+    margin-right: 5px; }
+  section#valueInputs input[type="number"] {
+    float: left;
+    width: 80px;
+    font-size: 14pt; }
+
+section#shapeSelection {
+  clear: both;
+  font-size: 18pt; }
+  section#shapeSelection input[type='radio'] {
+    clear: both;
+    float: left;
+    margin-top: 8px; }
+  section#shapeSelection label {
+    float: left;
+    margin-left: 10px; }
+
+input[type="button"] {
+  width: 150px;
+  font-size: 16pt;
+  font-family: arial;
+  margin: 5px; }

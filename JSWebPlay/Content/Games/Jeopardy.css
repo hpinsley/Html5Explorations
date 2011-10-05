@@ -1,0 +1,201 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  width: 1024px;
+  height: 630px;
+  font-family: 'Comic Sans MS';
+  font-size: 12pt;
+  background-color: #80b4e6; }
+
+input[type='button'] {
+  cursor: pointer; }
+
+.clear {
+  clear: both; }
+
+img.headshot {
+  height: 80px;
+  padding: 0px;
+  margin: 0px;
+  border-radius: 20pt;
+  cursor: pointer; }
+
+img#headshot1 {
+  position: absolute;
+  left: 18px;
+  top: 13px; }
+
+img#headshot2 {
+  position: absolute;
+  left: 945px;
+  top: 13px; }
+
+h1, h2 {
+  padding: 0px;
+  margin: 0px; }
+
+header {
+  margin-top: 0px;
+  height: 85px; }
+  header h1 {
+    text-align: center;
+    font-size: 64pt;
+    color: #000099;
+    font-family: 'Times New Roman' , Times, serif; }
+  header h2 {
+    text-align: center; }
+
+section#boardSection {
+  width: 100%; }
+
+img#bigRichardImg {
+  height: 500px; }
+
+div#bigRichard {
+  position: absolute;
+  left: 300px;
+  z-index: 10;
+  display: none; }
+
+#cardTable {
+  position: absolute;
+  left: 17px;
+  top: 100px;
+  border-radius: 5pt; }
+  #cardTable th {
+    height: 75px;
+    /* width: 160px; */
+    width: 193px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 20px; }
+  #cardTable td {
+    height: 75px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 20px; }
+  #cardTable .categoryBoxHidden {
+    background-color: #000099;
+    color: yellow;
+    font-size: 20pt;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif; }
+  #cardTable .categoryBoxRevealed {
+    padding: 5px;
+    background-color: #000099;
+    color: yellow;
+    font-size: 18pt;
+    font-family: Arial, Helvetica, sans-serif; }
+  #cardTable .hiddenQuestion {
+    color: white;
+    font-weight: bold;
+    font-size: 24pt;
+    background-color: #000099;
+    cursor: pointer; }
+  #cardTable .usedQuestion {
+    background-color: #000099;
+    color: #000099;
+    /* hide the text make it same as bg */ }
+
+div#revealedQuestion {
+  position: absolute;
+  left: 15px;
+  top: 10px;
+  height: 580px;
+  width: 990px;
+  border: 1px solid black;
+  background-color: black;
+  z-index: 1;
+  font-size: 48pt;
+  color: white;
+  text-align: center;
+  display: none;
+  border-radius: 20pt; }
+
+div#questionText {
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  top: 30%;
+  margin-top: -50px;
+  color: yellow;
+  text-align: center; }
+
+div#revealedButtons {
+  position: absolute;
+  left: 7px;
+  top: 530px;
+  height: 40px;
+  width: 900px;
+  border: 1px solid black; }
+
+input#CtlRevealAnswerBtn {
+  border: none;
+  height: 30px;
+  width: 230px;
+  position: absolute;
+  left: 715px;
+  top: 6px;
+  font-weight: bold;
+  font-size: 16pt;
+  text-align: center;
+  background-color: #000099;
+  border-radius: 10pt;
+  color: white; }
+
+div#revealedAnswer {
+  position: absolute;
+  left: 15px;
+  top: 10px;
+  height: 580px;
+  width: 990px;
+  border: 1px solid #000099;
+  background-color: white;
+  z-index: 1;
+  font-size: 48pt;
+  color: white;
+  text-align: center;
+  display: none;
+  border-radius: 20pt; }
+
+div#answerText {
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  margin-top: -50px;
+  color: #000099;
+  text-align: center;
+  font-weight: bold; }
+
+div#revealedAnswerButtons {
+  position: absolute;
+  left: 7px;
+  top: 530px;
+  height: 40px;
+  width: 900px; }
+
+input#CtlRevealedAnswerCloseBtn {
+  height: 30px;
+  width: 230px;
+  position: absolute;
+  left: 715px;
+  top: 6px;
+  font-weight: bold;
+  font-size: 16pt;
+  text-align: center;
+  background-color: #000099;
+  color: yellow;
+  font-weight: bold;
+  border-radius: 10pt; }
+
+section#controlBarSection {
+  height: 40px; }
+
+input.controlButton {
+  height: 30px;
+  width: 100px;
+  border-radius: 6pt;
+  margin: 10px 0px 0px 24px;
+  background-color: #000099;
+  color: yellow; }
