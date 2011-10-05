@@ -1,20 +1,20 @@
-﻿$panelColor: teal;
-$totalHeight: 600px;
+﻿$totalHeight: 600px;
+$panelColor: teal;
 $totalWidth: 800px;
 $inputHeight: 100px;
 $inputPaddingBottom: 5px;
-$lowerPanelsTop: $inputHeight + $inputPaddingBottom;
 $lowerPanelBottomMargin: 5px;
-$lowerPanelsHeight: $totalHeight - ($inputHeight + $inputPaddingBottom + $lowerPanelBottomMargin)
 $controlPanelWidth: 100px;
 $controlPanelMargin: 5px;
-$plotPanelLeft: $controlPanelWidth + $controlPanelMargin;
 $plotPanelRightMargin: 5px;
-$plotPanelWidth: $totalWidth - ($plotPanelLeft + $plotPanelRightMargin)
+$lowerPanelsTop: $inputHeight + $inputPaddingBottom;
+$lowerPanelsHeight: $totalHeight - $inputHeight - $inputPaddingBottom - $lowerPanelBottomMargin;
+$plotPanelLeft: $controlPanelWidth + $controlPanelMargin;
+$plotPanelWidth: $totalWidth - ($plotPanelLeft + $plotPanelRightMargin);
 
 body {
 	font: {
-			size: 9pt;
+			size: 28pt;
 			weight: bold;
 			name: Verdana;
 		}
@@ -46,5 +46,3 @@ section#plotSection {
 	height: $lowerPanelsHeight;
 	background-color: $panelColor;
 }
-
-
