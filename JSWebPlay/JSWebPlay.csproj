@@ -143,6 +143,8 @@
       <LastGenOutput>Spirograph.css</LastGenOutput>
     </Content>
     <Content Include="Scripts\Graph\Graph2d.js" />
+    <Content Include="Scripts\Graph\GraphModule.js" />
+    <Content Include="Scripts\Graph\Plotter.js" />
     <Content Include="Scripts\Home\CalcLib.js" />
     <Content Include="Scripts\Games\Cell.js" />
     <Content Include="Scripts\Games\Stack.js" />
