@@ -38,6 +38,11 @@ Plotter.prototype.createCanvas = function (origin, bounds) {
 //Once set, use the Plotter instances worldToDevice function
 
 Plotter.prototype.setWorldCoordinates = function (x0, x1, y0, y1) {
+    this.x0 = x0;
+    this.x1 = x1;
+    this.y0 = y0;
+    this.y1 = y1;
+    
     this.worldToDevice = function (worldPoint) {
         var dx0 = -this.bounds.width / 2;
         var dx1 = this.bounds.width / 2;
@@ -52,13 +57,44 @@ Plotter.prototype.setWorldCoordinates = function (x0, x1, y0, y1) {
 };
 
 
-Plotter.prototype.drawLine = function (from, to) {
+Plotter.prototype.drawLine = function(from, to) {
     var dFrom = this.worldToDevice(from);
     var dTo = this.worldToDevice(to);
-    
+
     var ctx = this.ctx;
     ctx.beginPath();
     ctx.moveTo(dFrom.x, dFrom.y);
     ctx.lineTo(dTo.x, dTo.y);
     ctx.stroke();
-}
+};
+
+Plotter.prototype.drawAxes = function (xMajorTickInterval, xMinorTickInterval, yMajorTickInterval, yMinorTickInterval) {
+
+    //x-axis
+    this.drawLine(new Point(this.x0, 0), new Point(this.x1, 0));
+
+    var xMajorTickHeight = (this.x1 - this.x0) / 20;
+    var xMinorTickHeight = xMajorTickHeight / 2;
+    this.drawXAxisTicks(xMajorTickInterval, xMajorTickHeight);
+    this.drawXAxisTicks(xMinorTickInterval, xMinorTickHeight);
+
+    //    var x = 0;
+    //    while ((x < Math.abs(this.x0)) || (x < Math.abs(this.x0))) {
+    //        //draw a vertical tick mark at +/- x
+    //        this.drawLine(new Point(x, -tickHeight / 2), new Point(x, tickHeight / 2));
+    //        this.drawLine(new Point(-x, -tickHeight / 2), new Point(-x, tickHeight / 2));
+    //        x += xMajorTickInterval;
+    //    }
+
+    this.drawLine(new Point(0, this.y0), new Point(0, this.y1));
+};
+
+Plotter.prototype.drawXAxisTicks = function(tickInterval, tickHeight) {
+    var x = 0;
+    while ((x < Math.abs(this.x0)) || (x < Math.abs(this.x0))) {
+        //draw a vertical tick mark at +/- x
+        this.drawLine(new Point(x, -tickHeight / 2), new Point(x, tickHeight / 2));
+        this.drawLine(new Point(-x, -tickHeight / 2), new Point(-x, tickHeight / 2));
+        x += tickInterval;
+    }
+};

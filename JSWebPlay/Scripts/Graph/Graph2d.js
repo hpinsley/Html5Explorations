@@ -13,9 +13,14 @@
     var x1 = 3.14;
     var y0 = -3.14;
     var y1 = 3.14;
+    var xMajorTickInterval = 1;
+    var xMinorTickInterval = 0.2;
+    var yMajorTickInterval = 1;
+    var yMinorTickInterval = 0.2;
+
     plotter.setWorldCoordinates(x0, x1, y0, y1);
-    plotter.drawLine(new Point(0, -3), new Point(0, 3));
-    plotter.drawLine(new Point(-3, 0), new Point(3, 0));
+    plotter.drawAxes(xMajorTickInterval, xMinorTickInterval,
+                     yMajorTickInterval, yMinorTickInterval);
 });
 
 
