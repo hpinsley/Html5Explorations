@@ -13,7 +13,7 @@ $plotPanelLeft: $controlPanelWidth + $controlPanelMargin;
 $plotPanelWidth: $totalWidth - ($plotPanelLeft + $plotPanelRightMargin);
 
 body {
-	background: { color: yellow; }
+	background: { color: tan; }
 	font: {
 			size: 8pt;
 			weight: bold;
