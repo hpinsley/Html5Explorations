@@ -8,19 +8,25 @@
     var origin = new Point(0, 0);
 
     plotter.createCanvas(origin, bounds);
-    //plotter.drawLine(new Point(-3, 0), new Point(3, 0));
-    var x0 = -6.28;
-    var x1 = 6.28;
-    var y0 = -1.5;
-    var y1 = 1.5;
+
+    var x0 = -1 * Math.PI;
+    var x1 = 1 * Math.PI;
     var xMajorTickInterval = 1;
-    var xMinorTickInterval = 0.2;
-    var yMajorTickInterval = 0.5;
-    var yMinorTickInterval = 0.1;
+    var xMinorTickInterval = 0.1;
+
+    var y0 = -1.2;
+    var y1 = 1.2;
+    var yMajorTickInterval = 1.0;
+    var yMinorTickInterval = 0.2;
 
     plotter.setWorldCoordinates(x0, x1, y0, y1);
-    plotter.drawAxes(xMajorTickInterval, xMinorTickInterval,
-                     yMajorTickInterval, yMinorTickInterval);
+
+    var n = 2000;
+    var funcX = Math.sin;
+
+    plotter.eraseCanvas();
+    plotter.drawAxes(xMajorTickInterval, xMinorTickInterval, yMajorTickInterval, yMinorTickInterval);
+    plotter.plotFunction(x0, x1, n, funcX);
 });
 
 
