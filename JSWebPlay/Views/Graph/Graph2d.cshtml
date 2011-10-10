@@ -2,7 +2,10 @@
     ViewBag.Title = "Graph2d";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+<link href="@Url.Content("~/Content/themes/base/jquery.ui.all.css")" rel="stylesheet" type="text/css" />
 <link href="@Url.Content("~/Content/Graph/Graph2d.css")" rel="stylesheet" type="text/css" />
+
+<script src="@Url.Content("~/Scripts/jquery-ui-1.8.11.min.js")" type="text/javascript"></script>
 <script src="@Url.Content("~/Scripts/Graph/GraphModule.js")" type="text/javascript"></script>
 <script src="@Url.Content("~/Scripts/Graph/Plotter.js")" type="text/javascript"></script>
 <script src="@Url.Content("~/Scripts/Graph/Graph2d.js")" type="text/javascript"></script>
@@ -10,8 +13,11 @@
 <section id="inputSection">
     <div class="eqDiv">
         <label>f(x)=</label><input id="eq1" type="text" class="eqInput" />
+        <input type="button" id="plotButton" value="Plot"/>
     </div>
-    <input type="button" id="plotButton" value="Plot"/>
 </section>
 <section id="plotSection"></section>
-<section id="controlsSection"></section>
+<section id="controlsSection">
+    <label>X:</label><label>-3</label><label> to </label><label>3</label>
+    <div id="domainWidth" />
+</section>

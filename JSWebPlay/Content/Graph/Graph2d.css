@@ -6,12 +6,12 @@ body {
 section#inputSection {
   position: absolute;
   left: 0px;
-  top: 0px;
+  top: 43px;
   width: 100%;
-  height: 100px;
+  height: 70px;
   background-color: black; }
   section#inputSection .eqDiv {
-    margin-left: 10px;
+    margin-left: 0px;
     background-color: #646464;
     padding: 5px;
     font-size: 30pt;
@@ -29,15 +29,18 @@ section#inputSection {
 section#controlsSection {
   position: absolute;
   left: 0px;
-  top: 105px;
-  width: 100px;
-  height: 490px;
+  top: 118px;
+  width: 250px;
+  height: 522px;
   background-color: black; }
+  section#controlsSection label {
+    font-size: 20pt;
+    color: blue; }
 
 section#plotSection {
   position: absolute;
-  left: 105px;
-  top: 105px;
-  width: 914px;
-  height: 490px;
+  left: 255px;
+  top: 118px;
+  width: 764px;
+  height: 522px;
   background-color: black; }

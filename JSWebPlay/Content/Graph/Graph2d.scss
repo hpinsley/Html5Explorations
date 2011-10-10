@@ -1,14 +1,15 @@
-﻿$totalHeight: 600px;
+﻿$totalHeight: 645px;
 $panelColor: black;
 $totalWidth: 1024px;
-$inputHeight: 100px;
+$inputTop: 43px;
+$inputHeight: 70px;
 $inputPaddingBottom: 5px;
 $lowerPanelBottomMargin: 5px;
-$controlPanelWidth: 100px;
+$controlPanelWidth: 250px;
 $controlPanelMargin: 5px;
 $plotPanelRightMargin: 5px;
-$lowerPanelsTop: $inputHeight + $inputPaddingBottom;
-$lowerPanelsHeight: $totalHeight - $inputHeight - $inputPaddingBottom - $lowerPanelBottomMargin;
+$lowerPanelsTop: $inputTop + $inputHeight + $inputPaddingBottom;
+$lowerPanelsHeight: $totalHeight - $inputTop - $inputHeight - $inputPaddingBottom - $lowerPanelBottomMargin;
 $plotPanelLeft: $controlPanelWidth + $controlPanelMargin;
 $plotPanelWidth: $totalWidth - ($plotPanelLeft + $plotPanelRightMargin);
 $inputBackgroundColor: black;
@@ -26,13 +27,13 @@ body {
 section#inputSection {
 	position: absolute;
 	left: 0px;
-	top: 0px;
+	top: $inputTop;
 	width: 100%;
 	height: $inputHeight;
 	background-color: $panelColor;
 
 	.eqDiv {
-		margin-left: 10px;
+		margin-left: 0px;
 		background-color: rgb(100,100,100);
 		padding: 5px;
 		font: {
@@ -61,6 +62,13 @@ section#controlsSection {
 	width: $controlPanelWidth;
 	height: $lowerPanelsHeight;
 	background-color: $panelColor;
+
+	label {
+		font: {
+			size: 20pt;
+		}
+		color: blue;
+	}
 }
 
 section#plotSection {

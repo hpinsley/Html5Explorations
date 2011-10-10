@@ -1,17 +1,23 @@
 ﻿$(function () {
     //Graph.welcome();
 
+    var x = $("#domainWidth").slider({
+        min: 0,
+        max: 100,
+        change: function (target, data) { alert("" + data.value); }
+    });
+
     g_plotter = new Plotter();
 
 
     var height = $("#plotSection").height();
     var bounds = new Bounds(height, height);
-    var origin = new Point(0, 0);
+    var origin = new Point(100, 0);
 
     g_plotter.createCanvas(origin, bounds);
 
     $("#plotButton").click(plotClick);
-    
+
 });
 
 function plotClick() {
