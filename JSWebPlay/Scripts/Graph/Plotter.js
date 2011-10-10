@@ -189,9 +189,7 @@ Plotter.prototype.makeFunctionOfX = function (expression) {
     exp = exp.replace(/log\(/g, "Math.log(");
     exp = exp.replace(/exp\(/g, "Math.exp(");
 
-    var assignment = "var func = function (x) { return " + exp + "; };";
-    eval(assignment);
-
-    return func;
+    //Need to surround in parens to make it a function "expression"
+    return eval("(function (x) { return " + exp + "; });");
 };
 
