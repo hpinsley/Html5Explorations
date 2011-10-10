@@ -1,13 +1,24 @@
 ﻿$(function () {
     //Graph.welcome();
 
-    var plotter = new Plotter();
+    g_plotter = new Plotter();
+
 
     var height = $("#plotSection").height();
     var bounds = new Bounds(height, height);
     var origin = new Point(0, 0);
 
-    plotter.createCanvas(origin, bounds);
+    g_plotter.createCanvas(origin, bounds);
+
+    $("#plotButton").click(plotClick);
+    
+});
+
+function plotClick() {
+    var expression = $("#eq1").val();
+
+
+    var funcX = g_plotter.makeFunctionOfX(expression);
 
     var x0 = -1 * Math.PI;
     var x1 = 1 * Math.PI;
@@ -19,14 +30,11 @@
     var yMajorTickInterval = 1.0;
     var yMinorTickInterval = 0.2;
 
-    plotter.setWorldCoordinates(x0, x1, y0, y1);
+    g_plotter.setWorldCoordinates(x0, x1, y0, y1);
 
     var n = 2000;
-    var funcX = Math.sin;
 
-    plotter.eraseCanvas();
-    plotter.drawAxes(xMajorTickInterval, xMinorTickInterval, yMajorTickInterval, yMinorTickInterval);
-    plotter.plotFunction(x0, x1, n, funcX);
-});
-
-
+    g_plotter.eraseCanvas();
+    g_plotter.drawAxes(xMajorTickInterval, xMinorTickInterval, yMajorTickInterval, yMinorTickInterval);
+    g_plotter.plotFunction(x0, x1, n, funcX);
+}

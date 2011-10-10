@@ -10,6 +10,21 @@ section#inputSection {
   width: 100%;
   height: 100px;
   background-color: black; }
+  section#inputSection .eqDiv {
+    margin-left: 10px;
+    background-color: #646464;
+    padding: 5px;
+    font-size: 30pt;
+    font-family: Consolas; }
+    section#inputSection .eqDiv label {
+      color: gold; }
+    section#inputSection .eqDiv input[type="text"].eqInput {
+      margin-left: 10px;
+      padding: 0 5px 0 5px;
+      font-size: 30pt;
+      background-color: black;
+      color: gold;
+      width: 200px; }
 
 section#controlsSection {
   position: absolute;

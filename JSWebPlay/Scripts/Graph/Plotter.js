@@ -179,3 +179,19 @@ Plotter.prototype.plotFunction = function (x0, x1, n, funcOfX) {
 
     this.ctx.stroke();
 };
+
+Plotter.prototype.makeFunctionOfX = function (expression) {
+    var exp = expression.toLowerCase();
+    exp = exp.replace(/cos\(/g, "Math.cos(");
+    exp = exp.replace(/sin\(/g, "Math.sin(");
+    exp = exp.replace(/tan\(/g, "Math.tan(");
+    exp = exp.replace(/sqrt\(/g, "Math.sqrt(");
+    exp = exp.replace(/log\(/g, "Math.log(");
+    exp = exp.replace(/exp\(/g, "Math.exp(");
+
+    var assignment = "var func = function (x) { return " + exp + "; };";
+    eval(assignment);
+
+    return func;
+};
+

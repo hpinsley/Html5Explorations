@@ -11,6 +11,9 @@ $lowerPanelsTop: $inputHeight + $inputPaddingBottom;
 $lowerPanelsHeight: $totalHeight - $inputHeight - $inputPaddingBottom - $lowerPanelBottomMargin;
 $plotPanelLeft: $controlPanelWidth + $controlPanelMargin;
 $plotPanelWidth: $totalWidth - ($plotPanelLeft + $plotPanelRightMargin);
+$inputBackgroundColor: black;
+$inputColor: gold;
+$eqInputSize: 30pt;
 
 body {
 	background: { color: tan; }
@@ -27,6 +30,28 @@ section#inputSection {
 	width: 100%;
 	height: $inputHeight;
 	background-color: $panelColor;
+
+	.eqDiv {
+		margin-left: 10px;
+		background-color: rgb(100,100,100);
+		padding: 5px;
+		font: {
+			size: $eqInputSize;
+			family: Consolas;
+		}
+		label {
+			color: $inputColor;
+		}
+
+		input[type="text"].eqInput {
+			margin-left: 10px;
+			padding: 0 5px 0 5px;
+			font-size: $eqInputSize;
+			background-color: $inputBackgroundColor;
+			color: gold;
+			width: 200px;
+		}
+	}
 }
 
 section#controlsSection {
