@@ -5,7 +5,9 @@ $inputTop: 43px;
 $inputHeight: 70px;
 $inputPaddingBottom: 5px;
 $lowerPanelBottomMargin: 5px;
-$controlPanelWidth: 250px;
+$controlPanelWidth: 230px;
+$sliderWidth: 200px;
+$sliderLeft: ($controlPanelWidth - $sliderWidth) / 2;
 $controlPanelMargin: 5px;
 $plotPanelRightMargin: 5px;
 $lowerPanelsTop: $inputTop + $inputHeight + $inputPaddingBottom;
@@ -64,11 +66,37 @@ section#controlsSection {
 	background-color: $panelColor;
 
 	label {
+
 		font: {
-			size: 20pt;
+			size: 14pt;
 		}
-		color: blue;
+		color: yellow;
+
+		&.value {
+			color: white;
+		}
 	}
+
+	#domainControl {
+		width: 90%;
+		border: 3px;
+		text-align: center;
+		background-color: gray;
+		padding: 5px;
+		margin: 5px;
+
+		#domainWidth {
+			width: 80%;
+			left: 10%;
+		}
+
+		#lblDomainWidth {
+			display: block;
+			margin-top: 10px;
+			color: red;
+		}
+	}
+
 }
 
 section#plotSection {

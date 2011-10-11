@@ -1,10 +1,9 @@
 ﻿$(function () {
-    //Graph.welcome();
 
-    var x = $("#domainWidth").slider({
+    $("#domainWidth").slider({
         min: 0,
-        max: 100,
-        change: function (target, data) { alert("" + data.value); }
+        max: 20,
+        change: domainChange
     });
 
     g_plotter = new Plotter();
@@ -20,14 +19,20 @@
 
 });
 
+function domainChange(target, data) {
+    $("#lblDomainWidth").html(data.value.toString());
+    $("#lblXMin").html(-data.value.toString());
+    $("#lblXMax").html(data.value.toString());
+};
+
 function plotClick() {
     var expression = $("#eq1").val();
 
 
     var funcX = g_plotter.makeFunctionOfX(expression);
 
-    var x0 = -1 * Math.PI;
-    var x1 = 1 * Math.PI;
+    var x0 = parseFloat($("#lblXMin").html());
+    var x1 = parseFloat($("#lblXMax").html());
     var xMajorTickInterval = 1;
     var xMinorTickInterval = 0.1;
 

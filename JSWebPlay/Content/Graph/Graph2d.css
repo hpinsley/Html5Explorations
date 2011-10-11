@@ -30,17 +30,33 @@ section#controlsSection {
   position: absolute;
   left: 0px;
   top: 118px;
-  width: 250px;
+  width: 230px;
   height: 522px;
   background-color: black; }
   section#controlsSection label {
-    font-size: 20pt;
-    color: blue; }
+    font-size: 14pt;
+    color: yellow; }
+    section#controlsSection label.value {
+      color: white; }
+  section#controlsSection #domainControl {
+    width: 90%;
+    border: 3px;
+    text-align: center;
+    background-color: gray;
+    padding: 5px;
+    margin: 5px; }
+    section#controlsSection #domainControl #domainWidth {
+      width: 80%;
+      left: 10%; }
+    section#controlsSection #domainControl #lblDomainWidth {
+      display: block;
+      margin-top: 10px;
+      color: red; }
 
 section#plotSection {
   position: absolute;
-  left: 255px;
+  left: 235px;
   top: 118px;
-  width: 764px;
+  width: 784px;
   height: 522px;
   background-color: black; }

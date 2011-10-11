@@ -28,8 +28,8 @@ Plotter.prototype.createCanvas = function (origin, bounds) {
                     .appendTo("section#plotSection");
 
     var el = this.canvas[0];
-    el.clientWidth = el.width = bounds.width;
-    el.clientHeight = el.height = bounds.height;
+    el.width = bounds.width;
+    el.height = bounds.height;
     this.ctx = this.canvas[0].getContext("2d");
     //Move the device coordinate orgin in the center
     this.ctx.translate(bounds.width / 2, bounds.height / 2);
