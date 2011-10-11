@@ -1,16 +1,17 @@
 ﻿$(function () {
 
-    $("#domainWidth").slider({
+    $("#domainSlider").slider({
         min: 0,
-        max: 20,
-        change: domainChange
+        max: 50,
+        slide: domainWidthChange
     });
 
     g_plotter = new Plotter();
 
 
     var height = $("#plotSection").height();
-    var bounds = new Bounds(height, height);
+    var width = $("#plotSection").width();
+    var bounds = new Bounds(width, height);
     var origin = new Point(100, 0);
 
     g_plotter.createCanvas(origin, bounds);
@@ -19,15 +20,25 @@
 
 });
 
-function domainChange(target, data) {
-    $("#lblDomainWidth").html(data.value.toString());
-    $("#lblXMin").html(-data.value.toString());
-    $("#lblXMax").html(data.value.toString());
+function domainWidthChange(target, data) {
+    setDomainWidth(data.value);
+    plotGraphs();
+};
+
+function setDomainWidth(width) {
+    $("#lblXMin").html(-width.toString());
+    $("#lblXMax").html(width.toString());
 };
 
 function plotClick() {
+    plotGraphs();
+};
+
+function plotGraphs() {
     var expression = $("#eq1").val();
 
+    if (!expression)
+        return;
 
     var funcX = g_plotter.makeFunctionOfX(expression);
 
@@ -48,4 +59,6 @@ function plotClick() {
     g_plotter.eraseCanvas();
     g_plotter.drawAxes(xMajorTickInterval, xMinorTickInterval, yMajorTickInterval, yMinorTickInterval);
     g_plotter.plotFunction(x0, x1, n, funcX);
-}
+
+};
+

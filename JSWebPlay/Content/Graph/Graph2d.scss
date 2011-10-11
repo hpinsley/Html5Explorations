@@ -65,7 +65,7 @@ section#controlsSection {
 	height: $lowerPanelsHeight;
 	background-color: $panelColor;
 
-	label {
+	label, span {
 
 		font: {
 			size: 14pt;
@@ -85,15 +85,21 @@ section#controlsSection {
 		padding: 5px;
 		margin: 5px;
 
-		#domainWidth {
-			width: 80%;
-			left: 10%;
+		h1 {
+			font: {
+				size: 12pt;
+			}
+			margin: {
+				bottom: 5px;
+			}
 		}
 
-		#lblDomainWidth {
-			display: block;
-			margin-top: 10px;
-			color: red;
+		#domainSlider {
+			width: 80%;
+			left: 10%;
+			margin: {
+				top: 10px;
+			}
 		}
 	}
 

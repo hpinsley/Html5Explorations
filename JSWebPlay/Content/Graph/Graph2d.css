@@ -33,10 +33,10 @@ section#controlsSection {
   width: 230px;
   height: 522px;
   background-color: black; }
-  section#controlsSection label {
+  section#controlsSection label, section#controlsSection span {
     font-size: 14pt;
     color: yellow; }
-    section#controlsSection label.value {
+    section#controlsSection label.value, section#controlsSection span.value {
       color: white; }
   section#controlsSection #domainControl {
     width: 90%;
@@ -45,13 +45,13 @@ section#controlsSection {
     background-color: gray;
     padding: 5px;
     margin: 5px; }
-    section#controlsSection #domainControl #domainWidth {
+    section#controlsSection #domainControl h1 {
+      font-size: 12pt;
+      margin-bottom: 5px; }
+    section#controlsSection #domainControl #domainSlider {
       width: 80%;
-      left: 10%; }
-    section#controlsSection #domainControl #lblDomainWidth {
-      display: block;
-      margin-top: 10px;
-      color: red; }
+      left: 10%;
+      margin-top: 10px; }
 
 section#plotSection {
   position: absolute;
