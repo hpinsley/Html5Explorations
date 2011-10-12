@@ -1,5 +1,8 @@
 ﻿$(function () {
 
+    $("#eq1").val("sin(x)");
+    $("#eq2").val("cos(x)");
+    
     $("#domainSlider").slider({
         min: 0,
         max: 50,
@@ -52,12 +55,16 @@ function plotClick() {
 };
 
 function plotGraphs() {
-    var expression = $("#eq1").val();
+    var plotFunctions = [];
 
-    if (!expression)
-        return;
-
-    var funcX = g_plotter.makeFunctionOfX(expression);
+    var expressionIds = ["eq1", "eq2"];
+    $.each(expressionIds, function(i, id) {
+        var expression = $("#" + id).val();
+        if (expression) {
+            var funcX = g_plotter.makeFunctionOfX(expression);
+            plotFunctions.push(funcX);
+        }
+    });
 
     var x0 = parseFloat($("#lblXMin").html());
     var x1 = parseFloat($("#lblXMax").html());
@@ -75,7 +82,12 @@ function plotGraphs() {
 
     g_plotter.eraseCanvas();
     g_plotter.drawAxes(xMajorTickInterval, xMinorTickInterval, yMajorTickInterval, yMinorTickInterval);
-    g_plotter.plotFunction(x0, x1, n, funcX);
+    
+    $.each(plotFunctions, function (i, fX) {
+        g_plotter.plotFunction(x0, x1, n, fX);        
+    });
+    
+    
 
 };
 
