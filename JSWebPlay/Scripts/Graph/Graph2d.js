@@ -1,21 +1,29 @@
 ﻿$(function () {
 
+    var initialDomainWidth = 3;
+    var initialRangeWidth = 2;
+
     $("#eq1").val("sin(x)");
     $("#eq2").val("cos(x)");
-    
+
     $("#domainSlider").slider({
         min: 0,
-        max: 50,
+        max: 10,
+        value: initialDomainWidth,
         slide: domainWidthChange
     });
 
     $("#rangeSlider").slider({
         min: 0,
-        max: 100,
-        slide: rangeWidthChange
+        max: 10,
+        value: initialRangeWidth,
+        slide: rangeWidthChange,
+        step: 1
     });
 
-    g_plotter = new Plotter();
+    $("#plotButton").click(plotClick);
+
+    window.g_plotter = new Plotter();
 
     var h = $("#plotSection").height();
     var w = $("#plotSection").width();
@@ -24,20 +32,35 @@
     var bounds = new Bounds(width, height);
     var origin = new Point(w * 0.05, h * 0.05);
 
-    g_plotter.createCanvas(origin, bounds);
+    window.g_plotter.createCanvas(origin, bounds);
 
-    $("#plotButton").click(plotClick);
+    setDomainWidth(initialDomainWidth);
+    setRangeWidth(initialRangeWidth);
+    plotGraphs();
+
 
 });
 
 function domainWidthChange(target, data) {
     setDomainWidth(data.value);
     plotGraphs();
+
+    var sliderElement = $("#domainSlider");
+    //dynamicallAdjustSlider(sliderElement);
 };
 
 function rangeWidthChange(target, data) {
     setRangeWidth(data.value);
     plotGraphs();
+};
+
+function dynamicallAdjustSlider(sliderElement) {
+
+    var val = sliderElement.slider("option", "value");
+    max = 2 * val;
+    var step = max / 10.0;
+    sliderElement.slider("option", "max", max);
+    sliderElement.slider("option", "step", step);
 };
 
 function setDomainWidth(width) {
