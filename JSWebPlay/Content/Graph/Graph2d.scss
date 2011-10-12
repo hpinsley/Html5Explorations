@@ -1,5 +1,5 @@
 ﻿$totalHeight: 645px;
-$panelColor: black;
+$panelColor: green;
 $totalWidth: 1024px;
 $inputTop: 43px;
 $inputHeight: 70px;
@@ -8,6 +8,7 @@ $lowerPanelBottomMargin: 5px;
 $controlPanelWidth: 230px;
 $sliderWidth: 200px;
 $sliderLeft: ($controlPanelWidth - $sliderWidth) / 2;
+$controlPanelBackgroundColor: black;
 $controlPanelMargin: 5px;
 $plotPanelRightMargin: 5px;
 $lowerPanelsTop: $inputTop + $inputHeight + $inputPaddingBottom;
@@ -52,7 +53,7 @@ section#inputSection {
 			font-size: $eqInputSize;
 			background-color: $inputBackgroundColor;
 			color: gold;
-			width: 200px;
+			width: 300px;
 		}
 	}
 }
@@ -63,7 +64,7 @@ section#controlsSection {
 	top: $lowerPanelsTop;
 	width: $controlPanelWidth;
 	height: $lowerPanelsHeight;
-	background-color: $panelColor;
+	background-color: $controlPanelBackgroundColor;
 
 	label, span {
 

@@ -8,11 +8,12 @@
 
     g_plotter = new Plotter();
 
-
-    var height = $("#plotSection").height();
-    var width = $("#plotSection").width();
+    var h = $("#plotSection").height();
+    var w = $("#plotSection").width();
+    var height = h * 0.90;
+    var width = w * 0.90;
     var bounds = new Bounds(width, height);
-    var origin = new Point(100, 0);
+    var origin = new Point(w * 0.05, h * 0.05);
 
     g_plotter.createCanvas(origin, bounds);
 

@@ -9,7 +9,7 @@ section#inputSection {
   top: 43px;
   width: 100%;
   height: 70px;
-  background-color: black; }
+  background-color: green; }
   section#inputSection .eqDiv {
     margin-left: 0px;
     background-color: #646464;
@@ -24,7 +24,7 @@ section#inputSection {
       font-size: 30pt;
       background-color: black;
       color: gold;
-      width: 200px; }
+      width: 300px; }
 
 section#controlsSection {
   position: absolute;
@@ -59,4 +59,4 @@ section#plotSection {
   top: 118px;
   width: 784px;
   height: 522px;
-  background-color: black; }
+  background-color: green; }
