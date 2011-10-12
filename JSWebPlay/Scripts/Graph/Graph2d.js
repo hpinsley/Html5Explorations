@@ -6,6 +6,12 @@
         slide: domainWidthChange
     });
 
+    $("#rangeSlider").slider({
+        min: 0,
+        max: 100,
+        slide: rangeWidthChange
+    });
+
     g_plotter = new Plotter();
 
     var h = $("#plotSection").height();
@@ -26,9 +32,19 @@ function domainWidthChange(target, data) {
     plotGraphs();
 };
 
+function rangeWidthChange(target, data) {
+    setRangeWidth(data.value);
+    plotGraphs();
+};
+
 function setDomainWidth(width) {
     $("#lblXMin").html(-width.toString());
     $("#lblXMax").html(width.toString());
+};
+
+function setRangeWidth(width) {
+    $("#lblYMin").html(-width.toString());
+    $("#lblYMax").html(width.toString());
 };
 
 function plotClick() {
@@ -48,8 +64,8 @@ function plotGraphs() {
     var xMajorTickInterval = 1;
     var xMinorTickInterval = 0.1;
 
-    var y0 = -1.2;
-    var y1 = 1.2;
+    var y0 = parseFloat($("#lblYMin").html());
+    var y1 = parseFloat($("#lblYMax").html());
     var yMajorTickInterval = 1.0;
     var yMinorTickInterval = 0.2;
 
