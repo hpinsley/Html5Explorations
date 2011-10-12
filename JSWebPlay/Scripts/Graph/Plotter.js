@@ -182,12 +182,24 @@ Plotter.prototype.plotFunction = function (x0, x1, n, funcOfX) {
 
 Plotter.prototype.makeFunctionOfX = function (expression) {
     var exp = expression.toLowerCase();
+
+    exp = exp.replace(/pi/g, "Math.PI");
+    
     exp = exp.replace(/cos\(/g, "Math.cos(");
     exp = exp.replace(/sin\(/g, "Math.sin(");
     exp = exp.replace(/tan\(/g, "Math.tan(");
     exp = exp.replace(/sqrt\(/g, "Math.sqrt(");
     exp = exp.replace(/log\(/g, "Math.log(");
     exp = exp.replace(/exp\(/g, "Math.exp(");
+    exp = exp.replace(/pow\(/g, "Math.pow(");
+    exp = exp.replace(/random\(/g, "Math.random(");
+    exp = exp.replace(/abs\(/g, "Math.abs(");
+    exp = exp.replace(/round\(/g, "Math.round(");
+    exp = exp.replace(/ceil\(/g, "Math.ceil(");
+    exp = exp.replace(/floor\(/g, "Math.floor(");
+    exp = exp.replace(/asin\(/g, "Math.asin(");
+    exp = exp.replace(/acos\(/g, "Math.acos(");
+    exp = exp.replace(/atan\(/g, "Math.atan(");
 
     //Need to surround in parens to make it a function "expression"
     return eval("(function (x) { return " + exp + "; });");
