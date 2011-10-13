@@ -2,23 +2,26 @@
 
     var initialDomainWidth = 3;
     var initialRangeWidth = 2;
+    var initialDomainStep = 0.1;
+    var initialRangeStep = 0.1;
 
     $("#eq1").val("sin(x)");
     $("#eq2").val("cos(x)");
 
     $("#domainSlider").slider({
         min: 0,
-        max: 10,
+        max: 100,
+        step: initialDomainStep,
         value: initialDomainWidth,
         slide: domainWidthChange
     });
 
     $("#rangeSlider").slider({
         min: 0,
-        max: 10,
+        max: 100,
+        step: initialRangeStep,
         value: initialRangeWidth,
-        slide: rangeWidthChange,
-        step: 1
+        slide: rangeWidthChange
     });
 
     $("#plotButton").click(plotClick);
@@ -44,23 +47,11 @@
 function domainWidthChange(target, data) {
     setDomainWidth(data.value);
     plotGraphs();
-
-    var sliderElement = $("#domainSlider");
-    //dynamicallAdjustSlider(sliderElement);
 };
 
 function rangeWidthChange(target, data) {
     setRangeWidth(data.value);
     plotGraphs();
-};
-
-function dynamicallAdjustSlider(sliderElement) {
-
-    var val = sliderElement.slider("option", "value");
-    max = 2 * val;
-    var step = max / 10.0;
-    sliderElement.slider("option", "max", max);
-    sliderElement.slider("option", "step", step);
 };
 
 function setDomainWidth(width) {
@@ -79,6 +70,7 @@ function plotClick() {
 
 function plotGraphs() {
     var plotFunctions = [];
+    var plottingColors = ["red", "blue"];
 
     var expressionIds = ["eq1", "eq2"];
     $.each(expressionIds, function(i, id) {
@@ -105,9 +97,10 @@ function plotGraphs() {
 
     g_plotter.eraseCanvas();
     g_plotter.drawAxes(xMajorTickInterval, xMinorTickInterval, yMajorTickInterval, yMinorTickInterval);
-    
+
     $.each(plotFunctions, function (i, fX) {
-        g_plotter.plotFunction(x0, x1, n, fX);        
+        var strokeStyle = plottingColors[i % plottingColors.length];
+        g_plotter.plotFunction(x0, x1, n, fX, strokeStyle);
     });
     
     

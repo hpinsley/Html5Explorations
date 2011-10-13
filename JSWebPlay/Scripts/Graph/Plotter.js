@@ -50,7 +50,7 @@ Plotter.prototype.setWorldCoordinates = function (x0, x1, y0, y1) {
     this.x1 = x1;
     this.y0 = y0;
     this.y1 = y1;
-    
+
     this.worldToDevice = function (worldPoint) {
         var dx0 = -this.bounds.width / 2;
         var dx1 = this.bounds.width / 2;
@@ -65,7 +65,7 @@ Plotter.prototype.setWorldCoordinates = function (x0, x1, y0, y1) {
 };
 
 
-Plotter.prototype.drawLine = function(from, to) {
+Plotter.prototype.drawLine = function (from, to) {
     var dFrom = this.worldToDevice(from);
     var dTo = this.worldToDevice(to);
 
@@ -105,7 +105,7 @@ Plotter.prototype.drawXAxisTicks = function (tickInterval, tickHeight, labelTick
         //draw a vertical tick mark at +/- x
         this.drawLine(new Point(x, -tickHeight / 2), new Point(x, tickHeight / 2));
         this.drawLine(new Point(-x, -tickHeight / 2), new Point(-x, tickHeight / 2));
-        
+
         //label the tick to the bottom
 
         if (labelTicks) {
@@ -151,7 +151,7 @@ Plotter.prototype.getFontName = function (fontSize) {
     return "" + Math.round(fontSize) + "pt " + this.fontName;
 };
 
-Plotter.prototype.plotFunction = function (x0, x1, n, funcOfX) {
+Plotter.prototype.plotFunction = function (x0, x1, n, funcOfX, strokeStyle) {
 
     if (x1 <= x0 || n <= 0) {
         return;
@@ -160,24 +160,38 @@ Plotter.prototype.plotFunction = function (x0, x1, n, funcOfX) {
     var xInc = (x1 - x0) / n;
     var x = x0;
     var y;
-    var worldPoint;
+    var devPoint;
+    var plottedPoints = 0;
+    var hugeYVal = 100000;
 
+    this.ctx.save();
+    this.ctx.strokeStyle = strokeStyle;
+    this.ctx.lineWidth = 2;
     this.ctx.beginPath();
 
     do {
         y = funcOfX(x);
-        worldPoint = this.worldToDevice(new Point(x, y));
-        if (x == x0) {
-            this.ctx.moveTo(worldPoint.x, worldPoint.y);
-        }
-        else {
-            this.ctx.lineTo(worldPoint.x, worldPoint.y);
+
+        //If you attempt to graph to out of range, for some
+        //reason, it draws nothing.
+        if (Math.abs(y) < hugeYVal) {
+
+            ++plottedPoints;
+
+            devPoint = this.worldToDevice(new Point(x, y));
+            if (plottedPoints === 1) {
+                this.ctx.moveTo(devPoint.x, devPoint.y);
+            }
+            else {
+                this.ctx.lineTo(devPoint.x, devPoint.y);
+            }
         }
 
         x += xInc;
     } while (x <= x1);
 
     this.ctx.stroke();
+    this.ctx.restore();
 };
 
 Plotter.prototype.makeFunctionOfX = function (expression) {
@@ -197,6 +211,12 @@ Plotter.prototype.makeFunctionOfX = function (expression) {
     exp = exp.replace(/round\(/g, "Math.round(");
     exp = exp.replace(/ceil\(/g, "Math.ceil(");
     exp = exp.replace(/floor\(/g, "Math.floor(");
+
+    //Trick to handle asin, acos, and atan.  The sub for sin
+    //cos and tan has already kicked in.
+
+    exp = exp.replace(/aMath\./g, "Math.a");
+    
 
     //Need to surround in parens to make it a function "expression"
     return eval("(function (x) { return " + exp + "; });");
