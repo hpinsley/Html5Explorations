@@ -195,6 +195,18 @@ Plotter.prototype.plotFunction = function (x0, x1, n, funcOfX, strokeStyle) {
 };
 
 Plotter.prototype.makeFunctionOfX = function (expression) {
+    var exp = this.makeMathFunctionSubstitutions(expression);
+    //Need to surround in parens to make it a function "expression"
+    return eval("(function (x) { return " + exp + "; });");
+};
+
+Plotter.prototype.makeFunctionOfXY = function (expression) {
+    var exp = this.makeMathFunctionSubstitutions(expression);
+    //Need to surround in parens to make it a function "expression"
+    return eval("(function (x,y) { return " + exp + "; });");
+};
+
+Plotter.prototype.makeMathFunctionSubstitutions = function(expression) {
     var exp = expression.toLowerCase();
 
     exp = exp.replace(/pi/g, "Math.PI");
@@ -216,9 +228,49 @@ Plotter.prototype.makeFunctionOfX = function (expression) {
     //cos and tan has already kicked in.
 
     exp = exp.replace(/aMath\./g, "Math.a");
-    
 
-    //Need to surround in parens to make it a function "expression"
-    return eval("(function (x) { return " + exp + "; });");
+    return exp;    
 };
 
+Plotter.prototype.plot3dFunction = function (x0, x1, nx,
+                                             y0, y1, ny,
+                                             funcOfXY, strokeStyle) {
+
+    if (x1 <= x0 || nx <= 0) {
+        return;
+    }
+    if (y1 <= y0 || ny <= 0) {
+        return;
+    }
+
+    var xInc = (x1 - x0) / nx;
+    var yInc = (y1 - y0) / ny;
+    var z;
+    var devPoint;
+    var plottedPoints = 0;
+
+    this.ctx.save();
+    this.ctx.strokeStyle = strokeStyle;
+    this.ctx.lineWidth = 1;
+    this.ctx.beginPath();
+
+    for (var x = x0; x <= x1; x += xInc) {
+        for (var y = y0; y <= y1; y += yInc) {
+            z = funcOfXY(x, y);
+            var mappedPoint = this.map3dTo2d(x, y, z);
+            devPoint = this.worldToDevice(mappedPoint);
+            if (plottedPoints === 1) {
+                this.ctx.moveTo(devPoint.x, devPoint.y);
+            }
+            else {
+                this.ctx.lineTo(devPoint.x, devPoint.y);
+            }
+        }
+    }
+    this.ctx.stroke();
+    this.ctx.restore();
+};
+
+Plotter.prototype.map3dTo2d = function (x, y, z) {
+    return new Point(x+z, y+z);
+}

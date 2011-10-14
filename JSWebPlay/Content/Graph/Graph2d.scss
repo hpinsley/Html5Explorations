@@ -17,7 +17,7 @@ $plotPanelLeft: $controlPanelWidth + $controlPanelMargin;
 $plotPanelWidth: $totalWidth - ($plotPanelLeft + $plotPanelRightMargin);
 $inputBackgroundColor: black;
 $inputColor: gold;
-$eqInputSize: 30pt;
+$eqInputSize: 22pt;
 
 body {
 	background: { color: tan; }
@@ -35,6 +35,10 @@ section#inputSection {
 	height: $inputHeight;
 	background-color: $panelColor;
 
+	div#d3Inputs {
+		display: none;
+	}
+
 	.eqDiv {
 		margin-left: 0px;
 		background-color: rgb(100,100,100);
@@ -43,6 +47,21 @@ section#inputSection {
 			size: $eqInputSize;
 			family: Consolas;
 		}
+
+		.controlButtons {
+			display: inline-block;
+			width: 100px;
+
+			input[type="button"] {
+				display: block;
+				margin: 0;
+				padding: 0;
+				width: 100px;
+				font-size: 12pt;
+				padding: 2px;
+			}
+		}
+
 		label {
 			color: $inputColor;
 		}

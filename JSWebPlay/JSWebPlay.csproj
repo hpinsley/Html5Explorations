@@ -221,6 +221,8 @@
     <Content Include="Scripts\Org\Org.js" />
     <Content Include="Scripts\Org\Scale.js" />
     <Content Include="Scripts\qunit.js" />
+    <Content Include="Scripts\Shared\matrix-tests.js" />
+    <Content Include="Scripts\Shared\Matrix.js" />
     <Content Include="Scripts\Shared\site.js" />
     <Content Include="Scripts\Sketch\SketchDraw.js" />
     <Content Include="Scripts\Sketch\Spirograph.js" />

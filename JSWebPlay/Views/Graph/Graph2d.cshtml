@@ -9,13 +9,29 @@
 <script src="@Url.Content("~/Scripts/Graph/Plotter.js")" type="text/javascript"></script>
 <script src="@Url.Content("~/Scripts/Graph/Graph2d.js")" type="text/javascript"></script>
 <section id="inputSection">
-    <div class="eqDiv">
-        <label>
-            f(x)=</label><input id="eq1" type="text" class="eqInput" />
-        <input type="button" id="plotButton" value="Plot" />
-        <label>
-            g(x)=</label><input id="eq2" type="text" class="eqInput" />
-        <input type="button" id="plotButton" value="Plot" />
+    <div id="d2Inputs">
+        <div class="eqDiv">
+            <label>
+                f(x)=</label><input id="eq1" type="text" class="eqInput" />
+            <div class="controlButtons">
+                <input type="button" id="plotButton" value="Plot" />
+                <input type="button" id="switchTo3dBtn" value="Switch to 3D"/>
+            </div>
+            <label>
+                g(x)=</label><input id="eq2" type="text" class="eqInput" />
+        </div>
+    </div>
+    <div id="d3Inputs">
+        <div class="eqDiv">
+            <label>
+                f(x,y)=</label><input id="eq1_3d" type="text" class="eqInput" />
+            <div class="controlButtons">
+                <input type="button" id="plot3dButton" value="Plot" />
+                <input type="button" id="switchTo2dBtn" value="Switch to 2 D"/>
+            </div>
+            <label>
+                g(x,y)=</label><input id="eq2_3d" type="text" class="eqInput" />
+        </div>
     </div>
 </section>
 <section id="plotSection">
