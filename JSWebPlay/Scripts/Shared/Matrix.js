@@ -53,14 +53,64 @@ Matrix.multiply = function (m1, m2) {
         throw "Cannot multiply a " + m1.shape() + " matrix and a " + m2.shape() + " matrix.";
 
     var product = new Matrix(m1.rows, m2.cols);
+    var n = m1.cols;
 
     for (var r = 0; r < m1.rows; ++r) {
-        for (var c = 0; c < m1.cols; ++c) {
-            if (m1.values[r][c] !== m2.values[r][c]) {
-                return false;
+        for (var c = 0; c < m2.cols; ++c) {
+            product.values[r][c] = 0;
+            //at r,c we want the sum of the products of row r of m1 times col c of m2
+            for (var i = 0; i < n; ++i) {
+                product.values[r][c] += m1.values[r][i] * m2.values[i][c];
             }
         }
     }
 
-    return true;
+    return product;
+};
+
+Matrix.xRotationalMatrix = function (angle) {
+    var rad = (angle / 180.0) * Math.PI;
+    var s = Math.sin(rad);
+    var c = Math.cos(rad);
+
+    var m = new Matrix(3, 3,
+                            1, 0, 0,
+                            0, c, -s,
+                            0, s, c);
+    return m;
+};
+
+Matrix.yRotationalMatrix = function (angle) {
+    var rad = (angle / 180.0) * Math.PI;
+    var s = Math.sin(rad);
+    var c = Math.cos(rad);
+
+    var m = new Matrix(3, 3,
+                            c, 0, s,
+                            0, 1, 0,
+                            -s, 0, c);
+    return m;
+};
+
+Matrix.zRotationalMatrix = function (angle) {
+    var rad = (angle / 180.0) * Math.PI;
+    var s = Math.sin(rad);
+    var c = Math.cos(rad);
+
+    var m = new Matrix(3, 3,
+                            c, -s, 0,
+                            s, c, 0,
+                            0, 0, 1);
+    return m;
+};
+
+Matrix.xyzRotationalMatrix = function (xAngle, yAngle, zAngle) {
+    var xMatrix = Matrix.xRotationalMatrix(xAngle);
+    var yMatrix = Matrix.yRotationalMatrix(yAngle);
+    var zMatrix = Matrix.zRotationalMatrix(zAngle);
+
+    var xy = Matrix.multiply(xMatrix, yMatrix);
+    var xyz = Matrix.multiply(xy, zMatrix);
+
+    return xyz;
 };

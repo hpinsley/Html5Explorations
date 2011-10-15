@@ -13,7 +13,15 @@ function Plotter() {
     this.yLabelSize = 8;
     this.fontName = "Arial";
     this.labelOffsetFactor = 1.5;
+
+    this.setTwoDMode();
 };
+
+Plotter.modes = { TwoDim: 1, ThreeDim: 2 };
+
+Plotter.prototype.setTwoDMode = function () { this.mode = Plotter.modes.TwoDim; };
+Plotter.prototype.setThreeDMode = function () { this.mode = Plotter.modes.ThreeDim; };
+Plotter.prototype.isThreeDMode = function () { return this.mode === Plotter.modes.ThreeDim; };
 
 Plotter.prototype.createCanvas = function (origin, bounds) {
     this.origin = origin;
@@ -243,6 +251,8 @@ Plotter.prototype.plot3dFunction = function (x0, x1, nx,
         return;
     }
 
+    //create a rotational matrix
+    
     var xInc = (x1 - x0) / nx;
     var yInc = (y1 - y0) / ny;
     var z;

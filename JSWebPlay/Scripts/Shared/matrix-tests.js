@@ -18,3 +18,11 @@ test("Identity matrix times other matrix equals other matrix", function () {
     var product = Matrix.multiply(Matrix.I3, m1);
     ok(Matrix.equals(product, m1), "Mulitiplying by the identity matrix returns original");
 });
+
+test("Identity matrix times other matrix equals other matrix", function () {
+    var m1 = new Matrix(2, 1, 1, 2);
+    var m2 = new Matrix(1, 3, 2, 4, 6);
+    var expectedProduct = new Matrix(2, 3, 2, 4, 6, 4, 8, 12);
+    var product = Matrix.multiply(m1,m2);
+    ok(Matrix.equals(expectedProduct, product), "Mulitiplying a 2x1 by a 1x3");
+});

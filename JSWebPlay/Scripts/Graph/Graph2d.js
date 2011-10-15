@@ -1,17 +1,22 @@
 ﻿$(function () {
 
+    window.g_plotter = new Plotter();
+
     $("#plotButton").click(plot2dClick);
     $("#plot3dButton").click(plot3dClick);
 
     $("#switchTo2dBtn").click(function () {
         $("#d2Inputs").show();
         $("#d3Inputs").hide();
-        
+        g_plotter.setTwoDMode();
     });
+
     $("#switchTo3dBtn").click(function () {
         $("#d2Inputs").hide();
         $("#d3Inputs").show();
+        g_plotter.setThreeDMode();
     });
+
     var initialDomainWidth = 3;
     var initialRangeWidth = 2;
     var initialDomainStep = 0.1;
@@ -37,7 +42,6 @@
     });
 
 
-    window.g_plotter = new Plotter();
 
     var h = $("#plotSection").height();
     var w = $("#plotSection").width();
@@ -50,19 +54,20 @@
 
     setDomainWidth(initialDomainWidth);
     setRangeWidth(initialRangeWidth);
-    plot2dGraphs();
+
+    g_plotter.isThreeDMode() ? plot3dGraphs() : plot2dGraphs();
 
 
 });
 
 function domainWidthChange(target, data) {
     setDomainWidth(data.value);
-    plot2dGraphs();
+    g_plotter.isThreeDMode() ? plot3dGraphs() : plot2dGraphs();
 };
 
 function rangeWidthChange(target, data) {
     setRangeWidth(data.value);
-    plot2dGraphs();
+    g_plotter.isThreeDMode() ? plot3dGraphs() : plot2dGraphs();
 };
 
 function setDomainWidth(width) {
@@ -146,7 +151,7 @@ function plot3dGraphs() {
 
     g_plotter.setWorldCoordinates(x0, x1, y0, y1);
 
-    var n = 30;
+    var n = 100;
 
     g_plotter.eraseCanvas();
     //g_plotter.drawAxes(xMajorTickInterval, xMinorTickInterval, yMajorTickInterval, yMinorTickInterval);
