@@ -242,7 +242,8 @@ Plotter.prototype.makeMathFunctionSubstitutions = function(expression) {
 
 Plotter.prototype.plot3dFunction = function (x0, x1, nx,
                                              y0, y1, ny,
-                                             funcOfXY, strokeStyle) {
+                                             funcOfXY, strokeStyle,
+                                             xAngle, yAngle, zAngle) {
 
     if (x1 <= x0 || nx <= 0) {
         return;
@@ -252,7 +253,9 @@ Plotter.prototype.plot3dFunction = function (x0, x1, nx,
     }
 
     //create a rotational matrix
-    
+
+    var rotationalMatrix = Matrix.xyzRotationalMatrix(xAngle, yAngle, zAngle);
+
     var xInc = (x1 - x0) / nx;
     var yInc = (y1 - y0) / ny;
     var z;
@@ -267,7 +270,17 @@ Plotter.prototype.plot3dFunction = function (x0, x1, nx,
     for (var x = x0; x <= x1; x += xInc) {
         for (var y = y0; y <= y1; y += yInc) {
             z = funcOfXY(x, y);
-            var mappedPoint = this.map3dTo2d(x, y, z);
+
+            //rotate the point x,y,z
+            var pointMatrix = new Matrix(3, 1, x, y, z);
+            var rotatedPoint = Matrix.multiply(rotationalMatrix, pointMatrix);
+            //rotated point matrix is a 3x1 matrix
+            var rx = rotatedPoint.values[0][0];
+            var ry = rotatedPoint.values[1][0];
+            var rz = rotatedPoint.values[2][0];
+
+            var mappedPoint = new Point(rx, ry);    //drop the z component for projection
+            
             devPoint = this.worldToDevice(mappedPoint);
             if (plottedPoints === 1) {
                 this.ctx.moveTo(devPoint.x, devPoint.y);
@@ -280,7 +293,3 @@ Plotter.prototype.plot3dFunction = function (x0, x1, nx,
     this.ctx.stroke();
     this.ctx.restore();
 };
-
-Plotter.prototype.map3dTo2d = function (x, y, z) {
-    return new Point(x+z, y+z);
-}

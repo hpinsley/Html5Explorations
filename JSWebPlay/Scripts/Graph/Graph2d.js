@@ -156,9 +156,13 @@ function plot3dGraphs() {
     g_plotter.eraseCanvas();
     //g_plotter.drawAxes(xMajorTickInterval, xMinorTickInterval, yMajorTickInterval, yMinorTickInterval);
 
+    var xAngle = 30;
+    var yAngle = 30;
+    var zAngle = 20;
+    
     $.each(plotFunctions, function (i, fXY) {
         var strokeStyle = plottingColors[i % plottingColors.length];
-        g_plotter.plot3dFunction(x0, x1, n, y0, y1, n, fXY, strokeStyle);
+        g_plotter.plot3dFunction(x0, x1, n, y0, y1, n, fXY, strokeStyle, xAngle, yAngle, zAngle);
     });
 
 };
