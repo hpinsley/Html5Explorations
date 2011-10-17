@@ -12,25 +12,25 @@
 <section id="inputSection">
     <div id="d2Inputs">
         <div class="eqDiv">
-            <label>
+            <label class="dependentVariable">
                 f(x)=</label><input id="eq1" type="text" class="eqInput" />
             <div class="controlButtons">
                 <input type="button" id="plotButton" value="Plot" />
                 <input type="button" id="switchTo3dBtn" value="Switch to 3D"/>
             </div>
-            <label>
+            <label class="dependentVariable">
                 g(x)=</label><input id="eq2" type="text" class="eqInput" />
         </div>
     </div>
     <div id="d3Inputs">
         <div class="eqDiv">
-            <label>
+            <label class="dependentVariable">
                 f(x,y)=</label><input id="eq1_3d" type="text" class="eqInput" />
             <div class="controlButtons">
                 <input type="button" id="plot3dButton" value="Plot" />
-                <input type="button" id="switchTo2dBtn" value="Switch to 2 D"/>
+                <input type="button" id="switchTo2dBtn" value="Switch to 2D"/>
             </div>
-            <label>
+            <label class="dependentVariable">
                 g(x,y)=</label><input id="eq2_3d" type="text" class="eqInput" />
         </div>
     </div>
@@ -63,6 +63,21 @@
         </label>
         <span id="lblYMax" class="value">0</span>
         <div id="rangeSlider" class="domainRangeSlider">
+        </div>
+    </div>
+    <div id="rotationAngles">
+        <h1>Rotation</h1>
+        <div class="rotationAngleDiv">
+            <label>X:</label>
+            <input id="xAngleRotation" class="rotationAngleInput" type="number" />
+        </div>
+        <div class="rotationAngleDiv">
+            <label>Y:</label>
+            <input id="yAngleRotation" class="rotationAngleInput" type="number" />
+        </div>
+        <div class="rotationAngleDiv">
+            <label>Z:</label>
+            <input id="zAngleRotation" class="rotationAngleInput" type="number" />
         </div>
     </div>
 </section>

@@ -2,18 +2,27 @@
 
     window.g_plotter = new Plotter();
 
+    $("#xAngleRotation").val("80");
+    $("#yAngleRotation").val("-50");
+    $("#zAngleRotation").val("25");
+    
+    $("#rotationAngles").hide();
+
     $("#plotButton").click(plot2dClick);
     $("#plot3dButton").click(plot3dClick);
 
     $("#switchTo2dBtn").click(function () {
         $("#d2Inputs").show();
         $("#d3Inputs").hide();
+        $("#rotationAngles").hide();
         g_plotter.setTwoDMode();
     });
 
     $("#switchTo3dBtn").click(function () {
         $("#d2Inputs").hide();
         $("#d3Inputs").show();
+        $("#eq2_3d").focus();
+        $("#rotationAngles").show();
         g_plotter.setThreeDMode();
     });
 
@@ -24,6 +33,8 @@
 
     $("#eq1").val("sin(x)");
     $("#eq2").val("cos(x)");
+
+    $("#eq1_3d").val("sin(x)*cos(x*y)");
 
     $("#domainSlider").slider({
         min: 0,
@@ -89,7 +100,7 @@ function plot3dClick() {
 
 function plot2dGraphs() {
     var plotFunctions = [];
-    var plottingColors = ["red", "blue"];
+    var plottingColors = ["black", "blue"];
 
     var expressionIds = ["eq1", "eq2"];
     $.each(expressionIds, function(i, id) {
@@ -128,7 +139,7 @@ function plot2dGraphs() {
 
 function plot3dGraphs() {
     var plotFunctions = [];
-    var plottingColors = ["red", "blue"];
+    var plottingColors = ["black", "blue"];
 
     var expressionIds = ["eq1_3d", "eq2_3d"];
     $.each(expressionIds, function (i, id) {
@@ -141,24 +152,19 @@ function plot3dGraphs() {
 
     var x0 = parseFloat($("#lblXMin").html());
     var x1 = parseFloat($("#lblXMax").html());
-    var xMajorTickInterval = 1;
-    var xMinorTickInterval = 0.1;
 
     var y0 = parseFloat($("#lblYMin").html());
     var y1 = parseFloat($("#lblYMax").html());
-    var yMajorTickInterval = 1.0;
-    var yMinorTickInterval = 0.2;
 
     g_plotter.setWorldCoordinates(x0, x1, y0, y1);
 
     var n = 100;
 
     g_plotter.eraseCanvas();
-    //g_plotter.drawAxes(xMajorTickInterval, xMinorTickInterval, yMajorTickInterval, yMinorTickInterval);
 
-    var xAngle = 30;
-    var yAngle = 30;
-    var zAngle = 20;
+    var xAngle = parseFloat($("#xAngleRotation").val());
+    var yAngle = parseFloat($("#yAngleRotation").val());
+    var zAngle = parseFloat($("#zAngleRotation").val());
     
     $.each(plotFunctions, function (i, fXY) {
         var strokeStyle = plottingColors[i % plottingColors.length];

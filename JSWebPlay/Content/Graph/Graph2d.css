@@ -16,7 +16,7 @@ section#inputSection {
     margin-left: 0px;
     background-color: #646464;
     padding: 5px;
-    font-size: 22pt;
+    font-size: 20pt;
     font-family: Consolas; }
     section#inputSection .eqDiv .controlButtons {
       display: inline-block;
@@ -25,15 +25,19 @@ section#inputSection {
         display: block;
         margin: 0;
         padding: 0;
-        width: 100px;
+        width: 110px;
         font-size: 12pt;
         padding: 2px; }
     section#inputSection .eqDiv label {
       color: gold; }
+      section#inputSection .eqDiv label.dependentVariable {
+        display: inline-block;
+        width: 110px;
+        text-align: right; }
     section#inputSection .eqDiv input[type="text"].eqInput {
       margin-left: 10px;
       padding: 0 5px 0 5px;
-      font-size: 22pt;
+      font-size: 20pt;
       background-color: black;
       color: gold;
       width: 300px; }
