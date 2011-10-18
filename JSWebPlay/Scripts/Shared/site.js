@@ -8,18 +8,26 @@
     //dropdown menus with class dropdownMenuShown and then find the one child element
     //that needs to have it reset to that.
 
-    $("ul#mainMenu > li").mouseover(function () {
-        //Hide any other dropdowns
-        $(".dropdownMenuShown")
-            .removeClass("dropdownMenuShown")
-            .addClass("dropdownMenuHidden");
+    $("ul#mainMenu > li")
+        .mouseenter(function() {
+            //Hide any other dropdowns
+            $(".dropdownMenuShown")
+                .removeClass("dropdownMenuShown")
+                .addClass("dropdownMenuHidden");
 
-        var liElement = $(this);
-        var innerUlElement = $(".dropdownMenuHidden", liElement);
-        innerUlElement.removeClass("dropdownMenuHidden").addClass("dropdownMenuShown");
+            var liElement = $(this);
+            var innerUlElement = $(".dropdownMenuHidden", liElement);
+            innerUlElement.removeClass("dropdownMenuHidden").addClass("dropdownMenuShown");
 
 
-        return true;
-    });
+            return true;
+        })
+
+        .mouseleave(function() {
+            //Hide any other dropdowns
+            $(".dropdownMenuShown")
+                .removeClass("dropdownMenuShown")
+                .addClass("dropdownMenuHidden");
+        });
 
 });
