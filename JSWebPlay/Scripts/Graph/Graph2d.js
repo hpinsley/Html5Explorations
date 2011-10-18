@@ -82,8 +82,16 @@ function rangeWidthChange(target, data) {
 };
 
 function setDomainWidth(width) {
-    $("#lblXMin").html(-width.toString());
-    $("#lblXMax").html(width.toString());
+    var positiveOnly = $("#xPositiveOnly")[0].checked;
+    
+    if (positiveOnly) {
+        $("#lblXMin").html((-Math.ceil(0.20 * width)).toString());  //leave a % on the negative side to show y axis ticks
+        $("#lblXMax").html((2 * width).toString());
+    }
+    else {
+        $("#lblXMin").html(-width.toString());
+        $("#lblXMax").html(width.toString());
+    }
 };
 
 function setRangeWidth(width) {

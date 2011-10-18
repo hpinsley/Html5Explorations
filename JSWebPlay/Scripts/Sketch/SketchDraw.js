@@ -24,7 +24,7 @@
 
         var angleDelta = Math.PI * 2 / shapeCount;
         for (var i = 0; i < shapeCount; ++i) {
-            ctx.strokeStyle = strokeStyleFunc(i+1, shapeCount);
+            ctx.strokeStyle = strokeStyleFunc(i + 1, shapeCount);
             ctx.rotate(angleDelta);
             draw(ctx);
         }
@@ -46,9 +46,9 @@
     }
 
     function getRandomStrokeStyle() {
-        var r = Math.floor(Math.random() * 256)
-        var g = Math.floor(Math.random() * 256)
-        var b = Math.floor(Math.random() * 256)
+        var r = Math.floor(Math.random() * 256);
+        var g = Math.floor(Math.random() * 256);
+        var b = Math.floor(Math.random() * 256);
 
         var rgb = "rgb(" + r + "," + g + "," + b + ")";
         return rgb;
@@ -69,7 +69,7 @@
 
     //private
     var getTriangleFunc = function (size) {
-        //Draw an equilateral triangle with sides (side) centered at (0,0)
+        //Draw an not quite equilateral triangle with sides (side) centered at (0,0)
         var draw = function (ctx) {
             var height = Math.round(size * Math.sqrt(3.0) / 2.0);
             var bottom = height / 2;
