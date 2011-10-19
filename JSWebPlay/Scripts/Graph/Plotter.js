@@ -174,7 +174,7 @@ Plotter.prototype.plotFunction = function (x0, x1, n, funcOfX, strokeStyle) {
 
     this.ctx.save();
     this.ctx.strokeStyle = strokeStyle;
-    this.ctx.lineWidth = 2;
+    this.ctx.lineWidth = 1;
     this.ctx.beginPath();
 
     do {
@@ -214,7 +214,7 @@ Plotter.prototype.makeFunctionOfXY = function (expression) {
     return eval("(function (x,y) { return " + exp + "; });");
 };
 
-Plotter.prototype.makeMathFunctionSubstitutions = function(expression) {
+Plotter.prototype.makeMathFunctionSubstitutions = function (expression) {
     var exp = expression.toLowerCase();
 
     exp = exp.replace(/pi/g, "Math.PI");
@@ -237,7 +237,14 @@ Plotter.prototype.makeMathFunctionSubstitutions = function(expression) {
 
     exp = exp.replace(/aMath\./g, "Math.a");
 
-    return exp;    
+    //x! or 3! or ...
+    //1-pow(x,2)/2!+pow(x,4)/4!-pow(x,6)/6!+pow(x,8)/8!-pow(x,10)/10!
+    //1-pow(x,2)/2!+pow(x,4)/4!-pow(x,6)/6!+pow(x,8)/8!-pow(x,10)/10!+pow(x,12)/12!-pow(x,14)/14!+pow(x,16)/16!-pow(x,18)/18!+pow(x,20)/20!
+    
+    
+    exp = exp.replace(/([0-9]+|x)!/g, "CalcLib.factorial($1)");
+
+    return exp;
 };
 
 Plotter.prototype.plot3dFunction = function (x0, x1, nx,
