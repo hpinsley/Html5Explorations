@@ -238,8 +238,8 @@ Plotter.prototype.makeMathFunctionSubstitutions = function (expression) {
     exp = exp.replace(/aMath\./g, "Math.a");
 
     //x! or 3! or ...
-    //1-pow(x,2)/2!+pow(x,4)/4!-pow(x,6)/6!+pow(x,8)/8!-pow(x,10)/10!
     //1-pow(x,2)/2!+pow(x,4)/4!-pow(x,6)/6!+pow(x,8)/8!-pow(x,10)/10!+pow(x,12)/12!-pow(x,14)/14!+pow(x,16)/16!-pow(x,18)/18!+pow(x,20)/20!
+    //x-pow(x,3)/3!+pow(x,5)/5!-pow(x,7)/7!+pow(x,9)/9!-pow(x,11)/11!+pow(x,13)/13!-pow(x,15)/15!+pow(x,17)/17!-pow(x,19)/19!+pow(x,21)/21!
     
     
     exp = exp.replace(/([0-9]+|x)!/g, "CalcLib.factorial($1)");
