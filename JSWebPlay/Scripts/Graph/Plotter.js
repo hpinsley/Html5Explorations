@@ -43,6 +43,10 @@ Plotter.prototype.createCanvas = function (origin, bounds) {
     this.ctx.translate(bounds.width / 2, bounds.height / 2);
 };
 
+Plotter.prototype.getContext = function () {
+    return this.ctx;
+};
+
 Plotter.prototype.eraseCanvas = function () {
     this.ctx.clearRect(-this.bounds.width / 2, -this.bounds.height / 2, this.bounds.width, this.bounds.height);
 };

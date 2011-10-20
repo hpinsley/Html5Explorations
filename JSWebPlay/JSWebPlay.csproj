@@ -142,6 +142,7 @@
       <Generator>ScssGenerator</Generator>
       <LastGenOutput>Spirograph.css</LastGenOutput>
     </Content>
+    <Content Include="Scripts\Graph\MovieMaker.js" />
     <Content Include="Scripts\Graph\Graph2d.js" />
     <Content Include="Scripts\Graph\GraphModule.js" />
     <Content Include="Scripts\Graph\Plotter.js" />

@@ -9,6 +9,7 @@
 <script src="@Url.Content("~/Scripts/Home/CalcLib.js")" type="text/javascript"></script>
 <script src="@Url.Content("~/Scripts/Graph/GraphModule.js")" type="text/javascript"></script>
 <script src="@Url.Content("~/Scripts/Graph/Plotter.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/Graph/MovieMaker.js")" type="text/javascript"></script>
 <script src="@Url.Content("~/Scripts/Graph/Graph2d.js")" type="text/javascript"></script>
 <section id="inputSection">
     <div id="d2Inputs">
@@ -88,8 +89,13 @@
         </div>
     </div>
 
-    <div>
-        <input type="button" id="getDataUrlButton" value="Get Data URL"/>
+    <div id="imageControlDiv">
+        <input type="button" id="captureImageButton" value="Capture Image"/>
+        <input type="button" id="pushFrameButton" value="Push Frame"/>
+        <input type="button" id="popFrameButton" value="Pop Frame"/>
+        <input type="button" id="playMovieButton" value="Play Movie"/>
+        <input type="button" id="clearMovieButton" value="Clear Movie"/>
+        <label for="frameCount">Frames:</label><span id="frameCount">0</span>
     </div>
 </section>
 <section id="imageCaptureSection">

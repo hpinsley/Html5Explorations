@@ -1,6 +1,8 @@
 ﻿$(function () {
 
     window.g_plotter = new Plotter();
+    window.g_movieMaker = new MovieMaker();
+
     window.g_default2dPoints = 1000;
     window.g_default3dPoints = 150;
 
@@ -74,7 +76,21 @@
     g_plotter.isThreeDMode() ? plot3dGraphs() : plot2dGraphs();
 
 
-    $("#getDataUrlButton").click(getDataUrlClicked);
+    $("#captureImageButton").click(getDataUrlClicked);
+    $("#imageCloseBtn").click(function () {
+        $("#imageCaptureSection").hide();
+    });
+
+    $("#playMovieButton").click(function () {
+        var ctx = g_plotter.getContext();
+        g_movieMaker.playMovie(ctx);
+    });
+
+    $("#pushFrameButton").click(function () {
+        var ctx = g_plotter.getContext();
+        g_movieMaker.pushFrame(ctx);
+        $("#frameCount").text(g_movieMaker.getFrameCount());
+    });
 });
 
 
@@ -87,10 +103,6 @@ function getDataUrlClicked() {
     imageElement[0].src = dataUrl;
     $("#imageDiv").empty().append(imageElement);
     $("#imageCaptureSection").show();
-
-    var newDoc = document.implementation.createHTMLDocument("New Doc");
-    $("body", newDoc).append("<div>hi</div>");
-    //newDoc.open("text/html", "replace");
 };
 
 function domainWidthChange(target, data) {

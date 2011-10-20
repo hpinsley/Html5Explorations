@@ -132,7 +132,17 @@ section#controlsSection {
 			}
 		}
 	}
-
+	#imageControlDiv {
+		border: 1px solid gray;
+		padding: 3px;
+		margin: 5px;
+		input[type="button"] {
+			display: block;
+		}
+		label {
+			margin-right: 10px;
+		}
+	}
 }
 
 section#plotSection {
@@ -151,4 +161,10 @@ section#imageCaptureSection {
 	top: 100px;
 	z-order: 100;
 	background-color: white;
+	border: 3px solid yellow;
+	text-align: center;
+
+	input#imageCloseBtn {
+		font-size: 14pt;
+	}
 }
