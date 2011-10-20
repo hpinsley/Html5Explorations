@@ -1,11 +1,14 @@
 ﻿$(function () {
 
     window.g_plotter = new Plotter();
+    window.g_default2dPoints = 1000;
+    window.g_default3dPoints = 150;
 
-    $("#xAngleRotation").val("80");
-    $("#yAngleRotation").val("-50");
-    $("#zAngleRotation").val("25");
-    
+    $("#xAngleRotation").val("50");
+    $("#yAngleRotation").val("-30");
+    $("#zAngleRotation").val("20");
+    $("#numPoints").val(g_default2dPoints);
+
     $("#rotationAngles").hide();
 
     $("#plotButton").click(plot2dClick);
@@ -15,6 +18,7 @@
         $("#d2Inputs").show();
         $("#d3Inputs").hide();
         $("#rotationAngles").hide();
+        $("#numPoints").val(g_default2dPoints);
         g_plotter.setTwoDMode();
     });
 
@@ -22,6 +26,7 @@
         $("#d2Inputs").hide();
         $("#d3Inputs").show();
         $("#eq2_3d").focus();
+        $("#numPoints").val(g_default3dPoints);
         $("#rotationAngles").show();
         g_plotter.setThreeDMode();
     });
@@ -69,7 +74,24 @@
     g_plotter.isThreeDMode() ? plot3dGraphs() : plot2dGraphs();
 
 
+    $("#getDataUrlButton").click(getDataUrlClicked);
 });
+
+
+function getDataUrlClicked() {
+    var canvas = g_plotter.canvas[0];
+    var dataUrl = canvas.toDataURL();
+    //alert(dataUrl);
+
+    var imageElement = $("<img />");
+    imageElement[0].src = dataUrl;
+    $("#imageDiv").empty().append(imageElement);
+    $("#imageCaptureSection").show();
+
+    var newDoc = document.implementation.createHTMLDocument("New Doc");
+    $("body", newDoc).append("<div>hi</div>");
+    //newDoc.open("text/html", "replace");
+};
 
 function domainWidthChange(target, data) {
     setDomainWidth(data.value);
@@ -131,7 +153,7 @@ function plot2dGraphs() {
 
     g_plotter.setWorldCoordinates(x0, x1, y0, y1);
 
-    var n = 2000;
+    var n = parseInt($("#numPoints").val());
 
     g_plotter.eraseCanvas();
     g_plotter.drawAxes(xMajorTickInterval, xMinorTickInterval, yMajorTickInterval, yMinorTickInterval);
@@ -166,7 +188,7 @@ function plot3dGraphs() {
 
     g_plotter.setWorldCoordinates(x0, x1, y0, y1);
 
-    var n = 100;
+    var n = parseInt($("#numPoints").val());
 
     g_plotter.eraseCanvas();
 

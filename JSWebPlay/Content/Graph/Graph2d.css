@@ -76,3 +76,11 @@ section#plotSection {
   width: 784px;
   height: 522px;
   background-color: green; }
+
+section#imageCaptureSection {
+  display: none;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  z-order: 100;
+  background-color: white; }

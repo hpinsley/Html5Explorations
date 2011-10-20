@@ -143,3 +143,12 @@ section#plotSection {
 	height: $lowerPanelsHeight;
 	background-color: $panelColor;
 }
+
+section#imageCaptureSection {
+	display: none;
+	position: absolute;
+	left: 100px;
+	top: 100px;
+	z-order: 100;
+	background-color: white;
+}
