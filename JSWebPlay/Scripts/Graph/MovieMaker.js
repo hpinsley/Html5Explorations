@@ -4,12 +4,12 @@
     this.frames = [];
 };
 
-MovieMaker.prototype.playMovie = function (ctx) {
+MovieMaker.prototype.playMovie = function (ctx, frameDelay) {
     alert("Playing movie with " + this.getFrameCount() + " frames.");
 
     var that = this;
     var frameNo = 0;
-    var sleep = 500;
+    var sleep = frameDelay;
     playFrame();
     function playFrame() {
         if (frameNo >= that.getFrameCount())
@@ -27,6 +27,7 @@ MovieMaker.prototype.pushFrame = function (ctx) {
     this.setMovieDimensions(canvas.width, canvas.height);
     var imageData = ctx.getImageData(0, 0, this.movieWidth, this.movieHeight);
     this.frames.push(imageData);
+    statusMessage("Pushed frame " + this.getFrameCount());
 };
 
 MovieMaker.prototype.setMovieDimensions = function (w, h) {

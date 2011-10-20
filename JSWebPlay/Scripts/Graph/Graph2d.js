@@ -83,16 +83,35 @@
 
     $("#playMovieButton").click(function () {
         var ctx = g_plotter.getContext();
-        g_movieMaker.playMovie(ctx);
+        var frameDelay = parseInt($("#frameRate").val());
+        g_movieMaker.playMovie(ctx, frameDelay);
     });
 
-    $("#pushFrameButton").click(function () {
-        var ctx = g_plotter.getContext();
-        g_movieMaker.pushFrame(ctx);
-        $("#frameCount").text(g_movieMaker.getFrameCount());
-    });
+    $("#pushFrameButton").click(pushFrame);
+    $("#animateXBtn").click(animateX);
 });
 
+function pushFrame() {
+    var ctx = g_plotter.getContext();
+    g_movieMaker.pushFrame(ctx);
+    $("#frameCount").text(g_movieMaker.getFrameCount());
+};
+
+function animateX() {
+    var frames = 10;
+    var xStart = parseFloat($("#xAngleRotation").val());
+    var xEnd = -1 * xStart;
+    var xInc = (xEnd - xStart) / (frames - 1);
+
+    var x;
+    for (var frameNo = 0; frameNo < frames; ++frameNo) {
+        x = xStart + frameNo * xInc;        
+        $("#xAngleRotation").val(x);
+        statusMessage("Plotting at x = " + x);
+        plot3dGraphs();
+        pushFrame();
+    }
+};
 
 function getDataUrlClicked() {
     var canvas = g_plotter.canvas[0];

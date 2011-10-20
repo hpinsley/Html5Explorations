@@ -59,7 +59,7 @@ section#controlsSection {
     border: 3px;
     text-align: center;
     background-color: gray;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
     margin-left: 10px; }
     section#controlsSection .domainRangeControl h1 {
       font-size: 12pt;
@@ -74,6 +74,10 @@ section#controlsSection {
     margin: 5px; }
     section#controlsSection #imageControlDiv input[type="button"] {
       display: block; }
+    section#controlsSection #imageControlDiv input[type="number"] {
+      background-color: white;
+      color: black;
+      width: 30px; }
     section#controlsSection #imageControlDiv label {
       margin-right: 10px; }
 
