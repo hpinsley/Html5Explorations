@@ -215,5 +215,10 @@ function plot3dGraphs() {
 
 };
 
+function statusMessage(msg) {
+    $("#statusBarMsg").text(msg);
+}
 
-
+function clearStatusMessage() {
+    statusMessage("");
+}

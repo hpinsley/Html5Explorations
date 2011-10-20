@@ -14,7 +14,7 @@ MovieMaker.prototype.playMovie = function (ctx) {
     function playFrame() {
         if (frameNo >= that.getFrameCount())
             return;
-        //alert("Playing frame " + frameNo);
+        statusMessage("Playing frame " + frameNo);
         var data = that.frames[frameNo];
         ctx.putImageData(data, 0, 0);
         ++frameNo;

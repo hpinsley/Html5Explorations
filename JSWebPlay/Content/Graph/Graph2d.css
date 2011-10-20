@@ -47,7 +47,7 @@ section#controlsSection {
   left: 0px;
   top: 118px;
   width: 230px;
-  height: 522px;
+  height: 497px;
   background-color: black; }
   section#controlsSection label, section#controlsSection span {
     font-size: 14pt;
@@ -82,8 +82,22 @@ section#plotSection {
   left: 235px;
   top: 118px;
   width: 784px;
-  height: 522px;
+  height: 497px;
   background-color: green; }
+
+section#statusBarSection {
+  position: absolute;
+  left: 0px;
+  top: 615px;
+  width: 1024px;
+  padding: 0px;
+  margin: 0px;
+  background-color: black; }
+  section#statusBarSection div#statusBarMsgDiv {
+    font-size: 13pt; }
+    section#statusBarSection div#statusBarMsgDiv span#statusBarMsg {
+      font-style: italic;
+      color: white; }
 
 section#imageCaptureSection {
   display: none;

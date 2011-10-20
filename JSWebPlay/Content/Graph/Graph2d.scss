@@ -1,23 +1,32 @@
 ﻿$totalHeight: 645px;
-$panelColor: green;
-$totalWidth: 1024px;
 $inputTop: 43px;
 $inputHeight: 70px;
 $inputPaddingBottom: 5px;
-$lowerPanelBottomMargin: 5px;
+$statusBarHeight: 30px;
+
+$totalWidth: 1024px;
 $controlPanelWidth: 230px;
 $sliderWidth: 200px;
-$sliderLeft: ($controlPanelWidth - $sliderWidth) / 2;
-$controlPanelBackgroundColor: black;
-$controlPanelMargin: 5px;
+
 $plotPanelRightMargin: 5px;
-$lowerPanelsTop: $inputTop + $inputHeight + $inputPaddingBottom;
-$lowerPanelsHeight: $totalHeight - $inputTop - $inputHeight - $inputPaddingBottom - $lowerPanelBottomMargin;
-$plotPanelLeft: $controlPanelWidth + $controlPanelMargin;
-$plotPanelWidth: $totalWidth - ($plotPanelLeft + $plotPanelRightMargin);
+$controlPanelMargin: 5px;
+
+$panelColor: green;
+$controlPanelBackgroundColor: black;
 $inputBackgroundColor: black;
 $inputColor: gold;
 $eqInputSize: 20pt;
+$statusSectionBackgroundColor: black;
+$statusMessageColor: white;
+
+$sliderLeft: ($controlPanelWidth - $sliderWidth) / 2;
+$plotPanelLeft: $controlPanelWidth + $controlPanelMargin;
+$plotPanelWidth: $totalWidth - ($plotPanelLeft + $plotPanelRightMargin);
+
+$lowerPanelsTop: $inputTop + $inputHeight + $inputPaddingBottom;
+$lowerPanelsHeight: $totalHeight - $lowerPanelsTop - $statusBarHeight;
+
+$statusBarTop: $lowerPanelsTop + $lowerPanelsHeight;
 
 body {
 	background: { color: tan; }
@@ -152,6 +161,24 @@ section#plotSection {
 	width: $plotPanelWidth;
 	height: $lowerPanelsHeight;
 	background-color: $panelColor;
+}
+
+section#statusBarSection {
+	position: absolute;
+	left: 0px;
+	top: $statusBarTop;
+	width: $totalWidth;
+	padding: 0px;
+	margin: 0px;
+	background-color: $statusSectionBackgroundColor;
+
+	div#statusBarMsgDiv {
+		font-size: 13pt;
+		span#statusBarMsg {
+			font-style: italic;
+			color: $statusMessageColor;
+		}
+	}
 }
 
 section#imageCaptureSection {
