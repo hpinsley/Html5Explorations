@@ -98,7 +98,8 @@ function pushFrame() {
 };
 
 function animateX() {
-    var frames = 10;
+    var frames = parseInt($("#animationFrameCount").val());
+    statusMessage("Animating " + frames + " frames.");
     var xStart = parseFloat($("#xAngleRotation").val());
     var xEnd = -1 * xStart;
     var xInc = (xEnd - xStart) / (frames - 1);
@@ -107,7 +108,7 @@ function animateX() {
     for (var frameNo = 0; frameNo < frames; ++frameNo) {
         x = xStart + frameNo * xInc;        
         $("#xAngleRotation").val(x);
-        statusMessage("Plotting at x = " + x);
+        //statusMessage("Plotting at x = " + x);
         plot3dGraphs();
         pushFrame();
     }

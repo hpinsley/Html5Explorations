@@ -5,7 +5,7 @@
 };
 
 MovieMaker.prototype.playMovie = function (ctx, frameDelay) {
-    alert("Playing movie with " + this.getFrameCount() + " frames.");
+    //alert("Playing movie with " + this.getFrameCount() + " frames.");
 
     var that = this;
     var frameNo = 0;
