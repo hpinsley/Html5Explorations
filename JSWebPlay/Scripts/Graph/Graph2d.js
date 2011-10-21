@@ -89,6 +89,8 @@
 
     $("#pushFrameButton").click(pushFrame);
     $("#animateXBtn").click(animateX);
+    $("#animateYBtn").click(animateY);
+    $("#animateZBtn").click(animateZ);
 });
 
 function pushFrame() {
@@ -97,19 +99,19 @@ function pushFrame() {
     $("#frameCount").text(g_movieMaker.getFrameCount());
 };
 
-function animateX() {
+function animateAlongAxis(rotationAngleId) {
     var frames = parseInt($("#animationFrameCount").val());
     statusMessage("Animating " + frames + " frames.");
-    var xStart = parseFloat($("#xAngleRotation").val());
-    var xEnd = -1 * xStart;
-    var xInc = (xEnd - xStart) / (frames - 1);
+    var start = parseFloat($("#" + rotationAngleId).val());
+    var end = -1 * start;
+    var inc = (end - start) / (frames - 1);
 
     var x;
     var frameNo = 0;
     function captureFrame() {
-        x = xStart + frameNo * xInc;
-        $("#xAngleRotation").val(x);
-        //statusMessage("Plotting at x = " + x);
+        x = start + frameNo * inc;
+        //alert("capturing frame " + frameNo + " with x = " + x);
+        $("#" + rotationAngleId).val(x);
         plot3dGraphs();
         pushFrame();
 
@@ -121,18 +123,17 @@ function animateX() {
             statusMessage("Captured " + frames + " frames.");
         }
     };
-
     captureFrame();
-    
-    /*    
-    for (var frameNo = 0; frameNo < frames; ++frameNo) {
-        x = xStart + frameNo * xInc;        
-        $("#xAngleRotation").val(x);
-        //statusMessage("Plotting at x = " + x);
-        plot3dGraphs();
-        pushFrame();
-    }
-    */
+};
+
+function animateX() {
+    animateAlongAxis("xAngleRotation");
+};
+function animateY() {
+    animateAlongAxis("yAngleRotation");
+};
+function animateZ() {
+    animateAlongAxis("zAngleRotation");
 };
 
 function getDataUrlClicked() {
