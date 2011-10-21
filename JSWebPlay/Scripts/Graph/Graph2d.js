@@ -6,9 +6,9 @@
     window.g_default2dPoints = 1000;
     window.g_default3dPoints = 150;
 
-    $("#xAngleRotation").val("50");
-    $("#yAngleRotation").val("-30");
-    $("#zAngleRotation").val("20");
+    $("#xAngleRotation").val("-330");
+    $("#yAngleRotation").val("-330");
+    $("#zAngleRotation").val("-330");
     $("#numPoints").val(g_default2dPoints);
 
     $("#rotationAngles").hide();
@@ -16,22 +16,8 @@
     $("#plotButton").click(plot2dClick);
     $("#plot3dButton").click(plot3dClick);
 
-    $("#switchTo2dBtn").click(function () {
-        $("#d2Inputs").show();
-        $("#d3Inputs").hide();
-        $("#rotationAngles").hide();
-        $("#numPoints").val(g_default2dPoints);
-        g_plotter.setTwoDMode();
-    });
-
-    $("#switchTo3dBtn").click(function () {
-        $("#d2Inputs").hide();
-        $("#d3Inputs").show();
-        $("#eq2_3d").focus();
-        $("#numPoints").val(g_default3dPoints);
-        $("#rotationAngles").show();
-        g_plotter.setThreeDMode();
-    });
+    $("#switchTo2dBtn").click(switchTo2DMode);
+    $("#switchTo3dBtn").click(switchTo3DMode);
 
     var initialDomainWidth = 3;
     var initialRangeWidth = 2;
@@ -73,9 +59,6 @@
     setDomainWidth(initialDomainWidth);
     setRangeWidth(initialRangeWidth);
 
-    g_plotter.isThreeDMode() ? plot3dGraphs() : plot2dGraphs();
-
-
     $("#captureImageButton").click(getDataUrlClicked);
     $("#imageCloseBtn").click(function () {
         $("#imageCaptureSection").hide();
@@ -91,7 +74,29 @@
     $("#animateXBtn").click(animateX);
     $("#animateYBtn").click(animateY);
     $("#animateZBtn").click(animateZ);
+
+    switchTo2DMode();
+    plot2dGraphs();
 });
+
+function switchTo2DMode() {
+        $("#d2Inputs").show();
+        $("#d3Inputs").hide();
+        $("#rotationAngles").hide();
+        $("#numPoints").val(g_default2dPoints);
+        $(".domainRangeControl").show();
+        g_plotter.setTwoDMode();
+    };
+
+function switchTo3DMode() {
+        $("#d2Inputs").hide();
+        $("#d3Inputs").show();
+        $("#eq2_3d").focus();
+        $("#numPoints").val(g_default3dPoints);
+        $("#rotationAngles").show();
+        $(".domainRangeControl").hide();
+        g_plotter.setThreeDMode();
+    };
 
 function pushFrame() {
     var ctx = g_plotter.getContext();
