@@ -105,6 +105,26 @@ function animateX() {
     var xInc = (xEnd - xStart) / (frames - 1);
 
     var x;
+    var frameNo = 0;
+    function captureFrame() {
+        x = xStart + frameNo * xInc;
+        $("#xAngleRotation").val(x);
+        //statusMessage("Plotting at x = " + x);
+        plot3dGraphs();
+        pushFrame();
+
+        ++frameNo;
+        if (frameNo < frames) {
+            setTimeout(captureFrame, 100);
+        }
+        else {
+            statusMessage("Captured " + frames + " frames.");
+        }
+    };
+
+    captureFrame();
+    
+    /*    
     for (var frameNo = 0; frameNo < frames; ++frameNo) {
         x = xStart + frameNo * xInc;        
         $("#xAngleRotation").val(x);
@@ -112,6 +132,7 @@ function animateX() {
         plot3dGraphs();
         pushFrame();
     }
+    */
 };
 
 function getDataUrlClicked() {
