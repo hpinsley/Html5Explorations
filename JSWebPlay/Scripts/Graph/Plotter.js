@@ -273,6 +273,9 @@ Plotter.prototype.plot3dFunction = function (x0, x1, nx,
     var devPoint;
     var plottedPoints = 0;
 
+    var minZ = 100000;
+    var maxZ = -minZ;
+
     this.ctx.save();
     this.ctx.strokeStyle = strokeStyle;
     this.ctx.lineWidth = 1;
@@ -291,13 +294,34 @@ Plotter.prototype.plot3dFunction = function (x0, x1, nx,
             var rz = rotatedPoint.values[2][0];
 
             var mappedPoint = new Point(rx, ry);    //drop the z component for projection
-            
+
+            if (rz < minZ)
+                minZ = rz;
+            if (rz > maxZ)
+                maxZ = rz;
+
+            //use the z component to set the transparency.  
+//            var alpha;
+//            if (minZ === maxZ) {
+//                alpha = 1.0;
+//            }
+//            else {
+//                var zRange = parseFloat(maxZ - minZ);
+//                alpha = (rz - minZ) / zRange;
+//            }
+
+//            var rgba = "rgba(0,0,0," + alpha + ")";
+//            this.ctx.strokeStyle = rgba;
+
             devPoint = this.worldToDevice(mappedPoint);
             if (plottedPoints === 1) {
                 this.ctx.moveTo(devPoint.x, devPoint.y);
             }
             else {
                 this.ctx.lineTo(devPoint.x, devPoint.y);
+                //this.ctx.stroke();
+                //this.ctx.beginPath();
+                //this.ctx.moveTo(devPoint.x, devPoint.y);
             }
         }
     }
