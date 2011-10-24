@@ -18,6 +18,7 @@ $inputColor: gold;
 $eqInputSize: 20pt;
 $statusSectionBackgroundColor: black;
 $statusMessageColor: white;
+$labelColor: yellow;
 
 $sliderLeft: ($controlPanelWidth - $sliderWidth) / 2;
 $plotPanelLeft: $controlPanelWidth + $controlPanelMargin;
@@ -99,29 +100,35 @@ section#controlsSection {
 	height: $lowerPanelsHeight;
 	background-color: $controlPanelBackgroundColor;
 
-	label, span {
+	input[type="number"] {
+		background-color: white;
+		color: black;
+		width: 37px;
+	}
+	label {
+		display: inline-block;
+		text-align: right;
+		margin-right: 5px;
+		width: 110px;
+		color: $labelColor;
+		font-size: 12pt;
+	}
 
-		font: {
-			size: 14pt;
-		}
-		color: yellow;
-
-		&.value {
-			color: white;
-		}
+	#numPointsDiv {
+		margin-top: 20px;
 	}
 
 	.domainRangeControl {
 		width: 90%;
 		border: 3px;
 		text-align: center;
-		background-color: gray;
 		padding: {
 			bottom: 5px;
 		}
 		
 		margin: {
 			left: 10px;
+			top: 30px;
 		}
 
 		h1 {
@@ -133,6 +140,18 @@ section#controlsSection {
 			}
 		}
 
+		label, span {
+			display: inline;
+			font: {
+				size: 14pt;
+			}
+			color: $labelColor;
+
+			&.value {
+				color: white;
+			}
+			margin-right: 0px;
+		}
 		.domainRangeSlider {
 			width: 80%;
 			left: 10%;
@@ -142,20 +161,30 @@ section#controlsSection {
 		}
 	}
 	#imageControlDiv {
-		border: 1px solid gray;
 		padding: 3px;
 		margin: 5px;
 		input[type="button"] {
 			display: block;
+			width: 150px;
+			margin-left: 20px;
 		}
-		input[type="number"] {
-			background-color: white;
-			color: black;
-			width: 30px;
+		#imageControlNumbers {
+			margin-top: 20px;
+			input[type="number"] {
+				background-color: white;
+				color: black;
+				width: 37px;
+			}
+			label {
+				display: inline-block;
+				text-align: right;
+				margin-right: 5px;
+				width: 110px;
+				color: $labelColor;
+			}
 		}
-		label {
-			margin-right: 10px;
-		}
+	}
+	#numPointsDiv {
 	}
 }
 

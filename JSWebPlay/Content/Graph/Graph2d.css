@@ -49,37 +49,59 @@ section#controlsSection {
   width: 230px;
   height: 497px;
   background-color: black; }
-  section#controlsSection label, section#controlsSection span {
-    font-size: 14pt;
-    color: yellow; }
-    section#controlsSection label.value, section#controlsSection span.value {
-      color: white; }
+  section#controlsSection input[type="number"] {
+    background-color: white;
+    color: black;
+    width: 37px; }
+  section#controlsSection label {
+    display: inline-block;
+    text-align: right;
+    margin-right: 5px;
+    width: 110px;
+    color: yellow;
+    font-size: 12pt; }
+  section#controlsSection #numPointsDiv {
+    margin-top: 20px; }
   section#controlsSection .domainRangeControl {
     width: 90%;
     border: 3px;
     text-align: center;
-    background-color: gray;
     padding-bottom: 5px;
-    margin-left: 10px; }
+    margin-left: 10px;
+    margin-top: 30px; }
     section#controlsSection .domainRangeControl h1 {
       font-size: 12pt;
       margin-bottom: 5px; }
+    section#controlsSection .domainRangeControl label, section#controlsSection .domainRangeControl span {
+      display: inline;
+      font-size: 14pt;
+      color: yellow;
+      margin-right: 0px; }
+      section#controlsSection .domainRangeControl label.value, section#controlsSection .domainRangeControl span.value {
+        color: white; }
     section#controlsSection .domainRangeControl .domainRangeSlider {
       width: 80%;
       left: 10%;
       margin-top: 10px; }
   section#controlsSection #imageControlDiv {
-    border: 1px solid gray;
     padding: 3px;
     margin: 5px; }
     section#controlsSection #imageControlDiv input[type="button"] {
-      display: block; }
-    section#controlsSection #imageControlDiv input[type="number"] {
-      background-color: white;
-      color: black;
-      width: 30px; }
-    section#controlsSection #imageControlDiv label {
-      margin-right: 10px; }
+      display: block;
+      width: 150px;
+      margin-left: 20px; }
+    section#controlsSection #imageControlDiv #imageControlNumbers {
+      margin-top: 20px; }
+      section#controlsSection #imageControlDiv #imageControlNumbers input[type="number"] {
+        background-color: white;
+        color: black;
+        width: 37px; }
+      section#controlsSection #imageControlDiv #imageControlNumbers label {
+        display: inline-block;
+        text-align: right;
+        margin-right: 5px;
+        width: 110px;
+        color: yellow; }
 
 section#plotSection {
   position: absolute;
