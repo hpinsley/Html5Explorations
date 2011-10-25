@@ -186,6 +186,10 @@ section#controlsSection {
 				color: $labelColor;
 			}
 		}
+		table#colorGradientTable {
+			color: $labelColor;
+			text-align: center;
+		}
 	}
 	#numPointsDiv {
 	}

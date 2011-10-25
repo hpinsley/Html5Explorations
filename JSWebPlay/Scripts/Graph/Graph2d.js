@@ -80,21 +80,19 @@
 });
 
 function switchTo2DMode() {
-        $("#d2Inputs").show();
-        $("#d3Inputs").hide();
-        $("#rotationAngles").hide();
+        $(".d3Control").hide();
+        $(".d2Control").show();
+
         $("#numPoints").val(g_default2dPoints);
-        $(".domainRangeControl").show();
         g_plotter.setTwoDMode();
     };
 
 function switchTo3DMode() {
-        $("#d2Inputs").hide();
-        $("#d3Inputs").show();
+        $(".d2Control").hide();
+        $(".d3Control").show();
+
         $("#eq2_3d").focus();
         $("#numPoints").val(g_default3dPoints);
-        $("#rotationAngles").show();
-        $(".domainRangeControl").hide();
         g_plotter.setThreeDMode();
     };
 
@@ -112,8 +110,15 @@ function animateAlongAxis(rotationAngleId) {
     var inc = (end - start) / (frames - 1);
     var x;
     var frameNo = 0;
-    var startRGB = [0, 255, 0];
-    var endRGB = [255, 0, 0];
+
+    var startRGB = [parseInt($("#redStart").val()),
+        parseInt($("#greenStart").val()),
+        parseInt($("#blueStart").val())];
+    
+    var endRGB = [parseInt($("#redEnd").val()),
+        parseInt($("#greenEnd").val()),
+        parseInt($("#blueEnd").val())];
+    
     var rgbInc = [(endRGB[0] - startRGB[0]) / (frames - 1),
         (endRGB[1] - startRGB[1]) / (frames - 1),
         (endRGB[2] - startRGB[2]) / (frames - 1)];

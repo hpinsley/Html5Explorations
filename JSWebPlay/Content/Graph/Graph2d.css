@@ -104,6 +104,9 @@ section#controlsSection {
         color: yellow; }
       section#controlsSection #imageControlDiv #imageControlNumbers span#frameCount {
         color: yellow; }
+    section#controlsSection #imageControlDiv table#colorGradientTable {
+      color: yellow;
+      text-align: center; }
 
 section#plotSection {
   position: absolute;
