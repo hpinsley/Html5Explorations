@@ -122,6 +122,8 @@ section#controlsSection {
 		width: 90%;
 		border: 3px;
 		text-align: center;
+		color: $labelColor;
+
 		padding: {
 			bottom: 5px;
 		}
@@ -189,6 +191,7 @@ section#controlsSection {
 		table#colorGradientTable {
 			color: $labelColor;
 			text-align: center;
+			margin-top: 10px;
 		}
 	}
 	#numPointsDiv {
