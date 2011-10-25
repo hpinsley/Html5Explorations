@@ -103,7 +103,7 @@ section#controlsSection {
 	input[type="number"] {
 		background-color: white;
 		color: black;
-		width: 37px;
+		width: 50px;
 	}
 	label {
 		display: inline-block;
@@ -173,13 +173,16 @@ section#controlsSection {
 			input[type="number"] {
 				background-color: white;
 				color: black;
-				width: 37px;
+				width: 50px;
 			}
 			label {
 				display: inline-block;
 				text-align: right;
 				margin-right: 5px;
 				width: 110px;
+				color: $labelColor;
+			}
+			span#frameCount {
 				color: $labelColor;
 			}
 		}

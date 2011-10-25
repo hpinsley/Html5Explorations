@@ -52,7 +52,7 @@ section#controlsSection {
   section#controlsSection input[type="number"] {
     background-color: white;
     color: black;
-    width: 37px; }
+    width: 50px; }
   section#controlsSection label {
     display: inline-block;
     text-align: right;
@@ -95,12 +95,14 @@ section#controlsSection {
       section#controlsSection #imageControlDiv #imageControlNumbers input[type="number"] {
         background-color: white;
         color: black;
-        width: 37px; }
+        width: 50px; }
       section#controlsSection #imageControlDiv #imageControlNumbers label {
         display: inline-block;
         text-align: right;
         margin-right: 5px;
         width: 110px;
+        color: yellow; }
+      section#controlsSection #imageControlDiv #imageControlNumbers span#frameCount {
         color: yellow; }
 
 section#plotSection {

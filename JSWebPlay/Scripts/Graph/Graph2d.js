@@ -110,14 +110,23 @@ function animateAlongAxis(rotationAngleId) {
     var start = parseFloat($("#" + rotationAngleId).val());
     var end = -1 * start;
     var inc = (end - start) / (frames - 1);
-
     var x;
     var frameNo = 0;
+    var startRGB = [0, 255, 0];
+    var endRGB = [255, 0, 0];
+    var rgbInc = [(endRGB[0] - startRGB[0]) / (frames - 1),
+        (endRGB[1] - startRGB[1]) / (frames - 1),
+        (endRGB[2] - startRGB[2]) / (frames - 1)];
+    
     function captureFrame() {
         x = start + frameNo * inc;
         //alert("capturing frame " + frameNo + " with x = " + x);
         $("#" + rotationAngleId).val(x);
-        plot3dGraphs();
+        var r = startRGB[0] + frameNo * rgbInc[0];
+        var g = startRGB[1] + frameNo * rgbInc[1];
+        var b = startRGB[2] + frameNo * rgbInc[2];
+        var strokeStyle = "rgb(" + Math.round(r) + "," + Math.round(g) + "," + Math.round(b) + ")";
+        plot3dGraphs(strokeStyle);
         pushFrame();
 
         ++frameNo;
@@ -226,7 +235,7 @@ function plot2dGraphs() {
 
 };
 
-function plot3dGraphs() {
+function plot3dGraphs(sstyle) {
     var plotFunctions = [];
     var plottingColors = ["black", "blue"];
 
@@ -254,9 +263,8 @@ function plot3dGraphs() {
     var xAngle = parseFloat($("#xAngleRotation").val());
     var yAngle = parseFloat($("#yAngleRotation").val());
     var zAngle = parseFloat($("#zAngleRotation").val());
-    
     $.each(plotFunctions, function (i, fXY) {
-        var strokeStyle = plottingColors[i % plottingColors.length];
+        var strokeStyle = sstyle || plottingColors[i % plottingColors.length];
         g_plotter.plot3dFunction(x0, x1, n, y0, y1, n, fXY, strokeStyle, xAngle, yAngle, zAngle);
     });
 

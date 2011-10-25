@@ -14,18 +14,17 @@
     <header>
         <img id="headshot1" class="headshot" src="@Url.Content("~/Content/Images/rpk-headshot-3.png")" alt="RPK"/>
         <section id="headers">
-            <h1>Klein Jeopardy 75</h1>
+            <h1>
+                Klein Jeopardy 75</h1>
         </section>
         <img id="headshot2" class="headshot" src="@Url.Content("~/Content/Images/rpk-headshot-3.png")" alt="RPK"/>
         <div class="clear">
         </div>
     </header>
     <section id="boardSection">
-            <audio id="barbara01" src="@Url.Content("~/Content/Audio/barbara-01.mp3")" />
-            <audio id="idiot01" src="@Url.Content("~/Content/Audio/idiot.mp3")" />
-            <audio id="lostkeys" src="@Url.Content("~/Content/Audio/lostkeys.mp3")" />
-
-        
+        <audio id="barbara01" src="@Url.Content("~/Content/Audio/barbara-01.mp3")"></audio>
+        <audio id="idiot01" src="@Url.Content("~/Content/Audio/idiot.mp3")"></audio>
+        <audio id="lostkeys" src="@Url.Content("~/Content/Audio/lostkeys.mp3")" ></audio>
         <div id="revealedQuestion">
             <div id="questionText">
                 The question is...
@@ -34,7 +33,6 @@
                 <input id="CtlRevealAnswerBtn" type="button" value="And the answer is..." />
             </div>
         </div>
-        
         <div id="revealedAnswer">
             <div id="answerText">
                 The answer is...
@@ -43,11 +41,9 @@
                 <input id="CtlRevealedAnswerCloseBtn" type="button" value="OK" />
             </div>
         </div>
-
         <div id="bigRichard">
             <img id="bigRichardImg" src="@Url.Content("~/Content/Images/dicky face.png")" alt="RPK"/>
         </div>
-
         <table id="cardTable">
             <thead id="categoryHeader">
             </thead>
@@ -56,9 +52,9 @@
         </table>
     </section>
     <section id="controlBarSection">
-        <input type="button" id="CBtnStartGameBtn" class="controlButton" value="Start"/>
-        <input type="button" id="CBtnWrong" class="controlButton" value="Wrong"/>
-        <input type="button" id="CBtnBarbara" class="controlButton" value="Barbara!"/>
+        <input type="button" id="CBtnStartGameBtn" class="controlButton" value="Start" />
+        <input type="button" id="CBtnWrong" class="controlButton" value="Wrong" />
+        <input type="button" id="CBtnBarbara" class="controlButton" value="Barbara!" />
     </section>
 </body>
 </html>
