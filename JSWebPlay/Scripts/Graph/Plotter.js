@@ -389,6 +389,9 @@ Plotter.prototype.plot3dFunctionAlpha = function (x0, x1, nx,
     //Now go back and plot the stored points
 
     this.ctx.save();
+
+    this.draw3DAxes(rotationalMatrix);
+    
     this.ctx.strokeStyle = "black";
     this.ctx.lineWidth = 1;
     this.ctx.beginPath();
@@ -418,5 +421,45 @@ Plotter.prototype.plot3dFunctionAlpha = function (x0, x1, nx,
     }
 
     this.ctx.stroke();
+    this.ctx.restore();
+};
+
+Plotter.prototype.draw3DAxes = function (rotationalMatrix) {
+
+    var that = this;
+
+    function mapd3PointTod2Point(x, y, z) {
+        var pointMatrix;
+        var rotatedPoint;
+        var rx, ry;
+
+        pointMatrix = new Matrix(3, 1, x, y, z);
+        rotatedPoint = Matrix.multiply(rotationalMatrix, pointMatrix);
+        rx = rotatedPoint.values[0][0];
+        ry = rotatedPoint.values[1][0];
+        var mappedPoint = new Point(rx, ry); //drop the z component for projection
+        var devPoint = that.worldToDevice(mappedPoint);
+        return devPoint;
+    };
+
+    this.ctx.save();
+    this.ctx.lineWidth = 1;
+
+    var axesEndpoints = [
+        { endPoint: [100, 0, 0], color: "Red" },
+        { endPoint: [0, 100, 0], color: "Green" },
+        { endPoint: [0, 0, 100], color: "Blue" }
+    ];
+
+    for (var i = 0; i < axesEndpoints.length; ++i) {
+        var dPoint1 = mapd3PointTod2Point(0, 0, 0);
+        var endPoint = axesEndpoints[i].endPoint;
+        var dPoint2 = mapd3PointTod2Point(endPoint[0], endPoint[1], endPoint[2]);
+        this.ctx.strokeStyle = axesEndpoints[i].color;
+        this.ctx.beginPath();
+        this.ctx.moveTo(dPoint1.x, dPoint1.y);
+        this.ctx.lineTo(dPoint2.x, dPoint2.y);
+        this.ctx.stroke();
+    }
     this.ctx.restore();
 };
