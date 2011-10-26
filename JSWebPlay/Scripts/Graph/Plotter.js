@@ -328,3 +328,95 @@ Plotter.prototype.plot3dFunction = function (x0, x1, nx,
     this.ctx.stroke();
     this.ctx.restore();
 };
+
+Plotter.prototype.plot3dFunctionAlpha = function (x0, x1, nx,
+                                             y0, y1, ny,
+                                             funcOfXY, xAngle, yAngle, zAngle) {
+
+    if (x1 <= x0 || nx <= 0) {
+        return;
+    }
+    if (y1 <= y0 || ny <= 0) {
+        return;
+    }
+
+    var minAlpha = 0.0;
+    var maxAlpha = 1.0;
+
+    //create a rotational matrix
+
+    var rotationalMatrix = Matrix.xyzRotationalMatrix(xAngle, yAngle, zAngle);
+
+    var xInc = (x1 - x0) / nx;
+    var yInc = (y1 - y0) / ny;
+    var x, y, z, rx, ry, rz;
+    var i, j;
+    var devPoint;
+    var plottedPoints = 0;
+    var minZ = Number.MAX_VALUE;
+    var maxZ = -1 * Number.MAX_VALUE;
+
+    //Compute and store all the points while finding the min and max Z value.
+    //We will use the range of Z values to compute an alpha value for each point
+
+    var points = [];
+    x = x0;
+    for (i = 0; i < nx; ++i) {
+        points[i] = [];
+        y = y0;
+        for (j = 0; j < ny; ++j) {
+            z = funcOfXY(x, y);
+            //rotate the point x,y,z
+            var pointMatrix = new Matrix(3, 1, x, y, z);
+            var rotatedPoint = Matrix.multiply(rotationalMatrix, pointMatrix);
+            rx = rotatedPoint.values[0][0];
+            ry = rotatedPoint.values[1][0];
+            rz = rotatedPoint.values[2][0];
+
+            points[i][j] = [rx, ry, rz];
+
+            if (rz < minZ)
+                minZ = rz;
+            if (rz > maxZ)
+                maxZ = rz;
+            y += yInc;
+        }
+        x += xInc;
+    }
+
+    var zRange = maxZ - minZ;
+    var alphaRange = maxAlpha - minAlpha;
+    //Now go back and plot the stored points
+
+    this.ctx.save();
+    this.ctx.strokeStyle = "black";
+    this.ctx.lineWidth = 1;
+    this.ctx.beginPath();
+
+    for (i = 0; i < nx; ++i) {
+        for (j = 0; j < ny; ++j) {
+            var rPoint = points[i][j];
+            rx = rPoint[0];
+            ry = rPoint[1];
+            rz = rPoint[2];
+            var mappedPoint = new Point(rx, ry);    //drop the z component for projection
+
+            devPoint = this.worldToDevice(mappedPoint);
+            if (plottedPoints === 1) {
+                this.ctx.moveTo(devPoint.x, devPoint.y);
+            }
+            else {
+                var alpha = minAlpha + ((rz - minZ) / zRange) * alphaRange;
+                var rgba = "rgba(0,0,0," + alpha + ")";
+                this.ctx.strokeStyle = rgba;
+                this.ctx.lineTo(devPoint.x, devPoint.y);
+                this.ctx.stroke();
+                this.ctx.beginPath();
+                this.ctx.moveTo(devPoint.x, devPoint.y);
+            }
+        }
+    }
+
+    this.ctx.stroke();
+    this.ctx.restore();
+};

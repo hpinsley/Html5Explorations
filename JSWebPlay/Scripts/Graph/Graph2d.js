@@ -270,7 +270,8 @@ function plot3dGraphs(sstyle) {
     var zAngle = parseFloat($("#zAngleRotation").val());
     $.each(plotFunctions, function (i, fXY) {
         var strokeStyle = sstyle || plottingColors[i % plottingColors.length];
-        g_plotter.plot3dFunction(x0, x1, n, y0, y1, n, fXY, strokeStyle, xAngle, yAngle, zAngle);
+        //g_plotter.plot3dFunction(x0, x1, n, y0, y1, n, fXY, strokeStyle, xAngle, yAngle, zAngle);
+        g_plotter.plot3dFunctionAlpha(x0, x1, n, y0, y1, n, fXY, xAngle, yAngle, zAngle);
     });
 
 };
