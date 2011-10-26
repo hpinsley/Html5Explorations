@@ -446,16 +446,20 @@ Plotter.prototype.draw3DAxes = function (rotationalMatrix) {
     this.ctx.lineWidth = 1;
 
     var axesEndpoints = [
-        { endPoint: [100, 0, 0], color: "Red" },
-        { endPoint: [0, 100, 0], color: "Green" },
-        { endPoint: [0, 0, 100], color: "Blue" }
+        { endPoint: [100, 0, 0], strokeStyle: "rgba(255,0,0,1.0)" },
+        { endPoint: [0, 100, 0], strokeStyle: "rgba(0,255,0,1.0)" },
+        { endPoint: [0, 0, 100], strokeStyle: "rgba(0,0,255,1.0)" },
+
+        { endPoint: [-100, 0, 0], strokeStyle: "rgba(255,0,0,0.3)" },
+        { endPoint: [0, -100, 0], strokeStyle: "rgba(0,255,0,0.3)" },
+        { endPoint: [0, 0, -100], strokeStyle: "rgba(0,0,255,0.3)" }
     ];
 
     for (var i = 0; i < axesEndpoints.length; ++i) {
         var dPoint1 = mapd3PointTod2Point(0, 0, 0);
         var endPoint = axesEndpoints[i].endPoint;
         var dPoint2 = mapd3PointTod2Point(endPoint[0], endPoint[1], endPoint[2]);
-        this.ctx.strokeStyle = axesEndpoints[i].color;
+        this.ctx.strokeStyle = axesEndpoints[i].strokeStyle;
         this.ctx.beginPath();
         this.ctx.moveTo(dPoint1.x, dPoint1.y);
         this.ctx.lineTo(dPoint2.x, dPoint2.y);
