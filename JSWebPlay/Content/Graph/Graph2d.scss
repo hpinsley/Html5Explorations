@@ -118,6 +118,40 @@ section#controlsSection {
 		margin-top: 20px;
 	}
 
+	div#animationFieldsDiv {
+		text-align: center;
+		margin: {
+			top: 30px;
+		}
+		width: auto;
+
+		padding: {
+			top: 10px;
+			left: 10px;
+			right: 10px;
+			bottom: 10px;
+		}
+
+		fieldset {
+				text-align: center;
+				padding: 0px;
+				margin: 0px;
+				border: none;
+				legend {
+					color: yellow;
+					margin: {
+						top: -15px;
+						left: 70px;
+					}
+				}
+			div#animationButtons {
+				margin: auto;
+				padding: 0px;
+				width: 50%;
+			}
+		}
+	}
+
 	.domainRangeControl {
 		width: 90%;
 		border: 3px;

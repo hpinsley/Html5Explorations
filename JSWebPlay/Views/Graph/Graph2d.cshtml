@@ -18,7 +18,7 @@
                 f(x)=</label><input id="eq1" type="text" class="eqInput" />
             <div class="controlButtons">
                 <input type="button" id="plotButton" value="Plot" />
-                <input type="button" id="switchTo3dBtn" value="Switch to 3D"/>
+                <input type="button" id="switchTo3dBtn" value="Switch to 3D" />
             </div>
             <label class="dependentVariable">
                 g(x)=</label><input id="eq2" type="text" class="eqInput" />
@@ -30,7 +30,7 @@
                 f(x,y)=</label><input id="eq1_3d" type="text" class="eqInput" />
             <div class="controlButtons">
                 <input type="button" id="plot3dButton" value="Plot" />
-                <input type="button" id="switchTo2dBtn" value="Switch to 2D"/>
+                <input type="button" id="switchTo2dBtn" value="Switch to 2D" />
             </div>
             <label class="dependentVariable">
                 g(x,y)=</label><input id="eq2_3d" type="text" class="eqInput" />
@@ -50,8 +50,8 @@
         <span id="lblXMax" class="value">0</span>
         <div id="domainSlider" class="domainRangeSlider">
         </div>
-        <div><input type="checkbox" id="xPositiveOnly" />Positive Only</div>
-        
+        <div>
+            <input type="checkbox" id="xPositiveOnly" />Positive Only</div>
     </div>
     <div id="rangeControl" class="domainRangeControl d2Control">
         <label>
@@ -65,66 +65,101 @@
         </div>
     </div>
     <div id="numPointsDiv">
-        <label>N:</label>
-        <input type="number" id="numPoints" title="For 2D graphs, the number of points to plot.  For 3D graphs, the two-dimensional grid size over which Z is computed."/>
+        <label>
+            N:</label>
+        <input type="number" id="numPoints" title="For 2D graphs, the number of points to plot.  For 3D graphs, the two-dimensional grid size over which Z is computed." />
     </div>
     <div id="rotationAngles" class="d3Control">
         <div class="rotationAngleDiv">
-            <label>X:</label>
+            <label>
+                X:</label>
             <input id="xAngleRotation" class="rotationAngleInput" type="number" />
-            <input type="button" id="animateXBtn" value="A!"/>
         </div>
         <div class="rotationAngleDiv">
-            <label>Y:</label>
+            <label>
+                Y:</label>
             <input id="yAngleRotation" class="rotationAngleInput" type="number" />
-            <input type="button" id="animateYBtn" value="A!"/>
         </div>
         <div class="rotationAngleDiv">
-            <label>Z:</label>
+            <label>
+                Z:</label>
             <input id="zAngleRotation" class="rotationAngleInput" type="number" />
-            <input type="button" id="animateZBtn" value="A!"/>
         </div>
-        <input type="button" id="stopAnimationBtn" value="Stop Animation"/>
+        <div id="animationFieldsDiv">
+            <fieldset id="animationFields">
+                <legend>Animation</legend>
+                <div id="animationButtons">
+                    <input type="button" id="animateXBtn" value="X" />
+                    <input type="button" id="animateYBtn" value="Y" />
+                    <input type="button" id="animateZBtn" value="Z" />
+                </div>
+                <input type="button" id="stopAnimationBtn" value="Stop Animation" />
+            </fieldset>
+        </div>
     </div>
     <div id="imageControlDiv">
-        <input type="button" id="captureImageButton" value="Capture Image"/>
-        <input type="button" id="pushFrameButton" value="Push Frame"/>
-        <input type="button" id="popFrameButton" value="Pop Frame"/>
-        <input type="button" id="playMovieButton" value="Play Movie"/>
-        <input type="button" id="clearMovieButton" value="Clear Movie"/>
-
+        <input type="button" id="captureImageButton" value="Capture Image" />
+        <input type="button" id="pushFrameButton" value="Push Frame" />
+        <input type="button" id="popFrameButton" value="Pop Frame" />
+        <input type="button" id="playMovieButton" value="Play Movie" />
+        <input type="button" id="clearMovieButton" value="Clear Movie" />
         <table id="colorGradientTable" class="d3Control">
             <thead>
                 <tr>
-                    <td></td>
-                    <td>R</td>
-                    <td>G</td>
-                    <td>B</td>
+                    <td>
+                    </td>
+                    <td>
+                        R
+                    </td>
+                    <td>
+                        G
+                    </td>
+                    <td>
+                        B
+                    </td>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>Start:</td>
-                    <td><input type="number" id="redStart" value="0"/></td>
-                    <td><input type="number" id="greenStart" value="0"/></td>
-                    <td><input type="number" id="blueStart" value="0"/></td>
+                    <td>
+                        Start:
+                    </td>
+                    <td>
+                        <input type="number" id="redStart" value="0" />
+                    </td>
+                    <td>
+                        <input type="number" id="greenStart" value="0" />
+                    </td>
+                    <td>
+                        <input type="number" id="blueStart" value="0" />
+                    </td>
                 </tr>
                 <tr>
-                    <td>End:</td>
-                    <td><input type="number" id="redEnd" value="0"/></td>
-                    <td><input type="number" id="greenEnd" value="0"/></td>
-                    <td><input type="number" id="blueEnd" value="0"/></td>
+                    <td>
+                        End:
+                    </td>
+                    <td>
+                        <input type="number" id="redEnd" value="0" />
+                    </td>
+                    <td>
+                        <input type="number" id="greenEnd" value="0" />
+                    </td>
+                    <td>
+                        <input type="number" id="blueEnd" value="0" />
+                    </td>
                 </tr>
             </tbody>
         </table>
         <div id="imageControlNumbers">
-            <label for="frameRate">Rate:</label>
+            <label for="frameRate">
+                Rate:</label>
             <input type="number" id="frameRate" value="25" />
-            <label for="animationFrameCount">An.Frames:</label>
-            <input type="number" id="animationFrameCount" value="150"/>
-            <label for="frameCount">Frames:</label><span id="frameCount">0</span>
+            <label for="animationFrameCount">
+                An.Frames:</label>
+            <input type="number" id="animationFrameCount" value="150" />
+            <label for="frameCount">
+                Frames:</label><span id="frameCount">0</span>
         </div>
-
     </div>
 </section>
 <section id="statusBarSection">
@@ -133,6 +168,7 @@
     </div>
 </section>
 <section id="imageCaptureSection">
-    <div id="imageDiv"></div>
-    <input type="button" id="imageCloseBtn" value="Close"/>
+    <div id="imageDiv">
+    </div>
+    <input type="button" id="imageCloseBtn" value="Close" />
 </section>

@@ -19,5 +19,8 @@ namespace JSWebPlay.Controllers
         public ActionResult Factorial() {
             return View();
         }
+        public ActionResult CssTests() {
+            return View();
+        }
     }
 }

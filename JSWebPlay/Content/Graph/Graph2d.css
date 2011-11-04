@@ -62,6 +62,27 @@ section#controlsSection {
     font-size: 12pt; }
   section#controlsSection #numPointsDiv {
     margin-top: 20px; }
+  section#controlsSection div#animationFieldsDiv {
+    text-align: center;
+    margin-top: 30px;
+    width: auto;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px; }
+    section#controlsSection div#animationFieldsDiv fieldset {
+      text-align: center;
+      padding: 0px;
+      margin: 0px;
+      border: none; }
+      section#controlsSection div#animationFieldsDiv fieldset legend {
+        color: yellow;
+        margin-top: -15px;
+        margin-left: 70px; }
+      section#controlsSection div#animationFieldsDiv fieldset div#animationButtons {
+        margin: auto;
+        padding: 0px;
+        width: 50%; }
   section#controlsSection .domainRangeControl {
     width: 90%;
     border: 3px;
