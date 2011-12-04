@@ -1,0 +1,64 @@
+﻿body {
+	background-image: url('images/Lake-Tahoe-4.jpg');
+	font-family: 'Trebuchet MS';
+	padding: 0px;
+	margin: 0px;
+}
+
+header {
+	background-color: black;
+	color: yellow;
+	margin: 0px;
+	padding: 0px;
+
+	h1 {
+		margin: 0px;
+		padding: 5px;
+	}
+}
+
+section#mainLinks {
+	width: 400px;
+	float: left;
+	ul {
+		margin-top: 0px;
+		padding-top: 40px;
+		list-style: none;
+		font-size: 18pt;
+		li {
+			display: inline-block;
+			margin-left: 20px;
+			a {
+				color: #777777;
+				text-decoration: none;
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+}
+
+section#aboutMe {
+
+
+	padding: {
+		top: 200px;
+	}
+
+	width: 400px;
+	float: right;
+	font-size: 24pt;
+
+	a {
+		display: inline-block;
+		margin-top: 80px;
+		font-size: 16pt;
+		color: #777777;
+		text-decoration: none;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+
+}
