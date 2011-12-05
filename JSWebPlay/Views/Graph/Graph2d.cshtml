@@ -14,26 +14,38 @@
 <section id="inputSection">
     <div id="d2Inputs" class="d2Control">
         <div class="eqDiv">
-            <label class="dependentVariable">
-                f(x)=</label><input id="eq1" type="text" class="eqInput" />
+            <div class="equationsFAndG">
+                <div class="equationF">
+                    <label class="dependentVariable">
+                        f(x)=</label><input id="eq1" type="text" class="eqInput" />
+                </div>
+                <div id="equationG">
+                    <label class="dependentVariable">
+                        g(x)=</label><input id="eq2" type="text" class="eqInput" />
+                </div>
+            </div>
             <div class="controlButtons">
                 <input type="button" id="plotButton" value="Plot" />
                 <input type="button" id="switchTo3dBtn" value="Switch to 3D" />
             </div>
-            <label class="dependentVariable">
-                g(x)=</label><input id="eq2" type="text" class="eqInput" />
         </div>
     </div>
     <div id="d3Inputs" class="d3Control">
         <div class="eqDiv">
-            <label class="dependentVariable">
-                f(x,y)=</label><input id="eq1_3d" type="text" class="eqInput" />
+            <div class="equationsFAndG">
+                <div class="equationF">
+                    <label class="dependentVariable">
+                        f(x,y)=</label><input id="eq1_3d" type="text" class="eqInput" />
+                </div>
+                <div id="equationG">
+                    <label class="dependentVariable">
+                        g(x,y)=</label><input id="eq2_3d" type="text" class="eqInput" />
+                </div>
+            </div>
             <div class="controlButtons">
                 <input type="button" id="plot3dButton" value="Plot" />
                 <input type="button" id="switchTo2dBtn" value="Switch to 2D" />
             </div>
-            <label class="dependentVariable">
-                g(x,y)=</label><input id="eq2_3d" type="text" class="eqInput" />
         </div>
     </div>
 </section>

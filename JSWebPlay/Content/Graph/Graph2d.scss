@@ -1,7 +1,7 @@
 ﻿$totalHeight: 645px;
 $inputTop: 43px;
-$inputHeight: 70px;
-$inputPaddingBottom: 5px;
+$inputHeight: 50px;
+$inputPaddingBottom: 0px;
 $statusBarHeight: 30px;
 
 $totalWidth: 1024px;
@@ -11,11 +11,11 @@ $sliderWidth: 200px;
 $plotPanelRightMargin: 5px;
 $controlPanelMargin: 5px;
 
-$panelColor: green;
+$panelColor: black;
 $controlPanelBackgroundColor: black;
 $inputBackgroundColor: black;
 $inputColor: gold;
-$eqInputSize: 20pt;
+$eqInputSize: 13pt;
 $statusSectionBackgroundColor: black;
 $statusMessageColor: white;
 $labelColor: yellow;
@@ -30,7 +30,7 @@ $lowerPanelsHeight: $totalHeight - $lowerPanelsTop - $statusBarHeight;
 $statusBarTop: $lowerPanelsTop + $lowerPanelsHeight;
 
 body {
-	background: { color: tan; }
+	background: { color: black; }
 	font: {
 			size: 8pt;
 			weight: bold;
@@ -51,23 +51,35 @@ section#inputSection {
 
 	.eqDiv {
 		margin-left: 0px;
-		background-color: rgb(100,100,100);
-		padding: 5px;
+		padding: {
+			left: 5px;
+			right: 5px;
+			top: 0px;
+			bottom: 0px;
+		}
 		font: {
 			size: $eqInputSize;
 			family: Consolas;
 		}
 
+		.equationsFAndG {
+			float: left;
+		}
+
 		.controlButtons {
 			display: inline-block;
 			width: 100px;
+			margin: {
+				left: 50px;
+				top: 0px;
+			}
 
 			input[type="button"] {
-				display: block;
+				display: inline-block;
 				margin: 0;
 				padding: 0;
-				width: 110px;
-				font-size: 12pt;
+				width: 90px;
+				font-size: 10pt;
 				padding: 2px;
 			}
 		}
