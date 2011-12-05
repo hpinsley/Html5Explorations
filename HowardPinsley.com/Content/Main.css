@@ -4,15 +4,6 @@ body {
   padding: 0px;
   margin: 0px; }
 
-header {
-  background-color: black;
-  color: yellow;
-  margin: 0px;
-  padding: 0px; }
-  header h1 {
-    margin: 0px;
-    padding: 5px; }
-
 section#mainLinks {
   width: 400px;
   float: left; }
@@ -25,7 +16,7 @@ section#mainLinks {
       display: inline-block;
       margin-left: 20px; }
       section#mainLinks ul li a {
-        color: #777777;
+        color: #22eeee;
         text-decoration: none; }
         section#mainLinks ul li a:hover {
           text-decoration: underline; }
@@ -35,11 +26,13 @@ section#aboutMe {
   width: 400px;
   float: right;
   font-size: 24pt; }
+  section#aboutMe div#myName {
+    color: #666666; }
   section#aboutMe a {
     display: inline-block;
     margin-top: 80px;
     font-size: 16pt;
-    color: #777777;
+    color: #22eeee;
     text-decoration: none; }
     section#aboutMe a:hover {
       text-decoration: underline; }
