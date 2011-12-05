@@ -110,7 +110,6 @@
       <Generator>ScssGenerator</Generator>
       <LastGenOutput>Jeopardy.css</LastGenOutput>
     </Content>
-    <Content Include="Content\Games\Stef.css" />
     <Content Include="Content\Games\Maze.css" />
     <Content Include="Content\Graph\Graph2d.css">
       <AutoGen>True</AutoGen>
@@ -289,9 +288,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Org\ViewOrg.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\Game\StefGame.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Graph\Graph2d.cshtml" />

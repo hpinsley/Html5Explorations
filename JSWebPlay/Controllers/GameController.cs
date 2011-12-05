@@ -28,10 +28,6 @@ namespace JSWebPlay.Controllers
             return View();
         }
 
-        public ActionResult StefGame() {
-            return View();
-        }
-
         //Ajax
         public ActionResult GetJeopardyBoard() {
             object gdata = _gameService.GetBoardData();
