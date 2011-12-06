@@ -201,7 +201,6 @@
     <Content Include="Content\themes\base\jquery.ui.tabs.css" />
     <Content Include="Content\themes\base\jquery.ui.theme.css" />
     <Content Include="Global.asax" />
-    <Content Include="Content\OldSite.css" />
     <Content Include="Html5-01.htm" />
     <Content Include="Scripts\Games\GameData.js" />
     <Content Include="Scripts\Home\FibonacciTests.js" />
