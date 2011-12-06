@@ -132,6 +132,15 @@
     <Content Include="Content\Images\Dicky Face.png" />
     <Content Include="Content\Org\Org.css" />
     <Content Include="Content\qunit.css" />
+    <Content Include="Content\Site.css">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Site.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\Site.scss">
+      <Generator>ScssGenerator</Generator>
+      <LastGenOutput>Site.css</LastGenOutput>
+    </Content>
     <Content Include="Content\Sketch\Spirograph.css">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -192,7 +201,7 @@
     <Content Include="Content\themes\base\jquery.ui.tabs.css" />
     <Content Include="Content\themes\base\jquery.ui.theme.css" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
+    <Content Include="Content\OldSite.css" />
     <Content Include="Html5-01.htm" />
     <Content Include="Scripts\Games\GameData.js" />
     <Content Include="Scripts\Home\FibonacciTests.js" />

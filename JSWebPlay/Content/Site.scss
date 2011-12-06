@@ -1,0 +1,143 @@
+﻿$menuItemColor: white;
+$selectedMenuItemColor: yellow;
+$menuItemBackgroundHighlightColor: black;
+$menuDropdownColor: $menuItemBackgroundHighlightColor;
+$menuBackgroundColor: $menuItemBackgroundHighlightColor;
+
+
+body
+{
+    font-size: .85em;
+    font-family: "Trebuchet MS", Verdana, Helvetica, Sans-Serif;
+    color: #232323;
+    background-color: #fff;
+	margin: 0px;
+	padding: 0px;
+}
+
+header, footer, nav, section {
+    display: block;
+}
+
+fieldset {
+    border:1px solid #ddd;
+    padding:0 1.4em 1.4em 1.4em;
+    margin:0 0 1.5em 0;
+}
+
+legend {
+    font-size:1.2em;
+    font-weight: bold;
+}
+
+textarea {
+    min-height: 75px;
+}
+
+.editor-label {
+    margin: 1em 0 0 0;
+}
+
+.editor-field {
+    margin:0.5em 0 0 0;
+}
+
+.field-validation-error {
+    color: #ff0000;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #ff0000;
+    background-color: #ffeeee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+/* Menu */
+
+ul#mainMenu {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;	
+	width: 100%;
+	height: 40px;
+	background-color: $menuBackgroundColor;
+
+	li {
+		display: block;
+		float: left;
+		margin-left: 20px;
+		width: 130px;
+		position: relative;
+		height: 40px;
+		text-align: center;
+
+		&:hover {
+			background-color: $menuItemBackgroundHighlightColor;
+		}
+		a {
+			color: $menuItemColor;
+			position: relative;
+			top: 5px;
+			font-size: 16pt;
+			text-decoration: none;
+
+			&:hover {
+				text-decoration: underline;
+				color: $selectedMenuItemColor;
+			}
+		}
+	}
+
+	ul {
+		&.dropdownMenuHidden {
+			display: none;
+		}
+
+		&.dropdownMenuShown {
+			position: relative;
+			margin: 15px 0px 0px 0px;
+			padding: 0px;
+			left: 0px;
+			font-size: 16pt;
+			z-index: 100;
+			li {
+				margin: 0px;
+				padding: 0px;
+				display: block;
+				background-color: $menuDropdownColor;
+				color: green;
+				position: relative;
+				clear: both;
+				display: block;
+				width: 130px;
+				height: 40px;
+				text-align: center;
+				border-radius: 0px;
+
+				&:hover {
+					background-color: $menuItemBackgroundHighlightColor;
+				}
+			}
+		}
+	}
+
+}
+
+section#intro {
+	font-size: 14pt;
+	color: blue;
+	margin-left: 50px;
+	margin-right: 50px;
+}
