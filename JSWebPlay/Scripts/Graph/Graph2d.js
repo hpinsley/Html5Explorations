@@ -49,10 +49,10 @@
 
     var h = $("#plotSection").height();
     var w = $("#plotSection").width();
-    var height = h * 0.90;
-    var width = w * 0.90;
+    var height = h * 1;
+    var width = w * 1;
     var bounds = new Bounds(width, height);
-    var origin = new Point(w * 0.05, h * 0.05);
+    var origin = new Point(0, 0);
 
     window.g_plotter.createCanvas(origin, bounds);
 
