@@ -49,12 +49,21 @@ textarea {
 
 /* Menu */
 ul#mainMenu {
+  display: block;
   list-style: none;
   margin: 0px;
   padding: 0px;
   width: 100%;
   height: 40px;
   background-color: #666666; }
+  ul#mainMenu a {
+    line-height: 40px;
+    color: white;
+    font-size: 16pt;
+    text-decoration: none;
+    vertical-align: middle; }
+    ul#mainMenu a:hover {
+      color: yellow; }
   ul#mainMenu li {
     display: block;
     float: left;
@@ -65,20 +74,11 @@ ul#mainMenu {
     text-align: center; }
     ul#mainMenu li:hover {
       background-color: #666666; }
-    ul#mainMenu li a {
-      color: white;
-      position: relative;
-      top: 5px;
-      font-size: 16pt;
-      text-decoration: none; }
-      ul#mainMenu li a:hover {
-        text-decoration: underline;
-        color: yellow; }
   ul#mainMenu ul.dropdownMenuHidden {
     display: none; }
   ul#mainMenu ul.dropdownMenuShown {
     position: relative;
-    margin: 15px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     padding: 0px;
     left: 0px;
     font-size: 16pt;
