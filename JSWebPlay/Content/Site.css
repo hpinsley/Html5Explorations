@@ -6,6 +6,9 @@ body {
   margin: 0px;
   padding: 0px; }
 
+div.clear {
+  clear: both; }
+
 header, footer, nav, section {
   display: block; }
 

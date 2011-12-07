@@ -1,0 +1,46 @@
+﻿$buttonWidth: 100px;
+$fontSize: 12pt;
+$color: yellow;
+$controlPanelBackgroundColor: black;
+
+body {
+	color: $color;
+	font-family: arial;
+	padding: 0px;
+	margin: 0px;
+	font-size: $fontSize;
+}
+
+div#board {
+	padding: 0px;
+	margin: 0px;
+}
+
+section#inputPanel {
+	background-color: $controlPanelBackgroundColor;
+	padding: 5px 20px;
+}
+
+canvas#maze 
+{
+	display: block;
+	width: 550px;
+	height: 550px;
+	clear: both;
+	margin: {
+		top: 5px;
+		left: auto;
+		right: auto;
+	}
+}
+
+
+input#ctlSize {
+	margin-left: 5px;
+	width: 50px;
+}
+
+input[type="button"] {
+	width: $buttonWidth;
+	margin: 5px;
+}

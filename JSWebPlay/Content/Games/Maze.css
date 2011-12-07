@@ -1,43 +1,31 @@
-﻿div#board {
-	width: 978px;
-	height: 530px;
-	position: absolute;
-	left: 20px;
-	top: 100px;
-	border: 1px solid black;
-}
+body {
+  color: yellow;
+  font-family: arial;
+  padding: 0px;
+  margin: 0px;
+  font-size: 12pt; }
 
-div#leftPanel {
-	height: 530px;
-	width: 200px;
-	background-color: tan;
-	
-}
+div#board {
+  padding: 0px;
+  margin: 0px; }
 
-canvas#maze 
-{
-	position: absolute;
-	left: 210px;
-	top: 10px;
-	width: 500px;
-	height: 500px;
-	
-}
+section#inputPanel {
+  background-color: black;
+  padding: 5px 20px; }
 
-div#leftPanel label {
-	font-size: 16pt;
-	margin-left: 5px;
-}
+canvas#maze {
+  display: block;
+  width: 550px;
+  height: 550px;
+  clear: both;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto; }
 
 input#ctlSize {
-	width: 100px;
-	margin-left: 3px;
-	font-size: 16pt;
-}
+  margin-left: 5px;
+  width: 50px; }
 
 input[type="button"] {
-	width: 150px;
-	font-size: 16pt;
-	font-family: arial;
-	margin: 5px;
-}
+  width: 100px;
+  margin: 5px; }

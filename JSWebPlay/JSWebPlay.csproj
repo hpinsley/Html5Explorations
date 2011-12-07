@@ -110,7 +110,15 @@
       <Generator>ScssGenerator</Generator>
       <LastGenOutput>Jeopardy.css</LastGenOutput>
     </Content>
-    <Content Include="Content\Games\Maze.css" />
+    <Content Include="Content\Games\Maze.css">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Maze.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\Games\Maze.scss">
+      <Generator>ScssGenerator</Generator>
+      <LastGenOutput>Maze.css</LastGenOutput>
+    </Content>
     <Content Include="Content\Graph\Graph2d.css">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
