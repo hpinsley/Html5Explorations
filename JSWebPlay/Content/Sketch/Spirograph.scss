@@ -1,4 +1,14 @@
-﻿$back-color: teal;
+﻿$buttonWidth: 100px;
+$fontSize: 12pt;
+$color: white;
+$controlPanelBackgroundColor: black;
+$back-color: teal;
+
+body {
+	color: $color;
+	font-family: arial;
+	font-size: $fontSize;
+}
 
 canvas
 {
@@ -10,31 +20,32 @@ canvas
 	background-color: $back-color;	
 }
 
-div#leftPanel
+section#controlPanel
 {
-	position: absolute;
-	left: 20px;
-	top: 40px;
-	height: 600px;
+	border-radius: 5px;
+	background-color: $controlPanelBackgroundColor;
 	width: 200px;
+	margin: {
+		top: 5px;
+		left: 15px;
+	}
+	padding: {
+		top: 10px;
+		bottom: 5px;
+	}
 }
 
 div.row {
 	clear: both;
-	height: 40px;
+	height: 30px;
 	margin: 0px;
 }
 
 section#valueInputs {
-	padding-top: 10px;
-	font-size: 14pt;
-	margin: 3px;
-	border: 1px solid black;
 
 	label {
 		float: left;
 		width: 70px;
-		color: blue;
 		text-align: right;
 		margin-right: 5px;
 	}
@@ -42,19 +53,23 @@ section#valueInputs {
 	input[type="number"] 
 	{
 		float: left;
-		width: 80px;
-		font-size: 14pt;
+		width: 50px;
 	}
 }
 
 section#shapeSelection {
 	clear: both;
-	font-size: 18pt;
+	width: 100px;
+
+	margin: {
+		left: auto;
+		right: auto;
+		bottom: 10px;
+	}
 
 	input[type='radio'] {
 		clear: both;
 		float: left;
-		margin-top: 8px;
 	}
 
 	label {
@@ -64,8 +79,11 @@ section#shapeSelection {
 }
 
 input[type="button"] {
+	display: block;
+	clear: both;
 	width: 150px;
-	font-size: 16pt;
-	font-family: arial;
-	margin: 5px;
+	margin: {
+		left: auto;
+		right: auto;
+	}
 }
