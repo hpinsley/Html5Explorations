@@ -1,7 +1,7 @@
 ﻿$totalHeight: 645px;
 $inputTop: 43px;
 $inputHeight: 50px;
-$inputPaddingBottom: 0px;
+$inputPaddingBottom: 10px;
 $statusBarHeight: 30px;
 
 $totalWidth: 1024px;
@@ -35,6 +35,10 @@ body {
 			size: 8pt;
 			weight: bold;
 		}
+	input {
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
 }
 
 section#inputSection {
