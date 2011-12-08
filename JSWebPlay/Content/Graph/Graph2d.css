@@ -86,6 +86,7 @@ section#controlsSection {
       border: none; }
       section#controlsSection div#animationFieldsDiv fieldset legend {
         color: yellow;
+        margin-position: relative;
         margin-top: -15px;
         margin-left: 70px; }
       section#controlsSection div#animationFieldsDiv fieldset div#animationButtons {
