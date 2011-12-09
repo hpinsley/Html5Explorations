@@ -1,519 +1,519 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <org>
-  <row Id="50340" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Jenkins, Antonio" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="62849" PhysOffice="NY" LogOffice="99" DeptName="Information Resource Center" FullName="Anderson, Michael" ejtitle="Internet/Intranet Technician" SuperId="50771" Supervisor="Khan, Shabeer" SuperStatus="Active" />
-  <row Id="50067" PhysOffice="NY" LogOffice="01" DeptName="Managing Attorney" FullName="Morris, Emily" ejtitle="Assistant Managing Clerk" SuperId="50758" Supervisor="Norber, Dan" SuperStatus="Active" />
-  <row Id="64138" PhysOffice="LA" LogOffice="06" DeptName="Records Dept." FullName="Green, Amanda" ejtitle="Records Clerk" SuperId="63839" Supervisor="Assanah, Lucinander" SuperStatus="Active" />
-  <row Id="50233" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Rodriguez, Jeremy" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="50406" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Sanchez, Tammy" ejtitle="User Support Specialist" SuperId="50807" Supervisor="Chin, Lisa" SuperStatus="Active" />
-  <row Id="63831" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Robinson, Donald" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="50152" PhysOffice="NY" LogOffice="01" DeptName="Mail Services" FullName="Lopez, Earl" ejtitle="Mail Services Clerk" SuperId="50780" Supervisor="Rosenbluth, Joel" SuperStatus="Terminated" />
-  <row Id="50286" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Perry, Kenneth" ejtitle="Hourly Secretary - Unassigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="64006" PhysOffice="CHI" LogOffice="11" DeptName="Complex Commercial Litigation" FullName="Foster, David" ejtitle="Legal Assistant" SuperId="50735" Supervisor="Gonzales, Raquel" SuperStatus="Active" />
-  <row Id="63064" PhysOffice="NY" LogOffice="01" DeptName="Duplicating" FullName="Green, Jonathan" ejtitle="Satellite Maintenance Operator" SuperId="50780" Supervisor="Rosenbluth, Joel" SuperStatus="Terminated" />
-  <row Id="50224" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Watson, Theresa" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="63070" PhysOffice="NY" LogOffice="01" DeptName="Records Dept." FullName="Perry, James" ejtitle="Records Clerk" SuperId="63907" Supervisor="Franco, John" SuperStatus="Active" />
-  <row Id="64185" PhysOffice="NY" LogOffice="01" DeptName="Mail Services" FullName="Williams, Sean" ejtitle="Mail Services Clerk" SuperId="50780" Supervisor="Rosenbluth, Joel" SuperStatus="Terminated" />
-  <row Id="64520" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Jenkins, Julia" ejtitle="Conflicts Analyst" SuperId="50759" Supervisor="Santanello, Susan" SuperStatus="Active" />
-  <row Id="50382" PhysOffice="NY" LogOffice="99" DeptName="Document Services Department" FullName="Griffin, Jennifer" ejtitle="Document Services Operator" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="50236" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Ramirez, Bruce" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="65041" PhysOffice="DC" LogOffice="02" DeptName="Accounting" FullName="Mitchell, Clarence" ejtitle="Billing Assistant" SuperId="51120" Supervisor="Wilson, Michael" SuperStatus="Active" />
-  <row Id="65167" PhysOffice="FF" LogOffice="14" DeptName="Secretaries" FullName="King, Julie" ejtitle="Secretary" SuperId="64371" Supervisor="Batschi, Claudia" SuperStatus="Active" />
-  <row Id="63839" PhysOffice="LA" LogOffice="06" DeptName="Records Dept." FullName="White, Cynthia" ejtitle="Records Manager" SuperId="51177" Supervisor="Van Iderstine, Aurel" SuperStatus="Active" />
-  <row Id="65273" PhysOffice="DC" LogOffice="02" DeptName="Foreign Govt" FullName="Gonzalez, Willie" ejtitle="Legal Assistant" SuperId="51116" Supervisor="Ryan, Kathy" SuperStatus="Active" />
-  <row Id="65271" PhysOffice="NY" LogOffice="99" DeptName="Talent Development" FullName="Gray, James" ejtitle="Talent Development Coord" SuperId="65236" Supervisor="Chavez, Mary" SuperStatus="Active" />
-  <row Id="50132" PhysOffice="NY" LogOffice="01" DeptName="Records Dept." FullName="Reed, Joe" ejtitle="Records Clerk" SuperId="63907" Supervisor="Franco, John" SuperStatus="Active" />
-  <row Id="64657" PhysOffice="NY" LogOffice="01" DeptName="Intellectual Property Litigati" FullName="Green, Judy" ejtitle="Senior Legal Assistant" SuperId="65223" Supervisor="Makanova, Marina" SuperStatus="Active" />
-  <row Id="50680" PhysOffice="LA" LogOffice="06" DeptName="Reception/Console" FullName="Long, Steven" ejtitle="Receptionist" SuperId="51178" Supervisor="Wells, Sherryl" SuperStatus="Active" />
+  <row Id="50340" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Jenkins, Antonio" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="62849" PhysOffice="NY" LogOffice="99" DeptName="Information Resource Center" FullName="Anderson, Michael" ejtitle="Internet/Intranet Technician" SuperId="50771" Supervisor="" SuperStatus="Active" />
+  <row Id="50067" PhysOffice="NY" LogOffice="01" DeptName="Managing Attorney" FullName="Morris, Emily" ejtitle="Assistant Managing Clerk" SuperId="50758" Supervisor="" SuperStatus="Active" />
+  <row Id="64138" PhysOffice="LA" LogOffice="06" DeptName="Records Dept." FullName="Green, Amanda" ejtitle="Records Clerk" SuperId="63839" Supervisor="" SuperStatus="Active" />
+  <row Id="50233" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Rodriguez, Jeremy" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="50406" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Sanchez, Tammy" ejtitle="User Support Specialist" SuperId="50807" Supervisor="" SuperStatus="Active" />
+  <row Id="63831" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Robinson, Donald" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="50152" PhysOffice="NY" LogOffice="01" DeptName="Mail Services" FullName="Lopez, Earl" ejtitle="Mail Services Clerk" SuperId="50780" Supervisor="" SuperStatus="Terminated" />
+  <row Id="50286" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Perry, Kenneth" ejtitle="Hourly Secretary - Unassigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="64006" PhysOffice="CHI" LogOffice="11" DeptName="Complex Commercial Litigation" FullName="Foster, David" ejtitle="Legal Assistant" SuperId="50735" Supervisor="" SuperStatus="Active" />
+  <row Id="63064" PhysOffice="NY" LogOffice="01" DeptName="Duplicating" FullName="Green, Jonathan" ejtitle="Satellite Maintenance Operator" SuperId="50780" Supervisor="" SuperStatus="Terminated" />
+  <row Id="50224" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Watson, Theresa" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="63070" PhysOffice="NY" LogOffice="01" DeptName="Records Dept." FullName="Perry, James" ejtitle="Records Clerk" SuperId="63907" Supervisor="" SuperStatus="Active" />
+  <row Id="64185" PhysOffice="NY" LogOffice="01" DeptName="Mail Services" FullName="Williams, Sean" ejtitle="Mail Services Clerk" SuperId="50780" Supervisor="" SuperStatus="Terminated" />
+  <row Id="64520" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Jenkins, Julia" ejtitle="Conflicts Analyst" SuperId="50759" Supervisor="" SuperStatus="Active" />
+  <row Id="50382" PhysOffice="NY" LogOffice="99" DeptName="Document Services Department" FullName="Griffin, Jennifer" ejtitle="Document Services Operator" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="50236" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Ramirez, Bruce" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="65041" PhysOffice="DC" LogOffice="02" DeptName="Accounting" FullName="Mitchell, Clarence" ejtitle="Billing Assistant" SuperId="51120" Supervisor="" SuperStatus="Active" />
+  <row Id="65167" PhysOffice="FF" LogOffice="14" DeptName="Secretaries" FullName="King, Julie" ejtitle="Secretary" SuperId="64371" Supervisor="" SuperStatus="Active" />
+  <row Id="63839" PhysOffice="LA" LogOffice="06" DeptName="Records Dept." FullName="White, Cynthia" ejtitle="Records Manager" SuperId="51177" Supervisor="" SuperStatus="Active" />
+  <row Id="65273" PhysOffice="DC" LogOffice="02" DeptName="Foreign Govt" FullName="Gonzalez, Willie" ejtitle="Legal Assistant" SuperId="51116" Supervisor="" SuperStatus="Active" />
+  <row Id="65271" PhysOffice="NY" LogOffice="99" DeptName="Talent Development" FullName="Gray, James" ejtitle="Talent Development Coord" SuperId="65236" Supervisor="" SuperStatus="Active" />
+  <row Id="50132" PhysOffice="NY" LogOffice="01" DeptName="Records Dept." FullName="Reed, Joe" ejtitle="Records Clerk" SuperId="63907" Supervisor="" SuperStatus="Active" />
+  <row Id="64657" PhysOffice="NY" LogOffice="01" DeptName="Intellectual Property Litigati" FullName="Green, Judy" ejtitle="Senior Legal Assistant" SuperId="65223" Supervisor="" SuperStatus="Active" />
+  <row Id="50680" PhysOffice="LA" LogOffice="06" DeptName="Reception/Console" FullName="Long, Steven" ejtitle="Receptionist" SuperId="51178" Supervisor="" SuperStatus="Active" />
   <row Id="64371" PhysOffice="FF" LogOffice="14" DeptName="Secretaries" FullName="Nelson, Joyce" ejtitle="Office Manager" />
-  <row Id="64982" PhysOffice="NY" LogOffice="99" DeptName="Document Services Department" FullName="Green, Jacqueline" ejtitle="Document Servcies Operator-2nd" SuperId="65036" Supervisor="Symmonds, David" SuperStatus="Active" />
+  <row Id="64982" PhysOffice="NY" LogOffice="99" DeptName="Document Services Department" FullName="Green, Jacqueline" ejtitle="Document Servcies Operator-2nd" SuperId="65036" Supervisor="" SuperStatus="Active" />
   <row Id="65116" PhysOffice="NY" LogOffice="01" DeptName="Trusts &amp; Estates" FullName="Foster, Kimberly" ejtitle="Partner" />
-  <row Id="65328" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Henderson, Norma" ejtitle="Technical Trainer" SuperId="65228" Supervisor="Lobel, Richard" SuperStatus="Active" />
-  <row Id="50098" PhysOffice="NY" LogOffice="99" DeptName="Information Resource Center" FullName="Lopez, Patrick" ejtitle="Cataloguing Assistant" SuperId="50771" Supervisor="Khan, Shabeer" SuperStatus="Active" />
-  <row Id="64112" PhysOffice="NY" LogOffice="99" DeptName="Information Resource Center" FullName="Henderson, Christina" ejtitle="Mgr of Knowledge &amp; Technical Services" SuperId="50771" Supervisor="Khan, Shabeer" SuperStatus="Active" />
-  <row Id="62380" PhysOffice="WPB" LogOffice="08" DeptName="Secretaries" FullName="Henderson, Roy" ejtitle="Secretary - Unassigned" SuperId="57766" Supervisor="Mora, Abraham" SuperStatus="Active" />
-  <row Id="50553" PhysOffice="NY" LogOffice="01" DeptName="Intellectual Property Litigati" FullName="Allen, Betty" ejtitle="Scientific Advisor" SuperId="65223" Supervisor="Makanova, Marina" SuperStatus="Active" />
-  <row Id="50733" PhysOffice="CHI" LogOffice="11" DeptName="Business Reorganization Group" FullName="Cooper, Harold" ejtitle="Secretary - Assigned" SuperId="50735" Supervisor="Gonzales, Raquel" SuperStatus="Active" />
-  <row Id="50520" PhysOffice="NY" LogOffice="01" DeptName="Intellectual Property Litigati" FullName="Watson, Raymond" ejtitle="Legal Assistant" SuperId="65223" Supervisor="Makanova, Marina" SuperStatus="Active" />
-  <row Id="64077" PhysOffice="NY" LogOffice="01" DeptName="Litigation Support" FullName="Moore, Jonathan" ejtitle="Litigation Support Analyst" SuperId="50965" Supervisor="Powers, Thomas" SuperStatus="Active" />
-  <row Id="65284" PhysOffice="NY" LogOffice="99" DeptName="Graphics" FullName="Coleman, Shawn" ejtitle="Presentation Graphics Specialist" SuperId="62831" Supervisor="Johnston, Eldin" SuperStatus="Active" />
-  <row Id="50431" PhysOffice="NY" LogOffice="01" DeptName="Park Cafe" FullName="Gonzales, Marilyn" ejtitle="Cashier" SuperId="50825" Supervisor="Schodolski, Edmund" SuperStatus="Active" />
-  <row Id="50262" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Bennett, Janet" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="50220" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Rogers, Julia" ejtitle="Secretary - Unassigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="64064" PhysOffice="NY" LogOffice="01" DeptName="Duplicating" FullName="Lee, Sarah" ejtitle="Duplicating Operator" SuperId="50780" Supervisor="Rosenbluth, Joel" SuperStatus="Terminated" />
-  <row Id="50433" PhysOffice="NY" LogOffice="01" DeptName="Park Cafe" FullName="Perry, Teresa" ejtitle="Chef" SuperId="50825" Supervisor="Schodolski, Edmund" SuperStatus="Active" />
-  <row Id="50788" PhysOffice="NY" LogOffice="99" DeptName="Graphics" FullName="Smith, David" ejtitle="Presentation Graphics Speclst" SuperId="62831" Supervisor="Johnston, Eldin" SuperStatus="Active" />
-  <row Id="64020" PhysOffice="LA" LogOffice="06" DeptName="Intellectual Property Litigati" FullName="Flores, Daniel" ejtitle="Legal Assistant" SuperId="51178" Supervisor="Wells, Sherryl" SuperStatus="Active" />
-  <row Id="64951" PhysOffice="NY" LogOffice="01" DeptName="Catering" FullName="Clark, Beverly" ejtitle="Waiter" SuperId="50825" Supervisor="Schodolski, Edmund" SuperStatus="Active" />
-  <row Id="64307" PhysOffice="LA" LogOffice="06" DeptName="Secretaries" FullName="Reed, Laura" ejtitle="Secretary - Assigned" SuperId="51178" Supervisor="Wells, Sherryl" SuperStatus="Active" />
-  <row Id="63410" PhysOffice="NY" LogOffice="99" DeptName="COO" FullName="Mitchell, Billy" ejtitle="Corp/Finance Dept Adminstrator" SuperId="65114" Supervisor="Hunter, Jeffrey" SuperStatus="Active" />
-  <row Id="63181" PhysOffice="DC" LogOffice="02" DeptName="Secretaries" FullName="Long, Alice" ejtitle="Secretary - Assigned" SuperId="51116" Supervisor="Ryan, Kathy" SuperStatus="Active" />
-  <row Id="50107" PhysOffice="NY" LogOffice="99" DeptName="Information Resource Center" FullName="Garcia, Todd" ejtitle="Information Resource Assistant" SuperId="50771" Supervisor="Khan, Shabeer" SuperStatus="Active" />
-  <row Id="50316" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Lopez, Michael" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="65217" PhysOffice="NY" LogOffice="01" DeptName="Facilities" FullName="Russell, Denise" ejtitle="Maintenance Assistant" SuperId="50199" Supervisor="Silva, George" SuperStatus="Active" />
-  <row Id="63559" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Henderson, Debra" ejtitle="Secretary - Unassigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="50323" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Parker, Bonnie" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="50792" PhysOffice="NY" LogOffice="99" DeptName="Document Services Department" FullName="Smith, Joseph" ejtitle="Document Services Supervisor" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="65260" PhysOffice="NY" LogOffice="01" DeptName="Complex Commercial Litigation" FullName="Lee, Phyllis" ejtitle="Legal Assistant" SuperId="65223" Supervisor="Makanova, Marina" SuperStatus="Active" />
-  <row Id="64820" PhysOffice="NY" LogOffice="01" DeptName="Park Cafe" FullName="Peterson, Billy" ejtitle="Prep Cook" SuperId="50825" Supervisor="Schodolski, Edmund" SuperStatus="Active" />
-  <row Id="50561" PhysOffice="NY" LogOffice="01" DeptName="Business Reorganization Group" FullName="Smith, Laura" ejtitle="Senior Legal Assistant" SuperId="65218" Supervisor="Zawierka, Catherine" SuperStatus="Active" />
-  <row Id="50284" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Collins, Betty" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="62758" PhysOffice="CHI" LogOffice="11" DeptName="Secretaries" FullName="Gray, Martha" ejtitle="Secretary - Assigned" SuperId="50735" Supervisor="Gonzales, Raquel" SuperStatus="Active" />
-  <row Id="50225" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Murphy, Benjamin" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="63814" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Moore, Adam" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="65027" PhysOffice="NY" LogOffice="01" DeptName="Reception/Console" FullName="Lopez, Phyllis" ejtitle="Receptionist" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="50425" PhysOffice="NY" LogOffice="01" DeptName="Accounting" FullName="Moore, Stephanie" ejtitle="Petty Cash Clerk" SuperId="50762" Supervisor="Jones, Caroline" SuperStatus="Active" />
-  <row Id="64983" PhysOffice="DC" LogOffice="02" DeptName="Accounting" FullName="Rodriguez, Margaret" ejtitle="Billing Assistant" SuperId="51120" Supervisor="Wilson, Michael" SuperStatus="Active" />
-  <row Id="62033" PhysOffice="NY" LogOffice="01" DeptName="Litigation Support" FullName="Miller, Amanda" ejtitle="Senior Project Assistant" SuperId="50965" Supervisor="Powers, Thomas" SuperStatus="Active" />
-  <row Id="65035" PhysOffice="NY" LogOffice="01" DeptName="Technology Services" FullName="Washington, Lawrence" ejtitle="Computer Technician" SuperId="50795" Supervisor="Papazian, Janet" SuperStatus="Active" />
-  <row Id="65083" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="James, Joe" ejtitle="Hourly Accounting Intern" SuperId="65021" Supervisor="Fersht, Svetlana" SuperStatus="Active" />
-  <row Id="50219" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Perry, Brenda" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="65236" PhysOffice="NY" LogOffice="99" DeptName="Talent Development" FullName="Griffin, Carl" ejtitle="Mgr of Prof Develop &amp; Retentio" SuperId="64981" Supervisor="Sully, Elizabeth" SuperStatus="Active" />
-  <row Id="65331" PhysOffice="LA" LogOffice="06" DeptName="Secretaries" FullName="Anderson, Daniel" ejtitle="Secretary - Assigned" SuperId="51178" Supervisor="Wells, Sherryl" SuperStatus="Active" />
-  <row Id="65153" PhysOffice="SHA" LogOffice="10" DeptName="Corporate &amp; Finance" FullName="Edwards, Julia" ejtitle="Translator" SuperId="62885" Supervisor="Ho, Po Shan" SuperStatus="Active" />
-  <row Id="64804" PhysOffice="NY" LogOffice="01" DeptName="Litigation Support" FullName="Martin, Phyllis" ejtitle="Project Assistant" SuperId="50965" Supervisor="Powers, Thomas" SuperStatus="Active" />
-  <row Id="50367" PhysOffice="NY" LogOffice="99" DeptName="Document Services Department" FullName="Parker, Tina" ejtitle="P/T Document Services Asst Sup" SuperId="50792" Supervisor="Campbell, Carol" SuperStatus="Active" />
-  <row Id="50807" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Roberts, Cheryl" ejtitle="User Support Supervisor" SuperId="50798" Supervisor="Palefsky, John" SuperStatus="Active" />
-  <row Id="64479" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Brooks, Marilyn" ejtitle="Staff Accountant" SuperId="65021" Supervisor="Fersht, Svetlana" SuperStatus="Active" />
-  <row Id="65206" PhysOffice="NY" LogOffice="99" DeptName="Administration" FullName="Washington, Marie" ejtitle="Administrative Assistant" SuperId="64741" Supervisor="Dogonniuck, Karen" SuperStatus="Active" />
-  <row Id="50124" PhysOffice="NY" LogOffice="01" DeptName="Records Dept." FullName="Sanchez, Eugene" ejtitle="Records Clerk" SuperId="63907" Supervisor="Franco, John" SuperStatus="Active" />
-  <row Id="64432" PhysOffice="NY" LogOffice="01" DeptName="Park Cafe" FullName="White, Jesse" ejtitle="Pot Washer" SuperId="50825" Supervisor="Schodolski, Edmund" SuperStatus="Active" />
-  <row Id="51118" PhysOffice="DC" LogOffice="02" DeptName="Document Services Department" FullName="Sanchez, Deborah" ejtitle="Data Processing Sup/Trainer" SuperId="51117" Supervisor="Morrison, Dorothy" SuperStatus="Active" />
-  <row Id="64374" PhysOffice="NY" LogOffice="01" DeptName="Managing Attorney" FullName="Clark, Virginia" ejtitle="Asst Docketing Coordinator" SuperId="50758" Supervisor="Norber, Dan" SuperStatus="Active" />
-  <row Id="62965" PhysOffice="WPB" LogOffice="08" DeptName="Secretaries" FullName="Barnes, Emily" ejtitle="Secretary - Assigned" SuperId="57766" Supervisor="Mora, Abraham" SuperStatus="Active" />
-  <row Id="50730" PhysOffice="LA" LogOffice="06" DeptName="Secretaries" FullName="Scott, Beverly" ejtitle="Secretary - Assigned" SuperId="51178" Supervisor="Wells, Sherryl" SuperStatus="Active" />
-  <row Id="50613" PhysOffice="DC" LogOffice="02" DeptName="Accounting" FullName="Jackson, Lois" ejtitle="Accounts Payable Assistant" SuperId="51120" Supervisor="Wilson, Michael" SuperStatus="Active" />
-  <row Id="63166" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Hall, Christine" ejtitle="Mobile Technology Technician" SuperId="64344" Supervisor="O'Reilly, Michael" SuperStatus="Active" />
-  <row Id="50156" PhysOffice="NY" LogOffice="01" DeptName="Mail Services" FullName="Bell, Larry" ejtitle="Mail Services Clerk" SuperId="50780" Supervisor="Rosenbluth, Joel" SuperStatus="Terminated" />
-  <row Id="64943" PhysOffice="DC" LogOffice="02" DeptName="Foreign Govt" FullName="Jenkins, Christopher" ejtitle="Legal Assistant" SuperId="51116" Supervisor="Ryan, Kathy" SuperStatus="Active" />
-  <row Id="65250" PhysOffice="NY" LogOffice="99" DeptName="Talent Development" FullName="Peterson, Joseph" ejtitle="Administrative Assistant" SuperId="64981" Supervisor="Sully, Elizabeth" SuperStatus="Active" />
-  <row Id="50435" PhysOffice="NY" LogOffice="01" DeptName="Park Cafe" FullName="Patterson, Mildred" ejtitle="Sous Chef" SuperId="50825" Supervisor="Schodolski, Edmund" SuperStatus="Active" />
-  <row Id="64349" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Hall, Virginia" ejtitle="Web Application Programmer" SuperId="50797" Supervisor="Pinsley, Howard" SuperStatus="Active" />
-  <row Id="50516" PhysOffice="NY" LogOffice="01" DeptName="Product Liability Litigation" FullName="Davis, Rose" ejtitle="Senior Legal Assistant" SuperId="65223" Supervisor="Makanova, Marina" SuperStatus="Active" />
-  <row Id="50076" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Johnson, Timothy" ejtitle="Billing Coordinator" SuperId="50759" Supervisor="Santanello, Susan" SuperStatus="Active" />
-  <row Id="65371" PhysOffice="NY" LogOffice="01" DeptName="Managing Attorney" FullName="Cook, Roy" ejtitle="Law Clerk" SuperId="50758" Supervisor="Norber, Dan" SuperStatus="Active" />
-  <row Id="50400" PhysOffice="NY" LogOffice="99" DeptName="Document Services Department" FullName="Brown, Dennis" ejtitle="P/T Document Services Proofreader" SuperId="50792" Supervisor="Campbell, Carol" SuperStatus="Active" />
-  <row Id="50531" PhysOffice="NY" LogOffice="01" DeptName="Product Liability Litigation" FullName="Bryant, Jane" ejtitle="Litigation Supervisor" SuperId="65223" Supervisor="Makanova, Marina" SuperStatus="Active" />
-  <row Id="65000" PhysOffice="DC" LogOffice="02" DeptName="Complex Commercial Litigation" FullName="Hall, Timothy" ejtitle="Legal Assistant" SuperId="51116" Supervisor="Ryan, Kathy" SuperStatus="Active" />
-  <row Id="50353" PhysOffice="NY" LogOffice="99" DeptName="Document Services Department" FullName="Davis, Evelyn" ejtitle="Document Services Proofreader" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="65216" PhysOffice="DC" LogOffice="02" DeptName="Intellectual Property Litigati" FullName="Walker, Adam" ejtitle="Legal Assistant" SuperId="51116" Supervisor="Ryan, Kathy" SuperStatus="Active" />
-  <row Id="65375" PhysOffice="NY" LogOffice="01" DeptName="Mail Services" FullName="Long, Heather" ejtitle="Manager, Mail Svc &amp; Duplic" SuperId="64741" Supervisor="Dogonniuck, Karen" SuperStatus="Active" />
-  <row Id="50232" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Perez, Tina" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="62373" PhysOffice="NY" LogOffice="01" DeptName="Technology Services" FullName="Alexander, Susan" ejtitle="Computer Technician" SuperId="50795" Supervisor="Papazian, Janet" SuperStatus="Active" />
-  <row Id="64352" PhysOffice="CHI" LogOffice="11" DeptName="Secretaries" FullName="Robinson, Maria" ejtitle="Hourly Secretary - Unassigned" SuperId="50735" Supervisor="Gonzales, Raquel" SuperStatus="Active" />
-  <row Id="50786" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Henderson, Kimberly" ejtitle="Applications Development Spec" SuperId="65228" Supervisor="Lobel, Richard" SuperStatus="Active" />
-  <row Id="64128" PhysOffice="NY" LogOffice="01" DeptName="Complex Commercial Litigation" FullName="White, Linda" ejtitle="Senior Legal Assistant" SuperId="65223" Supervisor="Makanova, Marina" SuperStatus="Active" />
-  <row Id="50527" PhysOffice="NY" LogOffice="01" DeptName="Complex Commercial Litigation" FullName="Wright, Howard" ejtitle="Legal Assistant" SuperId="65223" Supervisor="Makanova, Marina" SuperStatus="Active" />
-  <row Id="63446" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Campbell, Steve" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="65215" PhysOffice="SV" LogOffice="16" DeptName="Intellectual Property Litigati" FullName="Sanchez, Katherine" ejtitle="Case Manager" SuperId="65129" Supervisor="Upton, Ervin" SuperStatus="Terminated" />
-  <row Id="50418" PhysOffice="NY" LogOffice="99" DeptName="Talent Development" FullName="Bryant, Michelle" ejtitle="Talent Develop MCLE Specialist" SuperId="64981" Supervisor="Sully, Elizabeth" SuperStatus="Active" />
-  <row Id="64862" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Mitchell, Russell" ejtitle="Staff Accountant" SuperId="65021" Supervisor="Fersht, Svetlana" SuperStatus="Active" />
-  <row Id="65262" PhysOffice="SV" LogOffice="16" DeptName="Secretaries" FullName="Rogers, George" ejtitle="Secretary - Assigned" SuperId="65129" Supervisor="Upton, Ervin" SuperStatus="Terminated" />
-  <row Id="50491" PhysOffice="NY" LogOffice="01" DeptName="Product Liability Litigation" FullName="Wright, Mark" ejtitle="Legal Assistant" SuperId="65223" Supervisor="Makanova, Marina" SuperStatus="Active" />
-  <row Id="50074" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Clark, Joseph" ejtitle="Accounts Payable Assistant" SuperId="50762" Supervisor="Jones, Caroline" SuperStatus="Active" />
-  <row Id="64730" PhysOffice="NY" LogOffice="01" DeptName="Intellectual Property Litigati" FullName="Gray, Tammy" ejtitle="Patent/Trademark Assistant" SuperId="65223" Supervisor="Makanova, Marina" SuperStatus="Active" />
-  <row Id="50381" PhysOffice="NY" LogOffice="99" DeptName="Document Services Department" FullName="Allen, Henry" ejtitle="Document Services Proofreader" SuperId="65036" Supervisor="Symmonds, David" SuperStatus="Active" />
-  <row Id="50335" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Rodriguez, Phyllis" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="64864" PhysOffice="NY" LogOffice="99" DeptName="Business Development" FullName="Russell, Sean" ejtitle="Hourly BD Manager" SuperId="65288" Supervisor="Pava, Elizabeth" SuperStatus="Active" />
-  <row Id="65159" PhysOffice="SHA" LogOffice="10" DeptName="Corporate &amp; Finance" FullName="Roberts, Walter" ejtitle="PRC Legal Consultant" SuperId="62885" Supervisor="Ho, Po Shan" SuperStatus="Active" />
-  <row Id="64449" PhysOffice="FF" LogOffice="14" DeptName="Accounting" FullName="Alexander, Alan" ejtitle="Accountant" SuperId="64167" Supervisor="Pamp, Petra" SuperStatus="Active" />
-  <row Id="64741" PhysOffice="NY" LogOffice="99" DeptName="Administration" FullName="Miller, Patricia" ejtitle="Director of Administration" SuperId="65114" Supervisor="Hunter, Jeffrey" SuperStatus="Active" />
-  <row Id="63900" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Bailey, Howard" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="65290" PhysOffice="NY" LogOffice="99" DeptName="COO" FullName="Wright, Shirley" ejtitle="Chief Financial Officer" SuperId="65114" Supervisor="Hunter, Jeffrey" SuperStatus="Active" />
-  <row Id="63170" PhysOffice="NY" LogOffice="01" DeptName="Duplicating" FullName="Roberts, Louise" ejtitle="Duplicating Operator" SuperId="50780" Supervisor="Rosenbluth, Joel" SuperStatus="Terminated" />
-  <row Id="50364" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Simmons, Christopher" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="64472" PhysOffice="NY" LogOffice="01" DeptName="Managing Attorney" FullName="Carter, Aaron" ejtitle="Law Clerk" SuperId="50758" Supervisor="Norber, Dan" SuperStatus="Active" />
-  <row Id="50339" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Rivera, Gary" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="64679" PhysOffice="NY" LogOffice="01" DeptName="Facilities" FullName="Wright, Beverly" ejtitle="Matron" SuperId="50199" Supervisor="Silva, George" SuperStatus="Active" />
-  <row Id="65373" PhysOffice="NY" LogOffice="99" DeptName="Talent Development" FullName="Walker, Janet" ejtitle="Administrative Assistant" SuperId="64981" Supervisor="Sully, Elizabeth" SuperStatus="Active" />
-  <row Id="64117" PhysOffice="LA" LogOffice="06" DeptName="Corporate &amp; Finance" FullName="Miller, Daniel" ejtitle="Legal Assistant" SuperId="51178" Supervisor="Wells, Sherryl" SuperStatus="Active" />
-  <row Id="64434" PhysOffice="NY" LogOffice="01" DeptName="Intellectual Property Litigati" FullName="Bryant, Raymond" ejtitle="Trademark Coordinator" SuperId="65223" Supervisor="Makanova, Marina" SuperStatus="Active" />
-  <row Id="63830" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Perez, Betty" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="65171" PhysOffice="FF" LogOffice="14" DeptName="Corporate &amp; Finance" FullName="Phillips, Dorothy" ejtitle="Law Clerk" SuperId="64371" Supervisor="Batschi, Claudia" SuperStatus="Active" />
-  <row Id="61793" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Campbell, Chris" ejtitle="Payroll Coordinator" SuperId="64383" Supervisor="Fiore, Lillian" SuperStatus="Active" />
-  <row Id="51181" PhysOffice="LA" LogOffice="06" DeptName="Mail Services" FullName="Bryant, Marilyn" ejtitle="Office Services Manager" SuperId="51177" Supervisor="Van Iderstine, Aurel" SuperStatus="Active" />
-  <row Id="65330" PhysOffice="LA" LogOffice="06" DeptName="Product Liability Litigation" FullName="Ward, Elizabeth" ejtitle="Legal Assistant" SuperId="51178" Supervisor="Wells, Sherryl" SuperStatus="Active" />
-  <row Id="50462" PhysOffice="NY" LogOffice="01" DeptName="Intellectual Property Litigati" FullName="Martinez, Michael" ejtitle="Senior Legal Assistant" SuperId="65223" Supervisor="Makanova, Marina" SuperStatus="Active" />
-  <row Id="50793" PhysOffice="NY" LogOffice="99" DeptName="Talent Development" FullName="Ross, Andrew" ejtitle="Dir. of Diversity/Comm. Affairs" SuperId="64981" Supervisor="Sully, Elizabeth" SuperStatus="Active" />
-  <row Id="50110" PhysOffice="NY" LogOffice="01" DeptName="Duplicating" FullName="Martin, Aaron" ejtitle="Duplicating Operator" SuperId="50780" Supervisor="Rosenbluth, Joel" SuperStatus="Terminated" />
-  <row Id="50783" PhysOffice="NY" LogOffice="99" DeptName="Telecomm" FullName="Bailey, Kathleen" ejtitle="Telecommunications Manager" SuperId="50798" Supervisor="Palefsky, John" SuperStatus="Active" />
-  <row Id="50796" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Gonzalez, Kimberly" ejtitle="Senior Project Manager" SuperId="50798" Supervisor="Palefsky, John" SuperStatus="Active" />
-  <row Id="64747" PhysOffice="NY" LogOffice="01" DeptName="Litigation Support" FullName="Hill, Ann" ejtitle="Litigation Support Analyst" SuperId="50965" Supervisor="Powers, Thomas" SuperStatus="Active" />
-  <row Id="51171" PhysOffice="LA" LogOffice="06" DeptName="Corporate &amp; Finance" FullName="Ward, Diane" ejtitle="Legal Assistant" SuperId="51177" Supervisor="Van Iderstine, Aurel" SuperStatus="Active" />
-  <row Id="62930" PhysOffice="NY" LogOffice="01" DeptName="Litigation Support" FullName="Cox, Philip" ejtitle="Senior Project Assistant" SuperId="50965" Supervisor="Powers, Thomas" SuperStatus="Active" />
-  <row Id="65021" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Williams, George" ejtitle="Controller" SuperId="50764" Supervisor="Leonardi, Michael" SuperStatus="Active" />
-  <row Id="50229" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Griffin, Kathleen" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="50230" PhysOffice="NY" LogOffice="99" DeptName="Talent Development" FullName="Martinez, Keith" ejtitle="Talent Development Generalist" SuperId="50793" Supervisor="Evans, Wendy" SuperStatus="Active" />
-  <row Id="64383" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Brown, Bonnie" ejtitle="Payroll Manager" SuperId="50764" Supervisor="Leonardi, Michael" SuperStatus="Active" />
-  <row Id="63194" PhysOffice="CHI" LogOffice="11" DeptName="Secretaries" FullName="Thomas, Helen" ejtitle="Secretary" SuperId="50735" Supervisor="Gonzales, Raquel" SuperStatus="Active" />
-  <row Id="65087" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Murphy, Jessica" ejtitle="Assistant Controller" SuperId="65021" Supervisor="Fersht, Svetlana" SuperStatus="Active" />
-  <row Id="65014" PhysOffice="DC" LogOffice="02" DeptName="Administration" FullName="Wood, Jacqueline" ejtitle="Administrative Secretary" SuperId="51117" Supervisor="Morrison, Dorothy" SuperStatus="Active" />
-  <row Id="64492" PhysOffice="NY" LogOffice="01" DeptName="Managing Attorney" FullName="Richardson, Charles" ejtitle="Law Clerk" SuperId="50758" Supervisor="Norber, Dan" SuperStatus="Active" />
-  <row Id="50252" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Williams, Lawrence" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="63907" PhysOffice="NY" LogOffice="99" DeptName="Records Dept." FullName="Richardson, Mary" ejtitle="Records Manager" SuperId="64741" Supervisor="Dogonniuck, Karen" SuperStatus="Active" />
-  <row Id="50281" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Patterson, Jonathan" ejtitle="Hourly Secretary - Unassigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="65320" PhysOffice="NY" LogOffice="99" DeptName="Budgets/Planning" FullName="Alexander, Lori" ejtitle="Financial Analyst" SuperId="65290" Supervisor="Dolan, Roderick" SuperStatus="Active" />
-  <row Id="63889" PhysOffice="LA" LogOffice="06" DeptName="Records Dept." FullName="Adams, Ruth" ejtitle="Records Clerk" SuperId="63839" Supervisor="Assanah, Lucinander" SuperStatus="Active" />
-  <row Id="64193" PhysOffice="DC" LogOffice="02" DeptName="Litigation Support" FullName="Adams, Stephanie" ejtitle="Litigation Support Project Man" SuperId="51117" Supervisor="Morrison, Dorothy" SuperStatus="Active" />
-  <row Id="63153" PhysOffice="NY" LogOffice="01" DeptName="Product Liability Litigation" FullName="Bryant, Stephen" ejtitle="Legal Assistant" SuperId="65223" Supervisor="Makanova, Marina" SuperStatus="Active" />
-  <row Id="50756" PhysOffice="NY" LogOffice="01" DeptName="Managing Attorney" FullName="Wilson, Laura" ejtitle="Managing Clerk" SuperId="50758" Supervisor="Norber, Dan" SuperStatus="Active" />
-  <row Id="64736" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Campbell, Susan" ejtitle="Senior Project Manager" SuperId="50798" Supervisor="Palefsky, John" SuperStatus="Active" />
-  <row Id="50763" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Bailey, Wanda" ejtitle="Senior Analyst" SuperId="50759" Supervisor="Santanello, Susan" SuperStatus="Active" />
-  <row Id="65238" PhysOffice="NY" LogOffice="01" DeptName="Facilities" FullName="Gonzales, Stephanie" ejtitle="Maintenance Assistant" SuperId="50199" Supervisor="Silva, George" SuperStatus="Active" />
-  <row Id="65141" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Bell, Paula" ejtitle="Mobile Technology Technician" SuperId="64344" Supervisor="O'Reilly, Michael" SuperStatus="Active" />
-  <row Id="64723" PhysOffice="CHI" LogOffice="11" DeptName="Secretaries" FullName="Richardson, Justin" ejtitle="Secretary - Assigned" SuperId="50735" Supervisor="Gonzales, Raquel" SuperStatus="Active" />
-  <row Id="50269" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Long, Steven" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="64935" PhysOffice="NY" LogOffice="99" DeptName="Benefits Administration" FullName="Hayes, Sandra" ejtitle="Benefits Manager" SuperId="64741" Supervisor="Dogonniuck, Karen" SuperStatus="Active" />
-  <row Id="50466" PhysOffice="NY" LogOffice="01" DeptName="Product Liability Litigation" FullName="Jenkins, Sarah" ejtitle="Senior Legal Assistant" SuperId="65223" Supervisor="Makanova, Marina" SuperStatus="Active" />
-  <row Id="50735" PhysOffice="CHI" LogOffice="11" DeptName="Secretaries" FullName="Russell, Christine" ejtitle="Office Manager" SuperId="59146" Supervisor="Solow, Michael" SuperStatus="Active" />
+  <row Id="65328" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Henderson, Norma" ejtitle="Technical Trainer" SuperId="65228" Supervisor="" SuperStatus="Active" />
+  <row Id="50098" PhysOffice="NY" LogOffice="99" DeptName="Information Resource Center" FullName="Lopez, Patrick" ejtitle="Cataloguing Assistant" SuperId="50771" Supervisor="" SuperStatus="Active" />
+  <row Id="64112" PhysOffice="NY" LogOffice="99" DeptName="Information Resource Center" FullName="Henderson, Christina" ejtitle="Mgr of Knowledge &amp; Technical Services" SuperId="50771" Supervisor="" SuperStatus="Active" />
+  <row Id="62380" PhysOffice="WPB" LogOffice="08" DeptName="Secretaries" FullName="Henderson, Roy" ejtitle="Secretary - Unassigned" SuperId="57766" Supervisor="" SuperStatus="Active" />
+  <row Id="50553" PhysOffice="NY" LogOffice="01" DeptName="Intellectual Property Litigati" FullName="Allen, Betty" ejtitle="Scientific Advisor" SuperId="65223" Supervisor="" SuperStatus="Active" />
+  <row Id="50733" PhysOffice="CHI" LogOffice="11" DeptName="Business Reorganization Group" FullName="Cooper, Harold" ejtitle="Secretary - Assigned" SuperId="50735" Supervisor="" SuperStatus="Active" />
+  <row Id="50520" PhysOffice="NY" LogOffice="01" DeptName="Intellectual Property Litigati" FullName="Watson, Raymond" ejtitle="Legal Assistant" SuperId="65223" Supervisor="" SuperStatus="Active" />
+  <row Id="64077" PhysOffice="NY" LogOffice="01" DeptName="Litigation Support" FullName="Moore, Jonathan" ejtitle="Litigation Support Analyst" SuperId="50965" Supervisor="" SuperStatus="Active" />
+  <row Id="65284" PhysOffice="NY" LogOffice="99" DeptName="Graphics" FullName="Coleman, Shawn" ejtitle="Presentation Graphics Specialist" SuperId="62831" Supervisor="" SuperStatus="Active" />
+  <row Id="50431" PhysOffice="NY" LogOffice="01" DeptName="Park Cafe" FullName="Gonzales, Marilyn" ejtitle="Cashier" SuperId="50825" Supervisor="" SuperStatus="Active" />
+  <row Id="50262" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Bennett, Janet" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="50220" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Rogers, Julia" ejtitle="Secretary - Unassigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="64064" PhysOffice="NY" LogOffice="01" DeptName="Duplicating" FullName="Lee, Sarah" ejtitle="Duplicating Operator" SuperId="50780" Supervisor="" SuperStatus="Terminated" />
+  <row Id="50433" PhysOffice="NY" LogOffice="01" DeptName="Park Cafe" FullName="Perry, Teresa" ejtitle="Chef" SuperId="50825" Supervisor="" SuperStatus="Active" />
+  <row Id="50788" PhysOffice="NY" LogOffice="99" DeptName="Graphics" FullName="Smith, David" ejtitle="Presentation Graphics Speclst" SuperId="62831" Supervisor="" SuperStatus="Active" />
+  <row Id="64020" PhysOffice="LA" LogOffice="06" DeptName="Intellectual Property Litigati" FullName="Flores, Daniel" ejtitle="Legal Assistant" SuperId="51178" Supervisor="" SuperStatus="Active" />
+  <row Id="64951" PhysOffice="NY" LogOffice="01" DeptName="Catering" FullName="Clark, Beverly" ejtitle="Waiter" SuperId="50825" Supervisor="" SuperStatus="Active" />
+  <row Id="64307" PhysOffice="LA" LogOffice="06" DeptName="Secretaries" FullName="Reed, Laura" ejtitle="Secretary - Assigned" SuperId="51178" Supervisor="" SuperStatus="Active" />
+  <row Id="63410" PhysOffice="NY" LogOffice="99" DeptName="COO" FullName="Mitchell, Billy" ejtitle="Corp/Finance Dept Adminstrator" SuperId="65114" Supervisor="" SuperStatus="Active" />
+  <row Id="63181" PhysOffice="DC" LogOffice="02" DeptName="Secretaries" FullName="Long, Alice" ejtitle="Secretary - Assigned" SuperId="51116" Supervisor="" SuperStatus="Active" />
+  <row Id="50107" PhysOffice="NY" LogOffice="99" DeptName="Information Resource Center" FullName="Garcia, Todd" ejtitle="Information Resource Assistant" SuperId="50771" Supervisor="" SuperStatus="Active" />
+  <row Id="50316" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Lopez, Michael" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="65217" PhysOffice="NY" LogOffice="01" DeptName="Facilities" FullName="Russell, Denise" ejtitle="Maintenance Assistant" SuperId="50199" Supervisor="" SuperStatus="Active" />
+  <row Id="63559" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Henderson, Debra" ejtitle="Secretary - Unassigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="50323" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Parker, Bonnie" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="50792" PhysOffice="NY" LogOffice="99" DeptName="Document Services Department" FullName="Smith, Joseph" ejtitle="Document Services Supervisor" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="65260" PhysOffice="NY" LogOffice="01" DeptName="Complex Commercial Litigation" FullName="Lee, Phyllis" ejtitle="Legal Assistant" SuperId="65223" Supervisor="" SuperStatus="Active" />
+  <row Id="64820" PhysOffice="NY" LogOffice="01" DeptName="Park Cafe" FullName="Peterson, Billy" ejtitle="Prep Cook" SuperId="50825" Supervisor="" SuperStatus="Active" />
+  <row Id="50561" PhysOffice="NY" LogOffice="01" DeptName="Business Reorganization Group" FullName="Smith, Laura" ejtitle="Senior Legal Assistant" SuperId="65218" Supervisor="" SuperStatus="Active" />
+  <row Id="50284" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Collins, Betty" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="62758" PhysOffice="CHI" LogOffice="11" DeptName="Secretaries" FullName="Gray, Martha" ejtitle="Secretary - Assigned" SuperId="50735" Supervisor="" SuperStatus="Active" />
+  <row Id="50225" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Murphy, Benjamin" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="63814" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Moore, Adam" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="65027" PhysOffice="NY" LogOffice="01" DeptName="Reception/Console" FullName="Lopez, Phyllis" ejtitle="Receptionist" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="50425" PhysOffice="NY" LogOffice="01" DeptName="Accounting" FullName="Moore, Stephanie" ejtitle="Petty Cash Clerk" SuperId="50762" Supervisor="" SuperStatus="Active" />
+  <row Id="64983" PhysOffice="DC" LogOffice="02" DeptName="Accounting" FullName="Rodriguez, Margaret" ejtitle="Billing Assistant" SuperId="51120" Supervisor="" SuperStatus="Active" />
+  <row Id="62033" PhysOffice="NY" LogOffice="01" DeptName="Litigation Support" FullName="Miller, Amanda" ejtitle="Senior Project Assistant" SuperId="50965" Supervisor="" SuperStatus="Active" />
+  <row Id="65035" PhysOffice="NY" LogOffice="01" DeptName="Technology Services" FullName="Washington, Lawrence" ejtitle="Computer Technician" SuperId="50795" Supervisor="" SuperStatus="Active" />
+  <row Id="65083" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="James, Joe" ejtitle="Hourly Accounting Intern" SuperId="65021" Supervisor="" SuperStatus="Active" />
+  <row Id="50219" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Perry, Brenda" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="65236" PhysOffice="NY" LogOffice="99" DeptName="Talent Development" FullName="Griffin, Carl" ejtitle="Mgr of Prof Develop &amp; Retentio" SuperId="64981" Supervisor="" SuperStatus="Active" />
+  <row Id="65331" PhysOffice="LA" LogOffice="06" DeptName="Secretaries" FullName="Anderson, Daniel" ejtitle="Secretary - Assigned" SuperId="51178" Supervisor="" SuperStatus="Active" />
+  <row Id="65153" PhysOffice="SHA" LogOffice="10" DeptName="Corporate &amp; Finance" FullName="Edwards, Julia" ejtitle="Translator" SuperId="62885" Supervisor="" SuperStatus="Active" />
+  <row Id="64804" PhysOffice="NY" LogOffice="01" DeptName="Litigation Support" FullName="Martin, Phyllis" ejtitle="Project Assistant" SuperId="50965" Supervisor="" SuperStatus="Active" />
+  <row Id="50367" PhysOffice="NY" LogOffice="99" DeptName="Document Services Department" FullName="Parker, Tina" ejtitle="P/T Document Services Asst Sup" SuperId="50792" Supervisor="" SuperStatus="Active" />
+  <row Id="50807" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Roberts, Cheryl" ejtitle="User Support Supervisor" SuperId="50798" Supervisor="" SuperStatus="Active" />
+  <row Id="64479" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Brooks, Marilyn" ejtitle="Staff Accountant" SuperId="65021" Supervisor="" SuperStatus="Active" />
+  <row Id="65206" PhysOffice="NY" LogOffice="99" DeptName="Administration" FullName="Washington, Marie" ejtitle="Administrative Assistant" SuperId="64741" Supervisor="" SuperStatus="Active" />
+  <row Id="50124" PhysOffice="NY" LogOffice="01" DeptName="Records Dept." FullName="Sanchez, Eugene" ejtitle="Records Clerk" SuperId="63907" Supervisor="" SuperStatus="Active" />
+  <row Id="64432" PhysOffice="NY" LogOffice="01" DeptName="Park Cafe" FullName="White, Jesse" ejtitle="Pot Washer" SuperId="50825" Supervisor="" SuperStatus="Active" />
+  <row Id="51118" PhysOffice="DC" LogOffice="02" DeptName="Document Services Department" FullName="Sanchez, Deborah" ejtitle="Data Processing Sup/Trainer" SuperId="51117" Supervisor="" SuperStatus="Active" />
+  <row Id="64374" PhysOffice="NY" LogOffice="01" DeptName="Managing Attorney" FullName="Clark, Virginia" ejtitle="Asst Docketing Coordinator" SuperId="50758" Supervisor="" SuperStatus="Active" />
+  <row Id="62965" PhysOffice="WPB" LogOffice="08" DeptName="Secretaries" FullName="Barnes, Emily" ejtitle="Secretary - Assigned" SuperId="57766" Supervisor="" SuperStatus="Active" />
+  <row Id="50730" PhysOffice="LA" LogOffice="06" DeptName="Secretaries" FullName="Scott, Beverly" ejtitle="Secretary - Assigned" SuperId="51178" Supervisor="" SuperStatus="Active" />
+  <row Id="50613" PhysOffice="DC" LogOffice="02" DeptName="Accounting" FullName="Jackson, Lois" ejtitle="Accounts Payable Assistant" SuperId="51120" Supervisor="" SuperStatus="Active" />
+  <row Id="63166" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Hall, Christine" ejtitle="Mobile Technology Technician" SuperId="64344" Supervisor="" SuperStatus="Active" />
+  <row Id="50156" PhysOffice="NY" LogOffice="01" DeptName="Mail Services" FullName="Bell, Larry" ejtitle="Mail Services Clerk" SuperId="50780" Supervisor="" SuperStatus="Terminated" />
+  <row Id="64943" PhysOffice="DC" LogOffice="02" DeptName="Foreign Govt" FullName="Jenkins, Christopher" ejtitle="Legal Assistant" SuperId="51116" Supervisor="" SuperStatus="Active" />
+  <row Id="65250" PhysOffice="NY" LogOffice="99" DeptName="Talent Development" FullName="Peterson, Joseph" ejtitle="Administrative Assistant" SuperId="64981" Supervisor="" SuperStatus="Active" />
+  <row Id="50435" PhysOffice="NY" LogOffice="01" DeptName="Park Cafe" FullName="Patterson, Mildred" ejtitle="Sous Chef" SuperId="50825" Supervisor="" SuperStatus="Active" />
+  <row Id="64349" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Hall, Virginia" ejtitle="Web Application Programmer" SuperId="50797" Supervisor="" SuperStatus="Active" />
+  <row Id="50516" PhysOffice="NY" LogOffice="01" DeptName="Product Liability Litigation" FullName="Davis, Rose" ejtitle="Senior Legal Assistant" SuperId="65223" Supervisor="" SuperStatus="Active" />
+  <row Id="50076" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Johnson, Timothy" ejtitle="Billing Coordinator" SuperId="50759" Supervisor="" SuperStatus="Active" />
+  <row Id="65371" PhysOffice="NY" LogOffice="01" DeptName="Managing Attorney" FullName="Cook, Roy" ejtitle="Law Clerk" SuperId="50758" Supervisor="" SuperStatus="Active" />
+  <row Id="50400" PhysOffice="NY" LogOffice="99" DeptName="Document Services Department" FullName="Brown, Dennis" ejtitle="P/T Document Services Proofreader" SuperId="50792" Supervisor="" SuperStatus="Active" />
+  <row Id="50531" PhysOffice="NY" LogOffice="01" DeptName="Product Liability Litigation" FullName="Bryant, Jane" ejtitle="Litigation Supervisor" SuperId="65223" Supervisor="" SuperStatus="Active" />
+  <row Id="65000" PhysOffice="DC" LogOffice="02" DeptName="Complex Commercial Litigation" FullName="Hall, Timothy" ejtitle="Legal Assistant" SuperId="51116" Supervisor="" SuperStatus="Active" />
+  <row Id="50353" PhysOffice="NY" LogOffice="99" DeptName="Document Services Department" FullName="Davis, Evelyn" ejtitle="Document Services Proofreader" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="65216" PhysOffice="DC" LogOffice="02" DeptName="Intellectual Property Litigati" FullName="Walker, Adam" ejtitle="Legal Assistant" SuperId="51116" Supervisor="" SuperStatus="Active" />
+  <row Id="65375" PhysOffice="NY" LogOffice="01" DeptName="Mail Services" FullName="Long, Heather" ejtitle="Manager, Mail Svc &amp; Duplic" SuperId="64741" Supervisor="" SuperStatus="Active" />
+  <row Id="50232" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Perez, Tina" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="62373" PhysOffice="NY" LogOffice="01" DeptName="Technology Services" FullName="Alexander, Susan" ejtitle="Computer Technician" SuperId="50795" Supervisor="" SuperStatus="Active" />
+  <row Id="64352" PhysOffice="CHI" LogOffice="11" DeptName="Secretaries" FullName="Robinson, Maria" ejtitle="Hourly Secretary - Unassigned" SuperId="50735" Supervisor="" SuperStatus="Active" />
+  <row Id="50786" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Henderson, Kimberly" ejtitle="Applications Development Spec" SuperId="65228" Supervisor="" SuperStatus="Active" />
+  <row Id="64128" PhysOffice="NY" LogOffice="01" DeptName="Complex Commercial Litigation" FullName="White, Linda" ejtitle="Senior Legal Assistant" SuperId="65223" Supervisor="" SuperStatus="Active" />
+  <row Id="50527" PhysOffice="NY" LogOffice="01" DeptName="Complex Commercial Litigation" FullName="Wright, Howard" ejtitle="Legal Assistant" SuperId="65223" Supervisor="" SuperStatus="Active" />
+  <row Id="63446" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Campbell, Steve" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="65215" PhysOffice="SV" LogOffice="16" DeptName="Intellectual Property Litigati" FullName="Sanchez, Katherine" ejtitle="Case Manager" SuperId="65129" Supervisor="" SuperStatus="Terminated" />
+  <row Id="50418" PhysOffice="NY" LogOffice="99" DeptName="Talent Development" FullName="Bryant, Michelle" ejtitle="Talent Develop MCLE Specialist" SuperId="64981" Supervisor="" SuperStatus="Active" />
+  <row Id="64862" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Mitchell, Russell" ejtitle="Staff Accountant" SuperId="65021" Supervisor="" SuperStatus="Active" />
+  <row Id="65262" PhysOffice="SV" LogOffice="16" DeptName="Secretaries" FullName="Rogers, George" ejtitle="Secretary - Assigned" SuperId="65129" Supervisor="" SuperStatus="Terminated" />
+  <row Id="50491" PhysOffice="NY" LogOffice="01" DeptName="Product Liability Litigation" FullName="Wright, Mark" ejtitle="Legal Assistant" SuperId="65223" Supervisor="" SuperStatus="Active" />
+  <row Id="50074" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Clark, Joseph" ejtitle="Accounts Payable Assistant" SuperId="50762" Supervisor="" SuperStatus="Active" />
+  <row Id="64730" PhysOffice="NY" LogOffice="01" DeptName="Intellectual Property Litigati" FullName="Gray, Tammy" ejtitle="Patent/Trademark Assistant" SuperId="65223" Supervisor="" SuperStatus="Active" />
+  <row Id="50381" PhysOffice="NY" LogOffice="99" DeptName="Document Services Department" FullName="Allen, Henry" ejtitle="Document Services Proofreader" SuperId="65036" Supervisor="" SuperStatus="Active" />
+  <row Id="50335" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Rodriguez, Phyllis" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="64864" PhysOffice="NY" LogOffice="99" DeptName="Business Development" FullName="Russell, Sean" ejtitle="Hourly BD Manager" SuperId="65288" Supervisor="" SuperStatus="Active" />
+  <row Id="65159" PhysOffice="SHA" LogOffice="10" DeptName="Corporate &amp; Finance" FullName="Roberts, Walter" ejtitle="PRC Legal Consultant" SuperId="62885" Supervisor="" SuperStatus="Active" />
+  <row Id="64449" PhysOffice="FF" LogOffice="14" DeptName="Accounting" FullName="Alexander, Alan" ejtitle="Accountant" SuperId="64167" Supervisor="" SuperStatus="Active" />
+  <row Id="64741" PhysOffice="NY" LogOffice="99" DeptName="Administration" FullName="Miller, Patricia" ejtitle="Director of Administration" SuperId="65114" Supervisor="" SuperStatus="Active" />
+  <row Id="63900" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Bailey, Howard" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="65290" PhysOffice="NY" LogOffice="99" DeptName="COO" FullName="Wright, Shirley" ejtitle="Chief Financial Officer" SuperId="65114" Supervisor="" SuperStatus="Active" />
+  <row Id="63170" PhysOffice="NY" LogOffice="01" DeptName="Duplicating" FullName="Roberts, Louise" ejtitle="Duplicating Operator" SuperId="50780" Supervisor="" SuperStatus="Terminated" />
+  <row Id="50364" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Simmons, Christopher" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="64472" PhysOffice="NY" LogOffice="01" DeptName="Managing Attorney" FullName="Carter, Aaron" ejtitle="Law Clerk" SuperId="50758" Supervisor="" SuperStatus="Active" />
+  <row Id="50339" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Rivera, Gary" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="64679" PhysOffice="NY" LogOffice="01" DeptName="Facilities" FullName="Wright, Beverly" ejtitle="Matron" SuperId="50199" Supervisor="" SuperStatus="Active" />
+  <row Id="65373" PhysOffice="NY" LogOffice="99" DeptName="Talent Development" FullName="Walker, Janet" ejtitle="Administrative Assistant" SuperId="64981" Supervisor="" SuperStatus="Active" />
+  <row Id="64117" PhysOffice="LA" LogOffice="06" DeptName="Corporate &amp; Finance" FullName="Miller, Daniel" ejtitle="Legal Assistant" SuperId="51178" Supervisor="" SuperStatus="Active" />
+  <row Id="64434" PhysOffice="NY" LogOffice="01" DeptName="Intellectual Property Litigati" FullName="Bryant, Raymond" ejtitle="Trademark Coordinator" SuperId="65223" Supervisor="" SuperStatus="Active" />
+  <row Id="63830" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Perez, Betty" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="65171" PhysOffice="FF" LogOffice="14" DeptName="Corporate &amp; Finance" FullName="Phillips, Dorothy" ejtitle="Law Clerk" SuperId="64371" Supervisor="" SuperStatus="Active" />
+  <row Id="61793" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Campbell, Chris" ejtitle="Payroll Coordinator" SuperId="64383" Supervisor="" SuperStatus="Active" />
+  <row Id="51181" PhysOffice="LA" LogOffice="06" DeptName="Mail Services" FullName="Bryant, Marilyn" ejtitle="Office Services Manager" SuperId="51177" Supervisor="" SuperStatus="Active" />
+  <row Id="65330" PhysOffice="LA" LogOffice="06" DeptName="Product Liability Litigation" FullName="Ward, Elizabeth" ejtitle="Legal Assistant" SuperId="51178" Supervisor="" SuperStatus="Active" />
+  <row Id="50462" PhysOffice="NY" LogOffice="01" DeptName="Intellectual Property Litigati" FullName="Martinez, Michael" ejtitle="Senior Legal Assistant" SuperId="65223" Supervisor="" SuperStatus="Active" />
+  <row Id="50793" PhysOffice="NY" LogOffice="99" DeptName="Talent Development" FullName="Ross, Andrew" ejtitle="Dir. of Diversity/Comm. Affairs" SuperId="64981" Supervisor="" SuperStatus="Active" />
+  <row Id="50110" PhysOffice="NY" LogOffice="01" DeptName="Duplicating" FullName="Martin, Aaron" ejtitle="Duplicating Operator" SuperId="50780" Supervisor="" SuperStatus="Terminated" />
+  <row Id="50783" PhysOffice="NY" LogOffice="99" DeptName="Telecomm" FullName="Bailey, Kathleen" ejtitle="Telecommunications Manager" SuperId="50798" Supervisor="" SuperStatus="Active" />
+  <row Id="50796" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Gonzalez, Kimberly" ejtitle="Senior Project Manager" SuperId="50798" Supervisor="" SuperStatus="Active" />
+  <row Id="64747" PhysOffice="NY" LogOffice="01" DeptName="Litigation Support" FullName="Hill, Ann" ejtitle="Litigation Support Analyst" SuperId="50965" Supervisor="" SuperStatus="Active" />
+  <row Id="51171" PhysOffice="LA" LogOffice="06" DeptName="Corporate &amp; Finance" FullName="Ward, Diane" ejtitle="Legal Assistant" SuperId="51177" Supervisor="" SuperStatus="Active" />
+  <row Id="62930" PhysOffice="NY" LogOffice="01" DeptName="Litigation Support" FullName="Cox, Philip" ejtitle="Senior Project Assistant" SuperId="50965" Supervisor="" SuperStatus="Active" />
+  <row Id="65021" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Williams, George" ejtitle="Controller" SuperId="50764" Supervisor="" SuperStatus="Active" />
+  <row Id="50229" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Griffin, Kathleen" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="50230" PhysOffice="NY" LogOffice="99" DeptName="Talent Development" FullName="Martinez, Keith" ejtitle="Talent Development Generalist" SuperId="50793" Supervisor="" SuperStatus="Active" />
+  <row Id="64383" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Brown, Bonnie" ejtitle="Payroll Manager" SuperId="50764" Supervisor="" SuperStatus="Active" />
+  <row Id="63194" PhysOffice="CHI" LogOffice="11" DeptName="Secretaries" FullName="Thomas, Helen" ejtitle="Secretary" SuperId="50735" Supervisor="" SuperStatus="Active" />
+  <row Id="65087" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Murphy, Jessica" ejtitle="Assistant Controller" SuperId="65021" Supervisor="" SuperStatus="Active" />
+  <row Id="65014" PhysOffice="DC" LogOffice="02" DeptName="Administration" FullName="Wood, Jacqueline" ejtitle="Administrative Secretary" SuperId="51117" Supervisor="" SuperStatus="Active" />
+  <row Id="64492" PhysOffice="NY" LogOffice="01" DeptName="Managing Attorney" FullName="Richardson, Charles" ejtitle="Law Clerk" SuperId="50758" Supervisor="" SuperStatus="Active" />
+  <row Id="50252" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Williams, Lawrence" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="63907" PhysOffice="NY" LogOffice="99" DeptName="Records Dept." FullName="Richardson, Mary" ejtitle="Records Manager" SuperId="64741" Supervisor="" SuperStatus="Active" />
+  <row Id="50281" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Patterson, Jonathan" ejtitle="Hourly Secretary - Unassigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="65320" PhysOffice="NY" LogOffice="99" DeptName="Budgets/Planning" FullName="Alexander, Lori" ejtitle="Financial Analyst" SuperId="65290" Supervisor="" SuperStatus="Active" />
+  <row Id="63889" PhysOffice="LA" LogOffice="06" DeptName="Records Dept." FullName="Adams, Ruth" ejtitle="Records Clerk" SuperId="63839" Supervisor="" SuperStatus="Active" />
+  <row Id="64193" PhysOffice="DC" LogOffice="02" DeptName="Litigation Support" FullName="Adams, Stephanie" ejtitle="Litigation Support Project Man" SuperId="51117" Supervisor="" SuperStatus="Active" />
+  <row Id="63153" PhysOffice="NY" LogOffice="01" DeptName="Product Liability Litigation" FullName="Bryant, Stephen" ejtitle="Legal Assistant" SuperId="65223" Supervisor="" SuperStatus="Active" />
+  <row Id="50756" PhysOffice="NY" LogOffice="01" DeptName="Managing Attorney" FullName="Wilson, Laura" ejtitle="Managing Clerk" SuperId="50758" Supervisor="" SuperStatus="Active" />
+  <row Id="64736" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Campbell, Susan" ejtitle="Senior Project Manager" SuperId="50798" Supervisor="" SuperStatus="Active" />
+  <row Id="50763" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Bailey, Wanda" ejtitle="Senior Analyst" SuperId="50759" Supervisor="" SuperStatus="Active" />
+  <row Id="65238" PhysOffice="NY" LogOffice="01" DeptName="Facilities" FullName="Gonzales, Stephanie" ejtitle="Maintenance Assistant" SuperId="50199" Supervisor="" SuperStatus="Active" />
+  <row Id="65141" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Bell, Paula" ejtitle="Mobile Technology Technician" SuperId="64344" Supervisor="" SuperStatus="Active" />
+  <row Id="64723" PhysOffice="CHI" LogOffice="11" DeptName="Secretaries" FullName="Richardson, Justin" ejtitle="Secretary - Assigned" SuperId="50735" Supervisor="" SuperStatus="Active" />
+  <row Id="50269" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Long, Steven" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="64935" PhysOffice="NY" LogOffice="99" DeptName="Benefits Administration" FullName="Hayes, Sandra" ejtitle="Benefits Manager" SuperId="64741" Supervisor="" SuperStatus="Active" />
+  <row Id="50466" PhysOffice="NY" LogOffice="01" DeptName="Product Liability Litigation" FullName="Jenkins, Sarah" ejtitle="Senior Legal Assistant" SuperId="65223" Supervisor="" SuperStatus="Active" />
+  <row Id="50735" PhysOffice="CHI" LogOffice="11" DeptName="Secretaries" FullName="Russell, Christine" ejtitle="Office Manager" SuperId="59146" Supervisor="" SuperStatus="Active" />
   <row Id="65315" PhysOffice="NY" LogOffice="01" DeptName="Managing Attorney" FullName="Griffin, Judy" ejtitle="Docket Analyst" />
-  <row Id="64199" PhysOffice="LA" LogOffice="06" DeptName="Mail Services" FullName="Adams, Philip" ejtitle="Office Services Clerk" SuperId="51178" Supervisor="Wells, Sherryl" SuperStatus="Active" />
-  <row Id="65267" PhysOffice="NY" LogOffice="01" DeptName="Accounting" FullName="Diaz, Carol" ejtitle="Collections Manager" SuperId="50764" Supervisor="Leonardi, Michael" SuperStatus="Active" />
-  <row Id="64363" PhysOffice="NY" LogOffice="01" DeptName="Litigation Support" FullName="Wright, Jose" ejtitle="Project Manager - Products Lia" SuperId="50965" Supervisor="Powers, Thomas" SuperStatus="Active" />
-  <row Id="50623" PhysOffice="DC" LogOffice="02" DeptName="Document Services Department" FullName="Diaz, Robert" ejtitle="Document Services Operator" SuperId="51118" Supervisor="Clark, Theirrien" SuperStatus="Active" />
-  <row Id="64435" PhysOffice="NY" LogOffice="01" DeptName="Product Liability Litigation" FullName="Anderson, Lori" ejtitle="Legal Assistant" SuperId="65223" Supervisor="Makanova, Marina" SuperStatus="Active" />
-  <row Id="50239" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Gray, Denise" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="64168" PhysOffice="NY" LogOffice="01" DeptName="Park Cafe" FullName="Garcia, Joseph" ejtitle="Prep Cook" SuperId="50825" Supervisor="Schodolski, Edmund" SuperStatus="Active" />
-  <row Id="63390" PhysOffice="LA" LogOffice="06" DeptName="Technology Services" FullName="Jones, Susan" ejtitle="Network Administrator" SuperId="51176" Supervisor="Ybarra, Vincent" SuperStatus="Active" />
-  <row Id="50805" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Alexander, Ashley" ejtitle="Applications Programmer/Analys" SuperId="50798" Supervisor="Palefsky, John" SuperStatus="Active" />
-  <row Id="65150" PhysOffice="SHA" LogOffice="10" DeptName="Secretaries" FullName="Thompson, Nicholas" ejtitle="Secretary - Unassigned" SuperId="62885" Supervisor="Ho, Po Shan" SuperStatus="Active" />
-  <row Id="64779" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Howard, Diana" ejtitle="Application Support Specialist" SuperId="50798" Supervisor="Palefsky, John" SuperStatus="Active" />
-  <row Id="50559" PhysOffice="NY" LogOffice="01" DeptName="Product Liability Litigation" FullName="Hill, Kevin" ejtitle="Legal Nurse Analyst" SuperId="65223" Supervisor="Makanova, Marina" SuperStatus="Active" />
-  <row Id="63979" PhysOffice="DC" LogOffice="02" DeptName="Mail Services" FullName="Lopez, Judith" ejtitle="Office Services Assistant" SuperId="63747" Supervisor="Kingsland, Tomar" SuperStatus="Active" />
-  <row Id="63797" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Ward, Doris" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="63389" PhysOffice="LA" LogOffice="06" DeptName="Secretaries" FullName="Howard, John" ejtitle="Secretary - Assigned" SuperId="51178" Supervisor="Wells, Sherryl" SuperStatus="Active" />
-  <row Id="63888" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Smith, Theresa" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
+  <row Id="64199" PhysOffice="LA" LogOffice="06" DeptName="Mail Services" FullName="Adams, Philip" ejtitle="Office Services Clerk" SuperId="51178" Supervisor="" SuperStatus="Active" />
+  <row Id="65267" PhysOffice="NY" LogOffice="01" DeptName="Accounting" FullName="Diaz, Carol" ejtitle="Collections Manager" SuperId="50764" Supervisor="" SuperStatus="Active" />
+  <row Id="64363" PhysOffice="NY" LogOffice="01" DeptName="Litigation Support" FullName="Wright, Jose" ejtitle="Project Manager - Products Lia" SuperId="50965" Supervisor="" SuperStatus="Active" />
+  <row Id="50623" PhysOffice="DC" LogOffice="02" DeptName="Document Services Department" FullName="Diaz, Robert" ejtitle="Document Services Operator" SuperId="51118" Supervisor="" SuperStatus="Active" />
+  <row Id="64435" PhysOffice="NY" LogOffice="01" DeptName="Product Liability Litigation" FullName="Anderson, Lori" ejtitle="Legal Assistant" SuperId="65223" Supervisor="" SuperStatus="Active" />
+  <row Id="50239" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Gray, Denise" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="64168" PhysOffice="NY" LogOffice="01" DeptName="Park Cafe" FullName="Garcia, Joseph" ejtitle="Prep Cook" SuperId="50825" Supervisor="" SuperStatus="Active" />
+  <row Id="63390" PhysOffice="LA" LogOffice="06" DeptName="Technology Services" FullName="Jones, Susan" ejtitle="Network Administrator" SuperId="51176" Supervisor="" SuperStatus="Active" />
+  <row Id="50805" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Alexander, Ashley" ejtitle="Applications Programmer/Analys" SuperId="50798" Supervisor="" SuperStatus="Active" />
+  <row Id="65150" PhysOffice="SHA" LogOffice="10" DeptName="Secretaries" FullName="Thompson, Nicholas" ejtitle="Secretary - Unassigned" SuperId="62885" Supervisor="" SuperStatus="Active" />
+  <row Id="64779" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Howard, Diana" ejtitle="Application Support Specialist" SuperId="50798" Supervisor="" SuperStatus="Active" />
+  <row Id="50559" PhysOffice="NY" LogOffice="01" DeptName="Product Liability Litigation" FullName="Hill, Kevin" ejtitle="Legal Nurse Analyst" SuperId="65223" Supervisor="" SuperStatus="Active" />
+  <row Id="63979" PhysOffice="DC" LogOffice="02" DeptName="Mail Services" FullName="Lopez, Judith" ejtitle="Office Services Assistant" SuperId="63747" Supervisor="" SuperStatus="Active" />
+  <row Id="63797" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Ward, Doris" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="63389" PhysOffice="LA" LogOffice="06" DeptName="Secretaries" FullName="Howard, John" ejtitle="Secretary - Assigned" SuperId="51178" Supervisor="" SuperStatus="Active" />
+  <row Id="63888" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Smith, Theresa" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
   <row Id="63879" PhysOffice="FF" LogOffice="14" DeptName="Secretaries" FullName="Perry, Angela" ejtitle="Secretary" />
-  <row Id="65147" PhysOffice="SHA" LogOffice="10" DeptName="Corporate &amp; Finance" FullName="Bailey, Carlos" ejtitle="PRC Legal Consultant" SuperId="62885" Supervisor="Ho, Po Shan" SuperStatus="Active" />
-  <row Id="64284" PhysOffice="NY" LogOffice="01" DeptName="Duplicating" FullName="Bailey, Scott" ejtitle="Duplicating Operator " SuperId="50780" Supervisor="Rosenbluth, Joel" SuperStatus="Terminated" />
-  <row Id="64813" PhysOffice="NY" LogOffice="01" DeptName="Complex Commercial Litigation" FullName="Adams, Robert" ejtitle="Legal Assistant" SuperId="65223" Supervisor="Makanova, Marina" SuperStatus="Active" />
-  <row Id="64478" PhysOffice="LA" LogOffice="06" DeptName="Secretaries" FullName="Moore, Mark" ejtitle="Secretary - Assigned" SuperId="51178" Supervisor="Wells, Sherryl" SuperStatus="Active" />
-  <row Id="50676" PhysOffice="LA" LogOffice="06" DeptName="Mail Services" FullName="Walker, Stephen" ejtitle="Office Services Clerk" SuperId="51181" Supervisor="Escalante, Salvador" SuperStatus="Active" />
-  <row Id="63739" PhysOffice="LA" LogOffice="06" DeptName="Mail Services" FullName="Ward, Lori" ejtitle="Office Services Clerk" SuperId="51178" Supervisor="Wells, Sherryl" SuperStatus="Active" />
-  <row Id="62299" PhysOffice="LA" LogOffice="06" DeptName="Mail Services" FullName="Lee, Gregory" ejtitle="Office Services Clerk" SuperId="51181" Supervisor="Escalante, Salvador" SuperStatus="Active" />
-  <row Id="50131" PhysOffice="NY" LogOffice="01" DeptName="Records Dept." FullName="Parker, Heather" ejtitle="Records Clerk" SuperId="63907" Supervisor="Franco, John" SuperStatus="Active" />
-  <row Id="65164" PhysOffice="FF" LogOffice="14" DeptName="Secretaries" FullName="Hall, Dennis" ejtitle="Secretary" SuperId="64371" Supervisor="Batschi, Claudia" SuperStatus="Active" />
-  <row Id="50290" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Foster, Diana" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
+  <row Id="65147" PhysOffice="SHA" LogOffice="10" DeptName="Corporate &amp; Finance" FullName="Bailey, Carlos" ejtitle="PRC Legal Consultant" SuperId="62885" Supervisor="" SuperStatus="Active" />
+  <row Id="64284" PhysOffice="NY" LogOffice="01" DeptName="Duplicating" FullName="Bailey, Scott" ejtitle="Duplicating Operator " SuperId="50780" Supervisor="" SuperStatus="Terminated" />
+  <row Id="64813" PhysOffice="NY" LogOffice="01" DeptName="Complex Commercial Litigation" FullName="Adams, Robert" ejtitle="Legal Assistant" SuperId="65223" Supervisor="" SuperStatus="Active" />
+  <row Id="64478" PhysOffice="LA" LogOffice="06" DeptName="Secretaries" FullName="Moore, Mark" ejtitle="Secretary - Assigned" SuperId="51178" Supervisor="" SuperStatus="Active" />
+  <row Id="50676" PhysOffice="LA" LogOffice="06" DeptName="Mail Services" FullName="Walker, Stephen" ejtitle="Office Services Clerk" SuperId="51181" Supervisor="" SuperStatus="Active" />
+  <row Id="63739" PhysOffice="LA" LogOffice="06" DeptName="Mail Services" FullName="Ward, Lori" ejtitle="Office Services Clerk" SuperId="51178" Supervisor="" SuperStatus="Active" />
+  <row Id="62299" PhysOffice="LA" LogOffice="06" DeptName="Mail Services" FullName="Lee, Gregory" ejtitle="Office Services Clerk" SuperId="51181" Supervisor="" SuperStatus="Active" />
+  <row Id="50131" PhysOffice="NY" LogOffice="01" DeptName="Records Dept." FullName="Parker, Heather" ejtitle="Records Clerk" SuperId="63907" Supervisor="" SuperStatus="Active" />
+  <row Id="65164" PhysOffice="FF" LogOffice="14" DeptName="Secretaries" FullName="Hall, Dennis" ejtitle="Secretary" SuperId="64371" Supervisor="" SuperStatus="Active" />
+  <row Id="50290" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Foster, Diana" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
   <row Id="62885" PhysOffice="HK" LogOffice="15" DeptName="Accounting" FullName="Mitchell, Stephen" ejtitle="Accountant" />
-  <row Id="64554" PhysOffice="NY" LogOffice="99" DeptName="Information Resource Center" FullName="Price, Jennifer" ejtitle="Information Specialist" SuperId="50771" Supervisor="Khan, Shabeer" SuperStatus="Active" />
-  <row Id="65251" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Jackson, Denise" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="64656" PhysOffice="DC" LogOffice="02" DeptName="Records Dept." FullName="White, Johnny" ejtitle="Records Assistant" SuperId="50632" Supervisor="Jones, Richard" SuperStatus="Active" />
-  <row Id="50799" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Powell, Terry" ejtitle="TS Infrastructure Manager" SuperId="50798" Supervisor="Palefsky, John" SuperStatus="Active" />
-  <row Id="64212" PhysOffice="LO" LogOffice="12" DeptName="Reception/Console" FullName="Hall, Amanda" ejtitle="Receptionist" SuperId="51205" Supervisor="Miles, Samantha" SuperStatus="Active" />
-  <row Id="50784" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Miller, Raymond" ejtitle="Director of Secretarial Servic" SuperId="64741" Supervisor="Dogonniuck, Karen" SuperStatus="Active" />
-  <row Id="50448" PhysOffice="NY" LogOffice="01" DeptName="Conference Dining" FullName="Flores, Samuel" ejtitle="Conference Services Assistant" SuperId="50825" Supervisor="Schodolski, Edmund" SuperStatus="Active" />
-  <row Id="64480" PhysOffice="DC" LogOffice="02" DeptName="Mail Services" FullName="Bailey, Paul" ejtitle="Office Services Assistant" SuperId="63747" Supervisor="Kingsland, Tomar" SuperStatus="Active" />
-  <row Id="50248" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Brown, Virginia" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
+  <row Id="64554" PhysOffice="NY" LogOffice="99" DeptName="Information Resource Center" FullName="Price, Jennifer" ejtitle="Information Specialist" SuperId="50771" Supervisor="" SuperStatus="Active" />
+  <row Id="65251" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Jackson, Denise" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="64656" PhysOffice="DC" LogOffice="02" DeptName="Records Dept." FullName="White, Johnny" ejtitle="Records Assistant" SuperId="50632" Supervisor="" SuperStatus="Active" />
+  <row Id="50799" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Powell, Terry" ejtitle="TS Infrastructure Manager" SuperId="50798" Supervisor="" SuperStatus="Active" />
+  <row Id="64212" PhysOffice="LO" LogOffice="12" DeptName="Reception/Console" FullName="Hall, Amanda" ejtitle="Receptionist" SuperId="51205" Supervisor="" SuperStatus="Active" />
+  <row Id="50784" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Miller, Raymond" ejtitle="Director of Secretarial Servic" SuperId="64741" Supervisor="" SuperStatus="Active" />
+  <row Id="50448" PhysOffice="NY" LogOffice="01" DeptName="Conference Dining" FullName="Flores, Samuel" ejtitle="Conference Services Assistant" SuperId="50825" Supervisor="" SuperStatus="Active" />
+  <row Id="64480" PhysOffice="DC" LogOffice="02" DeptName="Mail Services" FullName="Bailey, Paul" ejtitle="Office Services Assistant" SuperId="63747" Supervisor="" SuperStatus="Active" />
+  <row Id="50248" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Brown, Virginia" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
   <row Id="65114" PhysOffice="NY" LogOffice="99" DeptName="COO" FullName="Ross, Harold" ejtitle="Chief Operating Officer" />
-  <row Id="50061" PhysOffice="NY" LogOffice="01" DeptName="Managing Attorney" FullName="Cox, Judy" ejtitle="Law Clerk" SuperId="50758" Supervisor="Norber, Dan" SuperStatus="Active" />
-  <row Id="50682" PhysOffice="LA" LogOffice="06" DeptName="Secretaries" FullName="King, Roger" ejtitle="Secretary - Assigned" SuperId="51178" Supervisor="Wells, Sherryl" SuperStatus="Active" />
-  <row Id="64437" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Simmons, Heather" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="50314" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Howard, Lisa" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="50585" PhysOffice="NY" LogOffice="01" DeptName="Trusts &amp; Estates" FullName="Edwards, Ashley" ejtitle="Senior Legal Assistant" SuperId="65116" Supervisor="Ben-Jacob, Michael" SuperStatus="Active" />
-  <row Id="65107" PhysOffice="NY" LogOffice="01" DeptName="Facilities" FullName="White, Antonio" ejtitle="Maintenance Assistant" SuperId="50199" Supervisor="Silva, George" SuperStatus="Active" />
-  <row Id="50564" PhysOffice="NY" LogOffice="01" DeptName="Business Reorganization Group" FullName="Carter, Ernest" ejtitle="Senior Legal Assistant" SuperId="65218" Supervisor="Zawierka, Catherine" SuperStatus="Active" />
-  <row Id="50428" PhysOffice="NY" LogOffice="01" DeptName="Park Cafe" FullName="Russell, Juan" ejtitle="Food Service Assistant" SuperId="50825" Supervisor="Schodolski, Edmund" SuperStatus="Active" />
-  <row Id="50194" PhysOffice="NY" LogOffice="01" DeptName="Facilities" FullName="Turner, George" ejtitle="Maintenance Assistant" SuperId="50199" Supervisor="Silva, George" SuperStatus="Active" />
+  <row Id="50061" PhysOffice="NY" LogOffice="01" DeptName="Managing Attorney" FullName="Cox, Judy" ejtitle="Law Clerk" SuperId="50758" Supervisor="" SuperStatus="Active" />
+  <row Id="50682" PhysOffice="LA" LogOffice="06" DeptName="Secretaries" FullName="King, Roger" ejtitle="Secretary - Assigned" SuperId="51178" Supervisor="" SuperStatus="Active" />
+  <row Id="64437" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Simmons, Heather" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="50314" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Howard, Lisa" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="50585" PhysOffice="NY" LogOffice="01" DeptName="Trusts &amp; Estates" FullName="Edwards, Ashley" ejtitle="Senior Legal Assistant" SuperId="65116" Supervisor="" SuperStatus="Active" />
+  <row Id="65107" PhysOffice="NY" LogOffice="01" DeptName="Facilities" FullName="White, Antonio" ejtitle="Maintenance Assistant" SuperId="50199" Supervisor="" SuperStatus="Active" />
+  <row Id="50564" PhysOffice="NY" LogOffice="01" DeptName="Business Reorganization Group" FullName="Carter, Ernest" ejtitle="Senior Legal Assistant" SuperId="65218" Supervisor="" SuperStatus="Active" />
+  <row Id="50428" PhysOffice="NY" LogOffice="01" DeptName="Park Cafe" FullName="Russell, Juan" ejtitle="Food Service Assistant" SuperId="50825" Supervisor="" SuperStatus="Active" />
+  <row Id="50194" PhysOffice="NY" LogOffice="01" DeptName="Facilities" FullName="Turner, George" ejtitle="Maintenance Assistant" SuperId="50199" Supervisor="" SuperStatus="Active" />
   <row Id="62923" PhysOffice="SHA" LogOffice="10" DeptName="Secretaries" FullName="Flores, Charles" ejtitle="Secretary" />
-  <row Id="50356" PhysOffice="NY" LogOffice="99" DeptName="Document Services Department" FullName="Diaz, Rebecca" ejtitle="Document Services Proofreader" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="50126" PhysOffice="NY" LogOffice="01" DeptName="Records Dept." FullName="Rogers, Anthony" ejtitle="Assistant Records Manager" SuperId="63907" Supervisor="Franco, John" SuperStatus="Active" />
-  <row Id="62831" PhysOffice="NY" LogOffice="99" DeptName="Graphics" FullName="Cooper, Johnny" ejtitle="Graphics Manager" SuperId="64741" Supervisor="Dogonniuck, Karen" SuperStatus="Active" />
-  <row Id="64822" PhysOffice="NY" LogOffice="01" DeptName="Reception/Console" FullName="Carter, Donald" ejtitle="Receptionist" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="50762" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Washington, Jason" ejtitle="Accounts Payable Manager" SuperId="50764" Supervisor="Leonardi, Michael" SuperStatus="Active" />
-  <row Id="50632" PhysOffice="DC" LogOffice="02" DeptName="Records Dept." FullName="Sanchez, Nancy" ejtitle="Records Manager" SuperId="51117" Supervisor="Morrison, Dorothy" SuperStatus="Active" />
-  <row Id="65232" PhysOffice="NY" LogOffice="99" DeptName="Business Development" FullName="Wright, Shawn" ejtitle="Events Assistant" SuperId="64382" Supervisor="Matias-Valenzuela, Maria" SuperStatus="Active" />
-  <row Id="65231" PhysOffice="NY" LogOffice="01" DeptName="Intellectual Property Litigati" FullName="Foster, Stephanie" ejtitle="Senior Legal Assistant" SuperId="65223" Supervisor="Makanova, Marina" SuperStatus="Active" />
-  <row Id="64340" PhysOffice="NY" LogOffice="99" DeptName="Talent Development" FullName="Evans, Bruce" ejtitle="Mgr of Legal Recruitment &amp; Integration" SuperId="64981" Supervisor="Sully, Elizabeth" SuperStatus="Active" />
-  <row Id="50256" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Miller, Wanda" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="62359" PhysOffice="NY" LogOffice="01" DeptName="Litigation Support" FullName="Adams, Barbara" ejtitle="Litigation Support Analyst" SuperId="50965" Supervisor="Powers, Thomas" SuperStatus="Active" />
-  <row Id="65313" PhysOffice="NY" LogOffice="01" DeptName="Records Dept." FullName="Ward, Kelly" ejtitle="Records Clerk" SuperId="63907" Supervisor="Franco, John" SuperStatus="Active" />
-  <row Id="50086" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Hughes, Philip" ejtitle="Sr. Billing Analyst" SuperId="50759" Supervisor="Santanello, Susan" SuperStatus="Active" />
-  <row Id="50771" PhysOffice="NY" LogOffice="99" DeptName="Information Resource Center" FullName="Moore, Julie" ejtitle="Director of Information Services" SuperId="65114" Supervisor="Hunter, Jeffrey" SuperStatus="Active" />
-  <row Id="50429" PhysOffice="NY" LogOffice="01" DeptName="Park Cafe" FullName="Taylor, Mary" ejtitle="Assistant To Food Service Mgr" SuperId="50825" Supervisor="Schodolski, Edmund" SuperStatus="Active" />
-  <row Id="63444" PhysOffice="NY" LogOffice="01" DeptName="Intellectual Property Litigati" FullName="Bennett, Charles" ejtitle="Scientific Advisor" SuperId="65223" Supervisor="Makanova, Marina" SuperStatus="Active" />
-  <row Id="50263" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Walker, Tina" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="50631" PhysOffice="DC" LogOffice="02" DeptName="Mail Services" FullName="Roberts, Jean" ejtitle="Office Services Assistant" SuperId="63747" Supervisor="Kingsland, Tomar" SuperStatus="Active" />
-  <row Id="63747" PhysOffice="DC" LogOffice="02" DeptName="Mail Services" FullName="Jones, Jennifer" ejtitle="Facilities Manager" SuperId="51117" Supervisor="Morrison, Dorothy" SuperStatus="Active" />
-  <row Id="50637" PhysOffice="DC" LogOffice="02" DeptName="Accounting" FullName="Bryant, Richard" ejtitle="Accounts Payable Coordinator" SuperId="51120" Supervisor="Wilson, Michael" SuperStatus="Active" />
-  <row Id="50699" PhysOffice="LA" LogOffice="06" DeptName="Accounting" FullName="James, Justin" ejtitle="Billing Assistant" SuperId="51175" Supervisor="Olnick, Semra" SuperStatus="Active" />
-  <row Id="63854" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Cook, Barbara" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="50471" PhysOffice="NY" LogOffice="01" DeptName="Complex Commercial Litigation" FullName="Nelson, Deborah" ejtitle="Senior Legal Assistant" SuperId="65223" Supervisor="Makanova, Marina" SuperStatus="Active" />
-  <row Id="50544" PhysOffice="NY" LogOffice="01" DeptName="Litigation Support" FullName="Kelly, Roy" ejtitle="Senior Project Assistant" SuperId="50965" Supervisor="Powers, Thomas" SuperStatus="Active" />
-  <row Id="63714" PhysOffice="NY" LogOffice="01" DeptName="Intellectual Property Litigati" FullName="Taylor, Sarah" ejtitle="Senior Legal Assistant" SuperId="65223" Supervisor="Makanova, Marina" SuperStatus="Active" />
+  <row Id="50356" PhysOffice="NY" LogOffice="99" DeptName="Document Services Department" FullName="Diaz, Rebecca" ejtitle="Document Services Proofreader" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="50126" PhysOffice="NY" LogOffice="01" DeptName="Records Dept." FullName="Rogers, Anthony" ejtitle="Assistant Records Manager" SuperId="63907" Supervisor="" SuperStatus="Active" />
+  <row Id="62831" PhysOffice="NY" LogOffice="99" DeptName="Graphics" FullName="Cooper, Johnny" ejtitle="Graphics Manager" SuperId="64741" Supervisor="" SuperStatus="Active" />
+  <row Id="64822" PhysOffice="NY" LogOffice="01" DeptName="Reception/Console" FullName="Carter, Donald" ejtitle="Receptionist" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="50762" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Washington, Jason" ejtitle="Accounts Payable Manager" SuperId="50764" Supervisor="" SuperStatus="Active" />
+  <row Id="50632" PhysOffice="DC" LogOffice="02" DeptName="Records Dept." FullName="Sanchez, Nancy" ejtitle="Records Manager" SuperId="51117" Supervisor="" SuperStatus="Active" />
+  <row Id="65232" PhysOffice="NY" LogOffice="99" DeptName="Business Development" FullName="Wright, Shawn" ejtitle="Events Assistant" SuperId="64382" Supervisor="" SuperStatus="Active" />
+  <row Id="65231" PhysOffice="NY" LogOffice="01" DeptName="Intellectual Property Litigati" FullName="Foster, Stephanie" ejtitle="Senior Legal Assistant" SuperId="65223" Supervisor="" SuperStatus="Active" />
+  <row Id="64340" PhysOffice="NY" LogOffice="99" DeptName="Talent Development" FullName="Evans, Bruce" ejtitle="Mgr of Legal Recruitment &amp; Integration" SuperId="64981" Supervisor="" SuperStatus="Active" />
+  <row Id="50256" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Miller, Wanda" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="62359" PhysOffice="NY" LogOffice="01" DeptName="Litigation Support" FullName="Adams, Barbara" ejtitle="Litigation Support Analyst" SuperId="50965" Supervisor="" SuperStatus="Active" />
+  <row Id="65313" PhysOffice="NY" LogOffice="01" DeptName="Records Dept." FullName="Ward, Kelly" ejtitle="Records Clerk" SuperId="63907" Supervisor="" SuperStatus="Active" />
+  <row Id="50086" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Hughes, Philip" ejtitle="Sr. Billing Analyst" SuperId="50759" Supervisor="" SuperStatus="Active" />
+  <row Id="50771" PhysOffice="NY" LogOffice="99" DeptName="Information Resource Center" FullName="Moore, Julie" ejtitle="Director of Information Services" SuperId="65114" Supervisor="" SuperStatus="Active" />
+  <row Id="50429" PhysOffice="NY" LogOffice="01" DeptName="Park Cafe" FullName="Taylor, Mary" ejtitle="Assistant To Food Service Mgr" SuperId="50825" Supervisor="" SuperStatus="Active" />
+  <row Id="63444" PhysOffice="NY" LogOffice="01" DeptName="Intellectual Property Litigati" FullName="Bennett, Charles" ejtitle="Scientific Advisor" SuperId="65223" Supervisor="" SuperStatus="Active" />
+  <row Id="50263" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Walker, Tina" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="50631" PhysOffice="DC" LogOffice="02" DeptName="Mail Services" FullName="Roberts, Jean" ejtitle="Office Services Assistant" SuperId="63747" Supervisor="" SuperStatus="Active" />
+  <row Id="63747" PhysOffice="DC" LogOffice="02" DeptName="Mail Services" FullName="Jones, Jennifer" ejtitle="Facilities Manager" SuperId="51117" Supervisor="" SuperStatus="Active" />
+  <row Id="50637" PhysOffice="DC" LogOffice="02" DeptName="Accounting" FullName="Bryant, Richard" ejtitle="Accounts Payable Coordinator" SuperId="51120" Supervisor="" SuperStatus="Active" />
+  <row Id="50699" PhysOffice="LA" LogOffice="06" DeptName="Accounting" FullName="James, Justin" ejtitle="Billing Assistant" SuperId="51175" Supervisor="" SuperStatus="Active" />
+  <row Id="63854" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Cook, Barbara" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="50471" PhysOffice="NY" LogOffice="01" DeptName="Complex Commercial Litigation" FullName="Nelson, Deborah" ejtitle="Senior Legal Assistant" SuperId="65223" Supervisor="" SuperStatus="Active" />
+  <row Id="50544" PhysOffice="NY" LogOffice="01" DeptName="Litigation Support" FullName="Kelly, Roy" ejtitle="Senior Project Assistant" SuperId="50965" Supervisor="" SuperStatus="Active" />
+  <row Id="63714" PhysOffice="NY" LogOffice="01" DeptName="Intellectual Property Litigati" FullName="Taylor, Sarah" ejtitle="Senior Legal Assistant" SuperId="65223" Supervisor="" SuperStatus="Active" />
   <row Id="64095" PhysOffice="FF" LogOffice="14" DeptName="Technology Services" FullName="Hill, Sara" ejtitle="IT Support Staff" />
-  <row Id="64954" PhysOffice="NY" LogOffice="01" DeptName="Mail Services" FullName="Hughes, Kathy" ejtitle="Mail Services Clerk" SuperId="50780" Supervisor="Rosenbluth, Joel" SuperStatus="Terminated" />
-  <row Id="50811" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Washington, Russell" ejtitle="Senior Project Manager" SuperId="50798" Supervisor="Palefsky, John" SuperStatus="Active" />
-  <row Id="64767" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Wright, Clarence" ejtitle="Client Analyst" SuperId="64811" Supervisor="Rabinowitz, Allan" SuperStatus="Active" />
-  <row Id="63412" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Hernandez, Ashley" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="64975" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Perry, Sean" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="64486" PhysOffice="NY" LogOffice="01" DeptName="Intellectual Property Litigati" FullName="Patterson, Joshua" ejtitle="Scientific Advisor" SuperId="65223" Supervisor="Makanova, Marina" SuperStatus="Active" />
-  <row Id="51179" PhysOffice="LA" LogOffice="06" DeptName="Mail Services" FullName="Foster, Albert" ejtitle="Office Services &amp; Safety Sup" SuperId="51181" Supervisor="Escalante, Salvador" SuperStatus="Active" />
-  <row Id="50415" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Bailey, Jerry" ejtitle="User Support Specialist" SuperId="50807" Supervisor="Chin, Lisa" SuperStatus="Active" />
-  <row Id="50696" PhysOffice="LA" LogOffice="06" DeptName="Secretaries" FullName="James, Juan" ejtitle="Secretary - Assigned" SuperId="51178" Supervisor="Wells, Sherryl" SuperStatus="Active" />
-  <row Id="64763" PhysOffice="LA" LogOffice="06" DeptName="Accounting" FullName="Patterson, Rebecca" ejtitle="Accounts Payable Assistant" SuperId="51175" Supervisor="Olnick, Semra" SuperStatus="Active" />
-  <row Id="50541" PhysOffice="NY" LogOffice="01" DeptName="Litigation Support" FullName="Price, Kathy" ejtitle="Project Manager - Litigation" SuperId="50965" Supervisor="Powers, Thomas" SuperStatus="Active" />
-  <row Id="63846" PhysOffice="NY" LogOffice="01" DeptName="Business Reorganization Group" FullName="Morris, Maria" ejtitle="Senior Legal Assistant" SuperId="65218" Supervisor="Zawierka, Catherine" SuperStatus="Active" />
+  <row Id="64954" PhysOffice="NY" LogOffice="01" DeptName="Mail Services" FullName="Hughes, Kathy" ejtitle="Mail Services Clerk" SuperId="50780" Supervisor="" SuperStatus="Terminated" />
+  <row Id="50811" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Washington, Russell" ejtitle="Senior Project Manager" SuperId="50798" Supervisor="" SuperStatus="Active" />
+  <row Id="64767" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Wright, Clarence" ejtitle="Client Analyst" SuperId="64811" Supervisor="" SuperStatus="Active" />
+  <row Id="63412" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Hernandez, Ashley" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="64975" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Perry, Sean" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="64486" PhysOffice="NY" LogOffice="01" DeptName="Intellectual Property Litigati" FullName="Patterson, Joshua" ejtitle="Scientific Advisor" SuperId="65223" Supervisor="" SuperStatus="Active" />
+  <row Id="51179" PhysOffice="LA" LogOffice="06" DeptName="Mail Services" FullName="Foster, Albert" ejtitle="Office Services &amp; Safety Sup" SuperId="51181" Supervisor="" SuperStatus="Active" />
+  <row Id="50415" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Bailey, Jerry" ejtitle="User Support Specialist" SuperId="50807" Supervisor="" SuperStatus="Active" />
+  <row Id="50696" PhysOffice="LA" LogOffice="06" DeptName="Secretaries" FullName="James, Juan" ejtitle="Secretary - Assigned" SuperId="51178" Supervisor="" SuperStatus="Active" />
+  <row Id="64763" PhysOffice="LA" LogOffice="06" DeptName="Accounting" FullName="Patterson, Rebecca" ejtitle="Accounts Payable Assistant" SuperId="51175" Supervisor="" SuperStatus="Active" />
+  <row Id="50541" PhysOffice="NY" LogOffice="01" DeptName="Litigation Support" FullName="Price, Kathy" ejtitle="Project Manager - Litigation" SuperId="50965" Supervisor="" SuperStatus="Active" />
+  <row Id="63846" PhysOffice="NY" LogOffice="01" DeptName="Business Reorganization Group" FullName="Morris, Maria" ejtitle="Senior Legal Assistant" SuperId="65218" Supervisor="" SuperStatus="Active" />
   <row Id="64096" PhysOffice="FF" LogOffice="14" DeptName="Information Resource Center" FullName="Alexander, Kathryn" ejtitle="Library Assistant" />
-  <row Id="64986" PhysOffice="DC" LogOffice="02" DeptName="Secretaries" FullName="Martin, Gary" ejtitle="Secretary - Assigned" SuperId="51116" Supervisor="Ryan, Kathy" SuperStatus="Active" />
-  <row Id="65026" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Ward, Dorothy" ejtitle="Secretary - Unassigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="50266" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Alexander, Craig" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="50081" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="King, Kevin" ejtitle="Payroll Coordinator" SuperId="64383" Supervisor="Fiore, Lillian" SuperStatus="Active" />
-  <row Id="64031" PhysOffice="NY" LogOffice="01" DeptName="Conference Dining" FullName="Turner, Walter" ejtitle="Conference Services Coordinato" SuperId="50825" Supervisor="Schodolski, Edmund" SuperStatus="Active" />
-  <row Id="65265" PhysOffice="NY" LogOffice="99" DeptName="Business Development" FullName="Phillips, Angela" ejtitle="Business Development Coordinator" SuperId="65288" Supervisor="Pava, Elizabeth" SuperStatus="Active" />
-  <row Id="50582" PhysOffice="NY" LogOffice="01" DeptName="Real Estate" FullName="Bennett, Ruth" ejtitle="Senior Legal Assistant" SuperId="51061" Supervisor="Mastrosimone, Salvatore" SuperStatus="Active" />
-  <row Id="64782" PhysOffice="NY" LogOffice="01" DeptName="Mail Services" FullName="Gray, Janet" ejtitle="Mail Services Clerk" SuperId="50780" Supervisor="Rosenbluth, Joel" SuperStatus="Terminated" />
-  <row Id="65160" PhysOffice="FF" LogOffice="14" DeptName="Secretaries" FullName="Anderson, Albert" ejtitle="Secretary" SuperId="64371" Supervisor="Batschi, Claudia" SuperStatus="Active" />
-  <row Id="65358" PhysOffice="NY" LogOffice="01" DeptName="Complex Commercial Litigation" FullName="Carter, Frank" ejtitle="Litigation Project Assistant" SuperId="65223" Supervisor="Makanova, Marina" SuperStatus="Active" />
-  <row Id="50764" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Morris, Shawn" ejtitle="Director of Finance" SuperId="65114" Supervisor="Hunter, Jeffrey" SuperStatus="Active" />
-  <row Id="63003" PhysOffice="DC" LogOffice="02" DeptName="Records Dept." FullName="Lee, Randy" ejtitle="Records Assistant" SuperId="50632" Supervisor="Jones, Richard" SuperStatus="Active" />
-  <row Id="63487" PhysOffice="NY" LogOffice="01" DeptName="Product Liability Litigation" FullName="Long, Norma" ejtitle="Legal Assistant" SuperId="65223" Supervisor="Makanova, Marina" SuperStatus="Active" />
-  <row Id="65230" PhysOffice="DC" LogOffice="02" DeptName="Complex Commercial Litigation" FullName="Rodriguez, Irene" ejtitle="Legal Assistant Clerk" SuperId="51116" Supervisor="Ryan, Kathy" SuperStatus="Active" />
-  <row Id="61797" PhysOffice="CHI" LogOffice="11" DeptName="Records Dept." FullName="Morgan, Gerald" ejtitle="Records Supervisor" SuperId="50735" Supervisor="Gonzales, Raquel" SuperStatus="Active" />
-  <row Id="65228" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Stewart, Anna" ejtitle="Mgr of Training/Development" SuperId="50798" Supervisor="Palefsky, John" SuperStatus="Active" />
-  <row Id="50681" PhysOffice="LA" LogOffice="06" DeptName="Document Services Department" FullName="Foster, Margaret" ejtitle="Document Services Operator" SuperId="51178" Supervisor="Wells, Sherryl" SuperStatus="Active" />
-  <row Id="50308" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Williams, Brian" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="64490" PhysOffice="NY" LogOffice="99" DeptName="Business Development" FullName="Roberts, Carl" ejtitle="Senior Writer" SuperId="65288" Supervisor="Pava, Elizabeth" SuperStatus="Active" />
-  <row Id="50701" PhysOffice="LA" LogOffice="06" DeptName="Document Services Department" FullName="Sanchez, Jonathan" ejtitle="Document Services Operator" SuperId="51178" Supervisor="Wells, Sherryl" SuperStatus="Active" />
-  <row Id="65342" PhysOffice="NY" LogOffice="99" DeptName="Business Development" FullName="James, Justin" ejtitle="Sr. Business Development Coordinator" SuperId="65288" Supervisor="Pava, Elizabeth" SuperStatus="Active" />
-  <row Id="63364" PhysOffice="NY" LogOffice="01" DeptName="Intellectual Property Litigati" FullName="Perry, Aaron" ejtitle="Senior Legal Assistant" SuperId="65223" Supervisor="Makanova, Marina" SuperStatus="Active" />
-  <row Id="50085" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Hernandez, Michelle" ejtitle="Sr. Billing Analyst" SuperId="50759" Supervisor="Santanello, Susan" SuperStatus="Active" />
-  <row Id="65309" PhysOffice="NY" LogOffice="01" DeptName="Facilities" FullName="Smith, Keith" ejtitle="Facilities Manager" SuperId="64741" Supervisor="Dogonniuck, Karen" SuperStatus="Active" />
-  <row Id="65157" PhysOffice="SHA" LogOffice="10" DeptName="Corporate &amp; Finance" FullName="Jones, Doris" ejtitle="PRC Legal Consultant" SuperId="62885" Supervisor="Ho, Po Shan" SuperStatus="Active" />
-  <row Id="62866" PhysOffice="CHI" LogOffice="11" DeptName="Secretaries" FullName="Ramirez, Karen" ejtitle="Secretary - Assigned" SuperId="50735" Supervisor="Gonzales, Raquel" SuperStatus="Active" />
-  <row Id="50092" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Edwards, Samuel" ejtitle="Client/Attorney Analyst" SuperId="50759" Supervisor="Santanello, Susan" SuperStatus="Active" />
-  <row Id="62385" PhysOffice="LA" LogOffice="06" DeptName="Records Dept." FullName="Cooper, Frances" ejtitle="Records Clerk" SuperId="51178" Supervisor="Wells, Sherryl" SuperStatus="Active" />
-  <row Id="63989" PhysOffice="DC" LogOffice="02" DeptName="Information Resource Center" FullName="Taylor, Alice" ejtitle="Information Resource Manager" SuperId="51117" Supervisor="Morrison, Dorothy" SuperStatus="Active" />
-  <row Id="63075" PhysOffice="CHI" LogOffice="11" DeptName="Mail Services" FullName="Gonzales, Carlos" ejtitle="Office Services Supervisor" SuperId="50735" Supervisor="Gonzales, Raquel" SuperStatus="Active" />
-  <row Id="65223" PhysOffice="NY" LogOffice="99" DeptName="COO" FullName="Evans, Rebecca" ejtitle="Director of Practice Admin" SuperId="65114" Supervisor="Hunter, Jeffrey" SuperStatus="Active" />
-  <row Id="50068" PhysOffice="NY" LogOffice="01" DeptName="Managing Attorney" FullName="Brooks, Alice" ejtitle="Law Clerk" SuperId="50758" Supervisor="Norber, Dan" SuperStatus="Active" />
-  <row Id="50206" PhysOffice="NY" LogOffice="01" DeptName="Reception/Console" FullName="Williams, Beverly" ejtitle="Receptionist" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="50001" PhysOffice="NY" LogOffice="99" DeptName="Kaye Associates" FullName="Ross, Kevin" ejtitle="Administrative Assistant" SuperId="52990" Supervisor="Epstein, Jeffrey" SuperStatus="Terminated" />
-  <row Id="63414" PhysOffice="LA" LogOffice="06" DeptName="Complex Commercial Litigation" FullName="Torres, Phyllis" ejtitle="Legal Assistant" SuperId="51178" Supervisor="Wells, Sherryl" SuperStatus="Active" />
-  <row Id="63755" PhysOffice="NY" LogOffice="99" DeptName="Business Development" FullName="Turner, Robin" ejtitle="BD Manager - Litigation" SuperId="65288" Supervisor="Pava, Elizabeth" SuperStatus="Active" />
-  <row Id="64563" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Robinson, Steve" ejtitle="TS Infrastructure Manager" SuperId="50798" Supervisor="Palefsky, John" SuperStatus="Active" />
-  <row Id="50279" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Bryant, Barbara" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="65277" PhysOffice="NY" LogOffice="99" DeptName="Benefits Administration" FullName="Adams, Joseph" ejtitle="Pension Administrator" SuperId="64935" Supervisor="Gold, Cindy" SuperStatus="Active" />
-  <row Id="64693" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Baker, Tammy" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="64263" PhysOffice="NY" LogOffice="01" DeptName="Mail Services" FullName="Bailey, Virginia" ejtitle="Mail Services Clerk" SuperId="50780" Supervisor="Rosenbluth, Joel" SuperStatus="Terminated" />
+  <row Id="64986" PhysOffice="DC" LogOffice="02" DeptName="Secretaries" FullName="Martin, Gary" ejtitle="Secretary - Assigned" SuperId="51116" Supervisor="" SuperStatus="Active" />
+  <row Id="65026" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Ward, Dorothy" ejtitle="Secretary - Unassigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="50266" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Alexander, Craig" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="50081" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="King, Kevin" ejtitle="Payroll Coordinator" SuperId="64383" Supervisor="" SuperStatus="Active" />
+  <row Id="64031" PhysOffice="NY" LogOffice="01" DeptName="Conference Dining" FullName="Turner, Walter" ejtitle="Conference Services Coordinato" SuperId="50825" Supervisor="" SuperStatus="Active" />
+  <row Id="65265" PhysOffice="NY" LogOffice="99" DeptName="Business Development" FullName="Phillips, Angela" ejtitle="Business Development Coordinator" SuperId="65288" Supervisor="" SuperStatus="Active" />
+  <row Id="50582" PhysOffice="NY" LogOffice="01" DeptName="Real Estate" FullName="Bennett, Ruth" ejtitle="Senior Legal Assistant" SuperId="51061" Supervisor="" SuperStatus="Active" />
+  <row Id="64782" PhysOffice="NY" LogOffice="01" DeptName="Mail Services" FullName="Gray, Janet" ejtitle="Mail Services Clerk" SuperId="50780" Supervisor="" SuperStatus="Terminated" />
+  <row Id="65160" PhysOffice="FF" LogOffice="14" DeptName="Secretaries" FullName="Anderson, Albert" ejtitle="Secretary" SuperId="64371" Supervisor="" SuperStatus="Active" />
+  <row Id="65358" PhysOffice="NY" LogOffice="01" DeptName="Complex Commercial Litigation" FullName="Carter, Frank" ejtitle="Litigation Project Assistant" SuperId="65223" Supervisor="" SuperStatus="Active" />
+  <row Id="50764" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Morris, Shawn" ejtitle="Director of Finance" SuperId="65114" Supervisor="" SuperStatus="Active" />
+  <row Id="63003" PhysOffice="DC" LogOffice="02" DeptName="Records Dept." FullName="Lee, Randy" ejtitle="Records Assistant" SuperId="50632" Supervisor="" SuperStatus="Active" />
+  <row Id="63487" PhysOffice="NY" LogOffice="01" DeptName="Product Liability Litigation" FullName="Long, Norma" ejtitle="Legal Assistant" SuperId="65223" Supervisor="" SuperStatus="Active" />
+  <row Id="65230" PhysOffice="DC" LogOffice="02" DeptName="Complex Commercial Litigation" FullName="Rodriguez, Irene" ejtitle="Legal Assistant Clerk" SuperId="51116" Supervisor="" SuperStatus="Active" />
+  <row Id="61797" PhysOffice="CHI" LogOffice="11" DeptName="Records Dept." FullName="Morgan, Gerald" ejtitle="Records Supervisor" SuperId="50735" Supervisor="" SuperStatus="Active" />
+  <row Id="65228" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Stewart, Anna" ejtitle="Mgr of Training/Development" SuperId="50798" Supervisor="" SuperStatus="Active" />
+  <row Id="50681" PhysOffice="LA" LogOffice="06" DeptName="Document Services Department" FullName="Foster, Margaret" ejtitle="Document Services Operator" SuperId="51178" Supervisor="" SuperStatus="Active" />
+  <row Id="50308" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Williams, Brian" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="64490" PhysOffice="NY" LogOffice="99" DeptName="Business Development" FullName="Roberts, Carl" ejtitle="Senior Writer" SuperId="65288" Supervisor="" SuperStatus="Active" />
+  <row Id="50701" PhysOffice="LA" LogOffice="06" DeptName="Document Services Department" FullName="Sanchez, Jonathan" ejtitle="Document Services Operator" SuperId="51178" Supervisor="" SuperStatus="Active" />
+  <row Id="65342" PhysOffice="NY" LogOffice="99" DeptName="Business Development" FullName="James, Justin" ejtitle="Sr. Business Development Coordinator" SuperId="65288" Supervisor="" SuperStatus="Active" />
+  <row Id="63364" PhysOffice="NY" LogOffice="01" DeptName="Intellectual Property Litigati" FullName="Perry, Aaron" ejtitle="Senior Legal Assistant" SuperId="65223" Supervisor="" SuperStatus="Active" />
+  <row Id="50085" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Hernandez, Michelle" ejtitle="Sr. Billing Analyst" SuperId="50759" Supervisor="" SuperStatus="Active" />
+  <row Id="65309" PhysOffice="NY" LogOffice="01" DeptName="Facilities" FullName="Smith, Keith" ejtitle="Facilities Manager" SuperId="64741" Supervisor="" SuperStatus="Active" />
+  <row Id="65157" PhysOffice="SHA" LogOffice="10" DeptName="Corporate &amp; Finance" FullName="Jones, Doris" ejtitle="PRC Legal Consultant" SuperId="62885" Supervisor="" SuperStatus="Active" />
+  <row Id="62866" PhysOffice="CHI" LogOffice="11" DeptName="Secretaries" FullName="Ramirez, Karen" ejtitle="Secretary - Assigned" SuperId="50735" Supervisor="" SuperStatus="Active" />
+  <row Id="50092" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Edwards, Samuel" ejtitle="Client/Attorney Analyst" SuperId="50759" Supervisor="" SuperStatus="Active" />
+  <row Id="62385" PhysOffice="LA" LogOffice="06" DeptName="Records Dept." FullName="Cooper, Frances" ejtitle="Records Clerk" SuperId="51178" Supervisor="" SuperStatus="Active" />
+  <row Id="63989" PhysOffice="DC" LogOffice="02" DeptName="Information Resource Center" FullName="Taylor, Alice" ejtitle="Information Resource Manager" SuperId="51117" Supervisor="" SuperStatus="Active" />
+  <row Id="63075" PhysOffice="CHI" LogOffice="11" DeptName="Mail Services" FullName="Gonzales, Carlos" ejtitle="Office Services Supervisor" SuperId="50735" Supervisor="" SuperStatus="Active" />
+  <row Id="65223" PhysOffice="NY" LogOffice="99" DeptName="COO" FullName="Evans, Rebecca" ejtitle="Director of Practice Admin" SuperId="65114" Supervisor="" SuperStatus="Active" />
+  <row Id="50068" PhysOffice="NY" LogOffice="01" DeptName="Managing Attorney" FullName="Brooks, Alice" ejtitle="Law Clerk" SuperId="50758" Supervisor="" SuperStatus="Active" />
+  <row Id="50206" PhysOffice="NY" LogOffice="01" DeptName="Reception/Console" FullName="Williams, Beverly" ejtitle="Receptionist" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="50001" PhysOffice="NY" LogOffice="99" DeptName="Kaye Associates" FullName="Ross, Kevin" ejtitle="Administrative Assistant" SuperId="52990" Supervisor="" SuperStatus="Terminated" />
+  <row Id="63414" PhysOffice="LA" LogOffice="06" DeptName="Complex Commercial Litigation" FullName="Torres, Phyllis" ejtitle="Legal Assistant" SuperId="51178" Supervisor="" SuperStatus="Active" />
+  <row Id="63755" PhysOffice="NY" LogOffice="99" DeptName="Business Development" FullName="Turner, Robin" ejtitle="BD Manager - Litigation" SuperId="65288" Supervisor="" SuperStatus="Active" />
+  <row Id="64563" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Robinson, Steve" ejtitle="TS Infrastructure Manager" SuperId="50798" Supervisor="" SuperStatus="Active" />
+  <row Id="50279" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Bryant, Barbara" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="65277" PhysOffice="NY" LogOffice="99" DeptName="Benefits Administration" FullName="Adams, Joseph" ejtitle="Pension Administrator" SuperId="64935" Supervisor="" SuperStatus="Active" />
+  <row Id="64693" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Baker, Tammy" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="64263" PhysOffice="NY" LogOffice="01" DeptName="Mail Services" FullName="Bailey, Virginia" ejtitle="Mail Services Clerk" SuperId="50780" Supervisor="" SuperStatus="Terminated" />
   <row Id="63882" PhysOffice="FF" LogOffice="14" DeptName="Accounting" FullName="Scott, Teresa" ejtitle="Accounting Assistant" />
   <row Id="51061" PhysOffice="NY" LogOffice="01" DeptName="Real Estate" FullName="Alexander, Brenda" ejtitle="Partner" />
-  <row Id="64382" PhysOffice="NY" LogOffice="99" DeptName="Business Development" FullName="Lee, Kelly" ejtitle="Events Manager" SuperId="65288" Supervisor="Pava, Elizabeth" SuperStatus="Active" />
-  <row Id="65089" PhysOffice="NY" LogOffice="99" DeptName="Document Services Department" FullName="Miller, Christina" ejtitle="Document Services Operator" SuperId="65025" Supervisor="Tomlinson, Kathleen" SuperStatus="Active" />
-  <row Id="50348" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Taylor, Diana" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="65168" PhysOffice="FF" LogOffice="14" DeptName="Secretaries" FullName="Brooks, Benjamin" ejtitle="Receptionist" SuperId="64371" Supervisor="Batschi, Claudia" SuperStatus="Active" />
-  <row Id="50211" PhysOffice="NY" LogOffice="01" DeptName="Facilities" FullName="Moore, Louis" ejtitle="Procurement Coordinator" SuperId="65309" Supervisor="Lorenz, Peter" SuperStatus="Active" />
-  <row Id="50645" PhysOffice="DC" LogOffice="02" DeptName="Document Services Department" FullName="Russell, Heather" ejtitle="Document Services Operator " SuperId="51118" Supervisor="Clark, Theirrien" SuperStatus="Active" />
-  <row Id="64412" PhysOffice="NY" LogOffice="01" DeptName="Complex Commercial Litigation" FullName="Phillips, Martha" ejtitle="Legal Assistant" SuperId="65223" Supervisor="Makanova, Marina" SuperStatus="Active" />
-  <row Id="64216" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Anderson, Janice" ejtitle="Secretarial Services Superviso" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="64426" PhysOffice="NY" LogOffice="01" DeptName="Managing Attorney" FullName="Reed, Ronald" ejtitle="Data Entry/Law Clerk" SuperId="50758" Supervisor="Norber, Dan" SuperStatus="Active" />
-  <row Id="50824" PhysOffice="NY" LogOffice="99" DeptName="Budgets/Planning" FullName="Watson, Eric" ejtitle="Senior Financial Analyst" SuperId="65290" Supervisor="Dolan, Roderick" SuperStatus="Active" />
-  <row Id="65362" PhysOffice="NY" LogOffice="01" DeptName="Intellectual Property Litigati" FullName="Walker, Ann" ejtitle="Litigation Project Assistant" SuperId="65223" Supervisor="Makanova, Marina" SuperStatus="Active" />
-  <row Id="63801" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Rivera, Chris" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="65198" PhysOffice="SV" LogOffice="16" DeptName="Intellectual Property Litigati" FullName="Bryant, Bonnie" ejtitle="Patent Litigation Coordinator" SuperId="65129" Supervisor="Upton, Ervin" SuperStatus="Terminated" />
-  <row Id="65101" PhysOffice="DC" LogOffice="02" DeptName="Secretaries" FullName="Bell, Jessica" ejtitle="Secretary - Assigned" SuperId="51116" Supervisor="Ryan, Kathy" SuperStatus="Active" />
-  <row Id="64996" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Reed, Rose" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="64028" PhysOffice="LA" LogOffice="06" DeptName="Records Dept." FullName="Price, Julie" ejtitle="Records Clerk" SuperId="63839" Supervisor="Assanah, Lucinander" SuperStatus="Active" />
-  <row Id="50395" PhysOffice="NY" LogOffice="99" DeptName="Document Services Department" FullName="Scott, Gregory" ejtitle="P/T Document Services Steno/Op" SuperId="50792" Supervisor="Campbell, Carol" SuperStatus="Active" />
+  <row Id="64382" PhysOffice="NY" LogOffice="99" DeptName="Business Development" FullName="Lee, Kelly" ejtitle="Events Manager" SuperId="65288" Supervisor="" SuperStatus="Active" />
+  <row Id="65089" PhysOffice="NY" LogOffice="99" DeptName="Document Services Department" FullName="Miller, Christina" ejtitle="Document Services Operator" SuperId="65025" Supervisor="" SuperStatus="Active" />
+  <row Id="50348" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Taylor, Diana" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="65168" PhysOffice="FF" LogOffice="14" DeptName="Secretaries" FullName="Brooks, Benjamin" ejtitle="Receptionist" SuperId="64371" Supervisor="" SuperStatus="Active" />
+  <row Id="50211" PhysOffice="NY" LogOffice="01" DeptName="Facilities" FullName="Moore, Louis" ejtitle="Procurement Coordinator" SuperId="65309" Supervisor="" SuperStatus="Active" />
+  <row Id="50645" PhysOffice="DC" LogOffice="02" DeptName="Document Services Department" FullName="Russell, Heather" ejtitle="Document Services Operator " SuperId="51118" Supervisor="" SuperStatus="Active" />
+  <row Id="64412" PhysOffice="NY" LogOffice="01" DeptName="Complex Commercial Litigation" FullName="Phillips, Martha" ejtitle="Legal Assistant" SuperId="65223" Supervisor="" SuperStatus="Active" />
+  <row Id="64216" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Anderson, Janice" ejtitle="Secretarial Services Superviso" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="64426" PhysOffice="NY" LogOffice="01" DeptName="Managing Attorney" FullName="Reed, Ronald" ejtitle="Data Entry/Law Clerk" SuperId="50758" Supervisor="" SuperStatus="Active" />
+  <row Id="50824" PhysOffice="NY" LogOffice="99" DeptName="Budgets/Planning" FullName="Watson, Eric" ejtitle="Senior Financial Analyst" SuperId="65290" Supervisor="" SuperStatus="Active" />
+  <row Id="65362" PhysOffice="NY" LogOffice="01" DeptName="Intellectual Property Litigati" FullName="Walker, Ann" ejtitle="Litigation Project Assistant" SuperId="65223" Supervisor="" SuperStatus="Active" />
+  <row Id="63801" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Rivera, Chris" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="65198" PhysOffice="SV" LogOffice="16" DeptName="Intellectual Property Litigati" FullName="Bryant, Bonnie" ejtitle="Patent Litigation Coordinator" SuperId="65129" Supervisor="" SuperStatus="Terminated" />
+  <row Id="65101" PhysOffice="DC" LogOffice="02" DeptName="Secretaries" FullName="Bell, Jessica" ejtitle="Secretary - Assigned" SuperId="51116" Supervisor="" SuperStatus="Active" />
+  <row Id="64996" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Reed, Rose" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="64028" PhysOffice="LA" LogOffice="06" DeptName="Records Dept." FullName="Price, Julie" ejtitle="Records Clerk" SuperId="63839" Supervisor="" SuperStatus="Active" />
+  <row Id="50395" PhysOffice="NY" LogOffice="99" DeptName="Document Services Department" FullName="Scott, Gregory" ejtitle="P/T Document Services Steno/Op" SuperId="50792" Supervisor="" SuperStatus="Active" />
   <row Id="65161" PhysOffice="FF" LogOffice="14" DeptName="Secretaries" FullName="Alexander, Julie" ejtitle="Secretary" />
-  <row Id="65282" PhysOffice="NY" LogOffice="99" DeptName="Benefits Administration" FullName="Cooper, Paul" ejtitle="Benefits Assistant" SuperId="64935" Supervisor="Gold, Cindy" SuperStatus="Active" />
+  <row Id="65282" PhysOffice="NY" LogOffice="99" DeptName="Benefits Administration" FullName="Cooper, Paul" ejtitle="Benefits Assistant" SuperId="64935" Supervisor="" SuperStatus="Active" />
   <row Id="51205" PhysOffice="LO" LogOffice="12" DeptName="Administration" FullName="Perez, Heather" ejtitle="Head of Administration" />
-  <row Id="50160" PhysOffice="NY" LogOffice="01" DeptName="Records Dept." FullName="Collins, Martha" ejtitle="Records Clerk" SuperId="63907" Supervisor="Franco, John" SuperStatus="Active" />
-  <row Id="50087" PhysOffice="NY" LogOffice="01" DeptName="Accounting" FullName="Thompson, Ryan" ejtitle="Sr. Billing Analyst" SuperId="50759" Supervisor="Santanello, Susan" SuperStatus="Active" />
-  <row Id="63262" PhysOffice="NY" LogOffice="01" DeptName="Mail Services" FullName="Coleman, Ann" ejtitle="Mail Services Clerk" SuperId="50780" Supervisor="Rosenbluth, Joel" SuperStatus="Terminated" />
-  <row Id="50106" PhysOffice="NY" LogOffice="99" DeptName="Information Resource Center" FullName="Hayes, John" ejtitle="Information Resource Assistant" SuperId="50771" Supervisor="Khan, Shabeer" SuperStatus="Active" />
-  <row Id="50413" PhysOffice="NY" LogOffice="01" DeptName="Technology Services" FullName="Russell, Phillip" ejtitle="Computer Technician" SuperId="50795" Supervisor="Papazian, Janet" SuperStatus="Active" />
-  <row Id="50442" PhysOffice="NY" LogOffice="01" DeptName="Catering" FullName="King, Evelyn" ejtitle="Chef" SuperId="50825" Supervisor="Schodolski, Edmund" SuperStatus="Active" />
-  <row Id="64497" PhysOffice="LO" LogOffice="12" DeptName="Reception/Console" FullName="Washington, Rachel" ejtitle="Receptionist" SuperId="51205" Supervisor="Miles, Samantha" SuperStatus="Active" />
+  <row Id="50160" PhysOffice="NY" LogOffice="01" DeptName="Records Dept." FullName="Collins, Martha" ejtitle="Records Clerk" SuperId="63907" Supervisor="" SuperStatus="Active" />
+  <row Id="50087" PhysOffice="NY" LogOffice="01" DeptName="Accounting" FullName="Thompson, Ryan" ejtitle="Sr. Billing Analyst" SuperId="50759" Supervisor="" SuperStatus="Active" />
+  <row Id="63262" PhysOffice="NY" LogOffice="01" DeptName="Mail Services" FullName="Coleman, Ann" ejtitle="Mail Services Clerk" SuperId="50780" Supervisor="" SuperStatus="Terminated" />
+  <row Id="50106" PhysOffice="NY" LogOffice="99" DeptName="Information Resource Center" FullName="Hayes, John" ejtitle="Information Resource Assistant" SuperId="50771" Supervisor="" SuperStatus="Active" />
+  <row Id="50413" PhysOffice="NY" LogOffice="01" DeptName="Technology Services" FullName="Russell, Phillip" ejtitle="Computer Technician" SuperId="50795" Supervisor="" SuperStatus="Active" />
+  <row Id="50442" PhysOffice="NY" LogOffice="01" DeptName="Catering" FullName="King, Evelyn" ejtitle="Chef" SuperId="50825" Supervisor="" SuperStatus="Active" />
+  <row Id="64497" PhysOffice="LO" LogOffice="12" DeptName="Reception/Console" FullName="Washington, Rachel" ejtitle="Receptionist" SuperId="51205" Supervisor="" SuperStatus="Active" />
   <row Id="57766" PhysOffice="WPB" LogOffice="08" DeptName="Trusts &amp; Estates" FullName="Young, Jerry" ejtitle="Partner" />
-  <row Id="64809" PhysOffice="NY" LogOffice="01" DeptName="Reception/Console" FullName="Gonzalez, Jeffrey" ejtitle="Receptionist" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="64769" PhysOffice="NY" LogOffice="01" DeptName="Managing Attorney" FullName="Bennett, Jimmy" ejtitle="Administrative Assistant" SuperId="50758" Supervisor="Norber, Dan" SuperStatus="Active" />
-  <row Id="50775" PhysOffice="NY" LogOffice="99" DeptName="Human Resources" FullName="Miller, Albert" ejtitle="Human Resources Manager" SuperId="64741" Supervisor="Dogonniuck, Karen" SuperStatus="Active" />
-  <row Id="51117" PhysOffice="DC" LogOffice="02" DeptName="Administration" FullName="Powell, Susan" ejtitle="Director Of Business Affairs" SuperId="51117" Supervisor="Morrison, Dorothy" SuperStatus="Active" />
-  <row Id="64942" PhysOffice="WPB" LogOffice="08" DeptName="Secretaries" FullName="Collins, Joshua" ejtitle="Secretary - Assigned" SuperId="57766" Supervisor="Mora, Abraham" SuperStatus="Active" />
-  <row Id="50079" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Butler, Norma" ejtitle="Senior A. P." SuperId="50762" Supervisor="Jones, Caroline" SuperStatus="Active" />
-  <row Id="65128" PhysOffice="NY" LogOffice="99" DeptName="Budgets/Planning" FullName="Jenkins, Rebecca" ejtitle="Senior Financial Analyst" SuperId="65290" Supervisor="Dolan, Roderick" SuperStatus="Active" />
-  <row Id="50208" PhysOffice="NY" LogOffice="01" DeptName="Reception/Console" FullName="Baker, Emily" ejtitle="Receptionist" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="65094" PhysOffice="LO" LogOffice="12" DeptName="Technology Services" FullName="Ross, Eric" ejtitle="Technology Services Consultant" SuperId="51205" Supervisor="Miles, Samantha" SuperStatus="Active" />
-  <row Id="64945" PhysOffice="LO" LogOffice="12" DeptName="Secretaries" FullName="Hayes, Juan" ejtitle="Team Secretary" SuperId="51205" Supervisor="Miles, Samantha" SuperStatus="Active" />
-  <row Id="64063" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Henderson, Kevin" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
+  <row Id="64809" PhysOffice="NY" LogOffice="01" DeptName="Reception/Console" FullName="Gonzalez, Jeffrey" ejtitle="Receptionist" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="64769" PhysOffice="NY" LogOffice="01" DeptName="Managing Attorney" FullName="Bennett, Jimmy" ejtitle="Administrative Assistant" SuperId="50758" Supervisor="" SuperStatus="Active" />
+  <row Id="50775" PhysOffice="NY" LogOffice="99" DeptName="Human Resources" FullName="Miller, Albert" ejtitle="Human Resources Manager" SuperId="64741" Supervisor="" SuperStatus="Active" />
+  <row Id="51117" PhysOffice="DC" LogOffice="02" DeptName="Administration" FullName="Powell, Susan" ejtitle="Director Of Business Affairs" SuperId="51117" Supervisor="" SuperStatus="Active" />
+  <row Id="64942" PhysOffice="WPB" LogOffice="08" DeptName="Secretaries" FullName="Collins, Joshua" ejtitle="Secretary - Assigned" SuperId="57766" Supervisor="" SuperStatus="Active" />
+  <row Id="50079" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Butler, Norma" ejtitle="Senior A. P." SuperId="50762" Supervisor="" SuperStatus="Active" />
+  <row Id="65128" PhysOffice="NY" LogOffice="99" DeptName="Budgets/Planning" FullName="Jenkins, Rebecca" ejtitle="Senior Financial Analyst" SuperId="65290" Supervisor="" SuperStatus="Active" />
+  <row Id="50208" PhysOffice="NY" LogOffice="01" DeptName="Reception/Console" FullName="Baker, Emily" ejtitle="Receptionist" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="65094" PhysOffice="LO" LogOffice="12" DeptName="Technology Services" FullName="Ross, Eric" ejtitle="Technology Services Consultant" SuperId="51205" Supervisor="" SuperStatus="Active" />
+  <row Id="64945" PhysOffice="LO" LogOffice="12" DeptName="Secretaries" FullName="Hayes, Juan" ejtitle="Team Secretary" SuperId="51205" Supervisor="" SuperStatus="Active" />
+  <row Id="64063" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Henderson, Kevin" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
   <row Id="50758" PhysOffice="NY" LogOffice="01" DeptName="Managing Attorney" FullName="Peterson, Howard" ejtitle="Managing Attorney" />
-  <row Id="64114" PhysOffice="NY" LogOffice="01" DeptName="Litigation Support" FullName="Rodriguez, Elizabeth" ejtitle="Litigation Support Analyst" SuperId="50965" Supervisor="Powers, Thomas" SuperStatus="Active" />
-  <row Id="50547" PhysOffice="NY" LogOffice="01" DeptName="Litigation Support" FullName="Alexander, Phyllis" ejtitle="Litigation Support Coordinator" SuperId="50965" Supervisor="Powers, Thomas" SuperStatus="Active" />
-  <row Id="50306" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Hernandez, Karen" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="64344" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Walker, Eugene" ejtitle="Mobile Computing Manager" SuperId="50798" Supervisor="Palefsky, John" SuperStatus="Active" />
-  <row Id="51175" PhysOffice="LA" LogOffice="06" DeptName="Accounting" FullName="Powell, Robin" ejtitle="Accounting Manager" SuperId="51177" Supervisor="Van Iderstine, Aurel" SuperStatus="Active" />
-  <row Id="65347" PhysOffice="NY" LogOffice="01" DeptName="Real Estate" FullName="Ward, Henry" ejtitle="Legal Assistant" SuperId="51061" Supervisor="Mastrosimone, Salvatore" SuperStatus="Active" />
-  <row Id="50798" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Rivera, Patricia" ejtitle="Director Of Technology Service" SuperId="65114" Supervisor="Hunter, Jeffrey" SuperStatus="Active" />
-  <row Id="64167" PhysOffice="FF" LogOffice="14" DeptName="Accounting" FullName="Hill, Lillian" ejtitle="Accounting Manager" SuperId="64371" Supervisor="Batschi, Claudia" SuperStatus="Active" />
-  <row Id="64851" PhysOffice="NY" LogOffice="01" DeptName="Catering" FullName="Allen, Charles" ejtitle="Waiter" SuperId="50825" Supervisor="Schodolski, Edmund" SuperStatus="Active" />
-  <row Id="50795" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Richardson, Elizabeth" ejtitle="TS. Operations Manager" SuperId="50798" Supervisor="Palefsky, John" SuperStatus="Active" />
-  <row Id="51107" PhysOffice="DC" LogOffice="02" DeptName="Foreign Govt" FullName="Flores, Bobby" ejtitle="Industrial Security Manager" SuperId="51117" Supervisor="Morrison, Dorothy" SuperStatus="Active" />
-  <row Id="65288" PhysOffice="NY" LogOffice="99" DeptName="Business Development" FullName="Griffin, Harry" ejtitle="Chief Marketing Officer" SuperId="65114" Supervisor="Hunter, Jeffrey" SuperStatus="Active" />
-  <row Id="50333" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Rogers, Phillip" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="50084" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Hughes, Susan" ejtitle="Client Escrow Bookkeeper" SuperId="65021" Supervisor="Fersht, Svetlana" SuperStatus="Active" />
-  <row Id="64047" PhysOffice="NY" LogOffice="01" DeptName="Corporate &amp; Finance" FullName="Long, Justin" ejtitle="Corp/Finance Transaction Analy" SuperId="63410" Supervisor="Burton, Lisa" SuperStatus="Active" />
-  <row Id="63767" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Baker, Donald" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="64818" PhysOffice="NY" LogOffice="01" DeptName="Conference Dining" FullName="Flores, Donald" ejtitle="Conference Services Coordinato" SuperId="50825" Supervisor="Schodolski, Edmund" SuperStatus="Active" />
-  <row Id="50801" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Bryant, Richard" ejtitle="Programmer" SuperId="50798" Supervisor="Palefsky, John" SuperStatus="Active" />
-  <row Id="65047" PhysOffice="CHI" LogOffice="11" DeptName="Reception/Console" FullName="Flores, Craig" ejtitle="Receptionist" SuperId="50735" Supervisor="Gonzales, Raquel" SuperStatus="Active" />
-  <row Id="65374" PhysOffice="FF" LogOffice="14" DeptName="Secretaries" FullName="Powell, Judy" ejtitle="Secretary - Assigned" SuperId="64371" Supervisor="Batschi, Claudia" SuperStatus="Active" />
-  <row Id="50797" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Parker, Benjamin" ejtitle="Assistant Director of Tech Svc" SuperId="50798" Supervisor="Palefsky, John" SuperStatus="Active" />
-  <row Id="65372" PhysOffice="SV" LogOffice="16" DeptName="Administration" FullName="Gonzales, Pamela" ejtitle="Administrative Legal Secretary" SuperId="64741" Supervisor="Dogonniuck, Karen" SuperStatus="Active" />
-  <row Id="50397" PhysOffice="NY" LogOffice="99" DeptName="Document Services Department" FullName="Rivera, Phillip" ejtitle="P/T Document Services Asst Sup" SuperId="50792" Supervisor="Campbell, Carol" SuperStatus="Active" />
-  <row Id="50802" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Alexander, Karen" ejtitle="Senior Project Manager" SuperId="50798" Supervisor="Palefsky, John" SuperStatus="Active" />
-  <row Id="50965" PhysOffice="NY" LogOffice="01" DeptName="Litigation Support" FullName="Cox, Steve" ejtitle="Director of Litigation Support" SuperId="65114" Supervisor="Hunter, Jeffrey" SuperStatus="Active" />
-  <row Id="64300" PhysOffice="DC" LogOffice="02" DeptName="Technology Services" FullName="Phillips, Carl" ejtitle="Systems/Network Administrator" SuperId="51117" Supervisor="Morrison, Dorothy" SuperStatus="Active" />
-  <row Id="65165" PhysOffice="FF" LogOffice="14" DeptName="Secretaries" FullName="Jackson, Ruby" ejtitle="Secretary" SuperId="64371" Supervisor="Batschi, Claudia" SuperStatus="Active" />
-  <row Id="64410" PhysOffice="LA" LogOffice="06" DeptName="Accounting" FullName="Stewart, Louis" ejtitle="Accounting Assistant" SuperId="51175" Supervisor="Olnick, Semra" SuperStatus="Active" />
-  <row Id="50201" PhysOffice="NY" LogOffice="01" DeptName="Facilities" FullName="Taylor, Sean" ejtitle="Maintenance Assistant" SuperId="50199" Supervisor="Silva, George" SuperStatus="Active" />
-  <row Id="65166" PhysOffice="FF" LogOffice="14" DeptName="Secretaries" FullName="Coleman, Thomas" ejtitle="Secretary" SuperId="64371" Supervisor="Batschi, Claudia" SuperStatus="Active" />
-  <row Id="64811" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Coleman, Harry" ejtitle="Senior Client Reporting Analys" SuperId="50764" Supervisor="Leonardi, Michael" SuperStatus="Active" />
-  <row Id="64292" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Cook, Carolyn" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="50310" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Barnes, Phyllis" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="63067" PhysOffice="NY" LogOffice="01" DeptName="Records Dept." FullName="Morgan, Jane" ejtitle="Records Clerk" SuperId="63907" Supervisor="Franco, John" SuperStatus="Active" />
-  <row Id="50216" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Lewis, Phyllis" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="62362" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Garcia, Amy" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="50265" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Powell, Marie" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="50105" PhysOffice="NY" LogOffice="99" DeptName="Information Resource Center" FullName="Ward, Theresa" ejtitle="Information Resource Assistant" SuperId="50771" Supervisor="Khan, Shabeer" SuperStatus="Active" />
-  <row Id="64962" PhysOffice="NY" LogOffice="99" DeptName="Benefits Administration" FullName="Gonzales, Chris" ejtitle="Benefits Analyst" SuperId="64935" Supervisor="Gold, Cindy" SuperStatus="Active" />
-  <row Id="65346" PhysOffice="NY" LogOffice="99" DeptName="Business Development" FullName="Garcia, Victor" ejtitle="Business Development Assistant" SuperId="65288" Supervisor="Pava, Elizabeth" SuperStatus="Active" />
-  <row Id="50690" PhysOffice="LA" LogOffice="06" DeptName="Secretaries" FullName="Rodriguez, Marilyn" ejtitle="Secretary - Assigned" SuperId="51178" Supervisor="Wells, Sherryl" SuperStatus="Active" />
-  <row Id="62843" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Stewart, Donald" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="63652" PhysOffice="NY" LogOffice="01" DeptName="Catering" FullName="Perez, Margaret" ejtitle="Expediter" SuperId="50825" Supervisor="Schodolski, Edmund" SuperStatus="Active" />
-  <row Id="64515" PhysOffice="LO" LogOffice="12" DeptName="Secretaries" FullName="Morris, Kelly" ejtitle="Team Secretary" SuperId="51205" Supervisor="Miles, Samantha" SuperStatus="Active" />
-  <row Id="64745" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Lee, Terry" ejtitle="Conflicts Analyst" SuperId="50759" Supervisor="Santanello, Susan" SuperStatus="Active" />
-  <row Id="65018" PhysOffice="NY" LogOffice="99" DeptName="Human Resources" FullName="Howard, Angela" ejtitle="Human Resources Generalist" SuperId="50775" Supervisor="Morgan, Dana" SuperStatus="Active" />
-  <row Id="63974" PhysOffice="NY" LogOffice="01" DeptName="Duplicating" FullName="Washington, Shawn" ejtitle="Duplicating Operator" SuperId="50780" Supervisor="Rosenbluth, Joel" SuperStatus="Terminated" />
-  <row Id="50678" PhysOffice="LA" LogOffice="06" DeptName="Secretaries" FullName="Roberts, Earl" ejtitle="Secretary - Assigned" SuperId="51178" Supervisor="Wells, Sherryl" SuperStatus="Active" />
-  <row Id="50113" PhysOffice="NY" LogOffice="01" DeptName="Duplicating" FullName="Gonzalez, George" ejtitle="Duplicating Assistant Supervisor" SuperId="50780" Supervisor="Rosenbluth, Joel" SuperStatus="Terminated" />
-  <row Id="50153" PhysOffice="NY" LogOffice="01" DeptName="Mail Services" FullName="Nelson, Ralph" ejtitle="Mail Services Clerk" SuperId="50780" Supervisor="Rosenbluth, Joel" SuperStatus="Terminated" />
-  <row Id="64336" PhysOffice="DC" LogOffice="02" DeptName="Secretaries" FullName="Stewart, Joan" ejtitle="Secretary - Assigned" SuperId="51116" Supervisor="Ryan, Kathy" SuperStatus="Active" />
-  <row Id="62825" PhysOffice="NY" LogOffice="01" DeptName="Mail Services" FullName="Price, Virginia" ejtitle="Mail Services Clerk" SuperId="50780" Supervisor="Rosenbluth, Joel" SuperStatus="Terminated" />
-  <row Id="51116" PhysOffice="DC" LogOffice="02" DeptName="Human Resources" FullName="Stewart, Wayne" ejtitle="Human Resources Manager" SuperId="51117" Supervisor="Morrison, Dorothy" SuperStatus="Active" />
-  <row Id="50818" PhysOffice="NY" LogOffice="99" DeptName="Graphics" FullName="Bell, Aaron" ejtitle="Presentation Graphics Speclst" SuperId="62831" Supervisor="Johnston, Eldin" SuperStatus="Active" />
-  <row Id="65281" PhysOffice="NY" LogOffice="01" DeptName="Litigation Support" FullName="Johnson, Amy" ejtitle="Litigation Support Analyst" SuperId="50965" Supervisor="Powers, Thomas" SuperStatus="Active" />
-  <row Id="65029" PhysOffice="LA" LogOffice="06" DeptName="Accounting" FullName="Flores, Peter" ejtitle="Billing Assistant" SuperId="51175" Supervisor="Olnick, Semra" SuperStatus="Active" />
-  <row Id="62990" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Ward, Angela" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
+  <row Id="64114" PhysOffice="NY" LogOffice="01" DeptName="Litigation Support" FullName="Rodriguez, Elizabeth" ejtitle="Litigation Support Analyst" SuperId="50965" Supervisor="" SuperStatus="Active" />
+  <row Id="50547" PhysOffice="NY" LogOffice="01" DeptName="Litigation Support" FullName="Alexander, Phyllis" ejtitle="Litigation Support Coordinator" SuperId="50965" Supervisor="" SuperStatus="Active" />
+  <row Id="50306" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Hernandez, Karen" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="64344" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Walker, Eugene" ejtitle="Mobile Computing Manager" SuperId="50798" Supervisor="" SuperStatus="Active" />
+  <row Id="51175" PhysOffice="LA" LogOffice="06" DeptName="Accounting" FullName="Powell, Robin" ejtitle="Accounting Manager" SuperId="51177" Supervisor="" SuperStatus="Active" />
+  <row Id="65347" PhysOffice="NY" LogOffice="01" DeptName="Real Estate" FullName="Ward, Henry" ejtitle="Legal Assistant" SuperId="51061" Supervisor="" SuperStatus="Active" />
+  <row Id="50798" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Rivera, Patricia" ejtitle="Director Of Technology Service" SuperId="65114" Supervisor="" SuperStatus="Active" />
+  <row Id="64167" PhysOffice="FF" LogOffice="14" DeptName="Accounting" FullName="Hill, Lillian" ejtitle="Accounting Manager" SuperId="64371" Supervisor="" SuperStatus="Active" />
+  <row Id="64851" PhysOffice="NY" LogOffice="01" DeptName="Catering" FullName="Allen, Charles" ejtitle="Waiter" SuperId="50825" Supervisor="" SuperStatus="Active" />
+  <row Id="50795" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Richardson, Elizabeth" ejtitle="TS. Operations Manager" SuperId="50798" Supervisor="" SuperStatus="Active" />
+  <row Id="51107" PhysOffice="DC" LogOffice="02" DeptName="Foreign Govt" FullName="Flores, Bobby" ejtitle="Industrial Security Manager" SuperId="51117" Supervisor="" SuperStatus="Active" />
+  <row Id="65288" PhysOffice="NY" LogOffice="99" DeptName="Business Development" FullName="Griffin, Harry" ejtitle="Chief Marketing Officer" SuperId="65114" Supervisor="" SuperStatus="Active" />
+  <row Id="50333" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Rogers, Phillip" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="50084" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Hughes, Susan" ejtitle="Client Escrow Bookkeeper" SuperId="65021" Supervisor="" SuperStatus="Active" />
+  <row Id="64047" PhysOffice="NY" LogOffice="01" DeptName="Corporate &amp; Finance" FullName="Long, Justin" ejtitle="Corp/Finance Transaction Analy" SuperId="63410" Supervisor="" SuperStatus="Active" />
+  <row Id="63767" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Baker, Donald" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="64818" PhysOffice="NY" LogOffice="01" DeptName="Conference Dining" FullName="Flores, Donald" ejtitle="Conference Services Coordinato" SuperId="50825" Supervisor="" SuperStatus="Active" />
+  <row Id="50801" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Bryant, Richard" ejtitle="Programmer" SuperId="50798" Supervisor="" SuperStatus="Active" />
+  <row Id="65047" PhysOffice="CHI" LogOffice="11" DeptName="Reception/Console" FullName="Flores, Craig" ejtitle="Receptionist" SuperId="50735" Supervisor="" SuperStatus="Active" />
+  <row Id="65374" PhysOffice="FF" LogOffice="14" DeptName="Secretaries" FullName="Powell, Judy" ejtitle="Secretary - Assigned" SuperId="64371" Supervisor="" SuperStatus="Active" />
+  <row Id="50797" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Parker, Benjamin" ejtitle="Assistant Director of Tech Svc" SuperId="50798" Supervisor="" SuperStatus="Active" />
+  <row Id="65372" PhysOffice="SV" LogOffice="16" DeptName="Administration" FullName="Gonzales, Pamela" ejtitle="Administrative Legal Secretary" SuperId="64741" Supervisor="" SuperStatus="Active" />
+  <row Id="50397" PhysOffice="NY" LogOffice="99" DeptName="Document Services Department" FullName="Rivera, Phillip" ejtitle="P/T Document Services Asst Sup" SuperId="50792" Supervisor="" SuperStatus="Active" />
+  <row Id="50802" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Alexander, Karen" ejtitle="Senior Project Manager" SuperId="50798" Supervisor="" SuperStatus="Active" />
+  <row Id="50965" PhysOffice="NY" LogOffice="01" DeptName="Litigation Support" FullName="Cox, Steve" ejtitle="Director of Litigation Support" SuperId="65114" Supervisor="" SuperStatus="Active" />
+  <row Id="64300" PhysOffice="DC" LogOffice="02" DeptName="Technology Services" FullName="Phillips, Carl" ejtitle="Systems/Network Administrator" SuperId="51117" Supervisor="" SuperStatus="Active" />
+  <row Id="65165" PhysOffice="FF" LogOffice="14" DeptName="Secretaries" FullName="Jackson, Ruby" ejtitle="Secretary" SuperId="64371" Supervisor="" SuperStatus="Active" />
+  <row Id="64410" PhysOffice="LA" LogOffice="06" DeptName="Accounting" FullName="Stewart, Louis" ejtitle="Accounting Assistant" SuperId="51175" Supervisor="" SuperStatus="Active" />
+  <row Id="50201" PhysOffice="NY" LogOffice="01" DeptName="Facilities" FullName="Taylor, Sean" ejtitle="Maintenance Assistant" SuperId="50199" Supervisor="" SuperStatus="Active" />
+  <row Id="65166" PhysOffice="FF" LogOffice="14" DeptName="Secretaries" FullName="Coleman, Thomas" ejtitle="Secretary" SuperId="64371" Supervisor="" SuperStatus="Active" />
+  <row Id="64811" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Coleman, Harry" ejtitle="Senior Client Reporting Analys" SuperId="50764" Supervisor="" SuperStatus="Active" />
+  <row Id="64292" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Cook, Carolyn" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="50310" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Barnes, Phyllis" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="63067" PhysOffice="NY" LogOffice="01" DeptName="Records Dept." FullName="Morgan, Jane" ejtitle="Records Clerk" SuperId="63907" Supervisor="" SuperStatus="Active" />
+  <row Id="50216" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Lewis, Phyllis" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="62362" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Garcia, Amy" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="50265" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Powell, Marie" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="50105" PhysOffice="NY" LogOffice="99" DeptName="Information Resource Center" FullName="Ward, Theresa" ejtitle="Information Resource Assistant" SuperId="50771" Supervisor="" SuperStatus="Active" />
+  <row Id="64962" PhysOffice="NY" LogOffice="99" DeptName="Benefits Administration" FullName="Gonzales, Chris" ejtitle="Benefits Analyst" SuperId="64935" Supervisor="" SuperStatus="Active" />
+  <row Id="65346" PhysOffice="NY" LogOffice="99" DeptName="Business Development" FullName="Garcia, Victor" ejtitle="Business Development Assistant" SuperId="65288" Supervisor="" SuperStatus="Active" />
+  <row Id="50690" PhysOffice="LA" LogOffice="06" DeptName="Secretaries" FullName="Rodriguez, Marilyn" ejtitle="Secretary - Assigned" SuperId="51178" Supervisor="" SuperStatus="Active" />
+  <row Id="62843" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Stewart, Donald" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="63652" PhysOffice="NY" LogOffice="01" DeptName="Catering" FullName="Perez, Margaret" ejtitle="Expediter" SuperId="50825" Supervisor="" SuperStatus="Active" />
+  <row Id="64515" PhysOffice="LO" LogOffice="12" DeptName="Secretaries" FullName="Morris, Kelly" ejtitle="Team Secretary" SuperId="51205" Supervisor="" SuperStatus="Active" />
+  <row Id="64745" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Lee, Terry" ejtitle="Conflicts Analyst" SuperId="50759" Supervisor="" SuperStatus="Active" />
+  <row Id="65018" PhysOffice="NY" LogOffice="99" DeptName="Human Resources" FullName="Howard, Angela" ejtitle="Human Resources Generalist" SuperId="50775" Supervisor="" SuperStatus="Active" />
+  <row Id="63974" PhysOffice="NY" LogOffice="01" DeptName="Duplicating" FullName="Washington, Shawn" ejtitle="Duplicating Operator" SuperId="50780" Supervisor="" SuperStatus="Terminated" />
+  <row Id="50678" PhysOffice="LA" LogOffice="06" DeptName="Secretaries" FullName="Roberts, Earl" ejtitle="Secretary - Assigned" SuperId="51178" Supervisor="" SuperStatus="Active" />
+  <row Id="50113" PhysOffice="NY" LogOffice="01" DeptName="Duplicating" FullName="Gonzalez, George" ejtitle="Duplicating Assistant Supervisor" SuperId="50780" Supervisor="" SuperStatus="Terminated" />
+  <row Id="50153" PhysOffice="NY" LogOffice="01" DeptName="Mail Services" FullName="Nelson, Ralph" ejtitle="Mail Services Clerk" SuperId="50780" Supervisor="" SuperStatus="Terminated" />
+  <row Id="64336" PhysOffice="DC" LogOffice="02" DeptName="Secretaries" FullName="Stewart, Joan" ejtitle="Secretary - Assigned" SuperId="51116" Supervisor="" SuperStatus="Active" />
+  <row Id="62825" PhysOffice="NY" LogOffice="01" DeptName="Mail Services" FullName="Price, Virginia" ejtitle="Mail Services Clerk" SuperId="50780" Supervisor="" SuperStatus="Terminated" />
+  <row Id="51116" PhysOffice="DC" LogOffice="02" DeptName="Human Resources" FullName="Stewart, Wayne" ejtitle="Human Resources Manager" SuperId="51117" Supervisor="" SuperStatus="Active" />
+  <row Id="50818" PhysOffice="NY" LogOffice="99" DeptName="Graphics" FullName="Bell, Aaron" ejtitle="Presentation Graphics Speclst" SuperId="62831" Supervisor="" SuperStatus="Active" />
+  <row Id="65281" PhysOffice="NY" LogOffice="01" DeptName="Litigation Support" FullName="Johnson, Amy" ejtitle="Litigation Support Analyst" SuperId="50965" Supervisor="" SuperStatus="Active" />
+  <row Id="65029" PhysOffice="LA" LogOffice="06" DeptName="Accounting" FullName="Flores, Peter" ejtitle="Billing Assistant" SuperId="51175" Supervisor="" SuperStatus="Active" />
+  <row Id="62990" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Ward, Angela" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
   <row Id="62889" PhysOffice="FF" LogOffice="14" DeptName="Secretaries" FullName="Taylor, Jose" ejtitle="Secretary/Assistant" />
-  <row Id="50759" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Henderson, Howard" ejtitle="Client Reporting Manager" SuperId="50764" Supervisor="Leonardi, Michael" SuperStatus="Active" />
-  <row Id="61784" PhysOffice="NY" LogOffice="01" DeptName="Product Liability Litigation" FullName="Thomas, Mark" ejtitle="Legal Nurse Analyst" SuperId="65223" Supervisor="Makanova, Marina" SuperStatus="Active" />
-  <row Id="65040" PhysOffice="NY" LogOffice="99" DeptName="Business Development" FullName="Parker, Michael" ejtitle="Business Development Manager" SuperId="65288" Supervisor="Pava, Elizabeth" SuperStatus="Active" />
-  <row Id="50111" PhysOffice="NY" LogOffice="01" DeptName="Duplicating" FullName="Hughes, Linda" ejtitle="Duplicating Operator" SuperId="50780" Supervisor="Rosenbluth, Joel" SuperStatus="Terminated" />
-  <row Id="50170" PhysOffice="NY" LogOffice="01" DeptName="Mail Services" FullName="Parker, Joyce" ejtitle="Evening Sup - Mail Dispatch" SuperId="50780" Supervisor="Rosenbluth, Joel" SuperStatus="Terminated" />
-  <row Id="65162" PhysOffice="FF" LogOffice="14" DeptName="Secretaries" FullName="Martin, Helen" ejtitle="Secretary" SuperId="64371" Supervisor="Batschi, Claudia" SuperStatus="Active" />
-  <row Id="50672" PhysOffice="LA" LogOffice="06" DeptName="Complex Commercial Litigation" FullName="Jones, Scott" ejtitle="Legal Assistant" SuperId="51178" Supervisor="Wells, Sherryl" SuperStatus="Active" />
-  <row Id="64510" PhysOffice="CHI" LogOffice="11" DeptName="Reception/Console" FullName="Carter, Carolyn" ejtitle="Receptionist" SuperId="50735" Supervisor="Gonzales, Raquel" SuperStatus="Active" />
-  <row Id="50825" PhysOffice="NY" LogOffice="01" DeptName="Park Cafe" FullName="Flores, Ryan" ejtitle="Food Service Manager" SuperId="64741" Supervisor="Dogonniuck, Karen" SuperStatus="Active" />
-  <row Id="63527" PhysOffice="CHI" LogOffice="11" DeptName="Secretaries" FullName="Jenkins, Billy" ejtitle="Secretary - Assigned" SuperId="50735" Supervisor="Gonzales, Raquel" SuperStatus="Active" />
-  <row Id="50563" PhysOffice="NY" LogOffice="01" DeptName="Business Reorganization Group" FullName="Wood, Stephanie" ejtitle="Legal Assistant" SuperId="65218" Supervisor="Zawierka, Catherine" SuperStatus="Active" />
-  <row Id="65088" PhysOffice="NY" LogOffice="99" DeptName="Document Services Department" FullName="Martin, Paula" ejtitle="Document Services Operator" SuperId="65036" Supervisor="Symmonds, David" SuperStatus="Active" />
-  <row Id="65013" PhysOffice="NY" LogOffice="99" DeptName="Telecomm" FullName="Martin, Dennis" ejtitle="Telecommunications Coordinator" SuperId="50783" Supervisor="Fako, Mary" SuperStatus="Active" />
-  <row Id="50963" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Henderson, Daniel" ejtitle="Legal Assistant Training Coord" SuperId="65228" Supervisor="Lobel, Richard" SuperStatus="Active" />
+  <row Id="50759" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Henderson, Howard" ejtitle="Client Reporting Manager" SuperId="50764" Supervisor="" SuperStatus="Active" />
+  <row Id="61784" PhysOffice="NY" LogOffice="01" DeptName="Product Liability Litigation" FullName="Thomas, Mark" ejtitle="Legal Nurse Analyst" SuperId="65223" Supervisor="" SuperStatus="Active" />
+  <row Id="65040" PhysOffice="NY" LogOffice="99" DeptName="Business Development" FullName="Parker, Michael" ejtitle="Business Development Manager" SuperId="65288" Supervisor="" SuperStatus="Active" />
+  <row Id="50111" PhysOffice="NY" LogOffice="01" DeptName="Duplicating" FullName="Hughes, Linda" ejtitle="Duplicating Operator" SuperId="50780" Supervisor="" SuperStatus="Terminated" />
+  <row Id="50170" PhysOffice="NY" LogOffice="01" DeptName="Mail Services" FullName="Parker, Joyce" ejtitle="Evening Sup - Mail Dispatch" SuperId="50780" Supervisor="" SuperStatus="Terminated" />
+  <row Id="65162" PhysOffice="FF" LogOffice="14" DeptName="Secretaries" FullName="Martin, Helen" ejtitle="Secretary" SuperId="64371" Supervisor="" SuperStatus="Active" />
+  <row Id="50672" PhysOffice="LA" LogOffice="06" DeptName="Complex Commercial Litigation" FullName="Jones, Scott" ejtitle="Legal Assistant" SuperId="51178" Supervisor="" SuperStatus="Active" />
+  <row Id="64510" PhysOffice="CHI" LogOffice="11" DeptName="Reception/Console" FullName="Carter, Carolyn" ejtitle="Receptionist" SuperId="50735" Supervisor="" SuperStatus="Active" />
+  <row Id="50825" PhysOffice="NY" LogOffice="01" DeptName="Park Cafe" FullName="Flores, Ryan" ejtitle="Food Service Manager" SuperId="64741" Supervisor="" SuperStatus="Active" />
+  <row Id="63527" PhysOffice="CHI" LogOffice="11" DeptName="Secretaries" FullName="Jenkins, Billy" ejtitle="Secretary - Assigned" SuperId="50735" Supervisor="" SuperStatus="Active" />
+  <row Id="50563" PhysOffice="NY" LogOffice="01" DeptName="Business Reorganization Group" FullName="Wood, Stephanie" ejtitle="Legal Assistant" SuperId="65218" Supervisor="" SuperStatus="Active" />
+  <row Id="65088" PhysOffice="NY" LogOffice="99" DeptName="Document Services Department" FullName="Martin, Paula" ejtitle="Document Services Operator" SuperId="65036" Supervisor="" SuperStatus="Active" />
+  <row Id="65013" PhysOffice="NY" LogOffice="99" DeptName="Telecomm" FullName="Martin, Dennis" ejtitle="Telecommunications Coordinator" SuperId="50783" Supervisor="" SuperStatus="Active" />
+  <row Id="50963" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Henderson, Daniel" ejtitle="Legal Assistant Training Coord" SuperId="65228" Supervisor="" SuperStatus="Active" />
   <row Id="62925" PhysOffice="SHA" LogOffice="10" DeptName="Secretaries" FullName="Bennett, Donald" ejtitle="Secretary" />
-  <row Id="50358" PhysOffice="NY" LogOffice="01" DeptName="Duplicating" FullName="Brooks, Christine" ejtitle="Telecommunications Coordinator" SuperId="50780" Supervisor="Rosenbluth, Joel" SuperStatus="Terminated" />
-  <row Id="50821" PhysOffice="NY" LogOffice="99" DeptName="Business Development" FullName="Gonzales, Joe" ejtitle="BD Manager - Transactional" SuperId="65288" Supervisor="Pava, Elizabeth" SuperStatus="Active" />
-  <row Id="50324" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Thomas, Maria" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="50199" PhysOffice="NY" LogOffice="01" DeptName="Facilities" FullName="Bennett, Walter" ejtitle="Facilities Supervisor" SuperId="64741" Supervisor="Dogonniuck, Karen" SuperStatus="Active" />
-  <row Id="50514" PhysOffice="NY" LogOffice="01" DeptName="Complex Commercial Litigation" FullName="Garcia, Sarah" ejtitle="Legal Assistant" SuperId="65223" Supervisor="Makanova, Marina" SuperStatus="Active" />
-  <row Id="64642" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Walker, Nicholas" ejtitle="Mobile Technology Technician" SuperId="64344" Supervisor="O'Reilly, Michael" SuperStatus="Active" />
-  <row Id="64339" PhysOffice="NY" LogOffice="99" DeptName="Information Resource Center" FullName="White, Dorothy" ejtitle="IRC Acquisitions Clerk" SuperId="50771" Supervisor="Khan, Shabeer" SuperStatus="Active" />
+  <row Id="50358" PhysOffice="NY" LogOffice="01" DeptName="Duplicating" FullName="Brooks, Christine" ejtitle="Telecommunications Coordinator" SuperId="50780" Supervisor="" SuperStatus="Terminated" />
+  <row Id="50821" PhysOffice="NY" LogOffice="99" DeptName="Business Development" FullName="Gonzales, Joe" ejtitle="BD Manager - Transactional" SuperId="65288" Supervisor="" SuperStatus="Active" />
+  <row Id="50324" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Thomas, Maria" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="50199" PhysOffice="NY" LogOffice="01" DeptName="Facilities" FullName="Bennett, Walter" ejtitle="Facilities Supervisor" SuperId="64741" Supervisor="" SuperStatus="Active" />
+  <row Id="50514" PhysOffice="NY" LogOffice="01" DeptName="Complex Commercial Litigation" FullName="Garcia, Sarah" ejtitle="Legal Assistant" SuperId="65223" Supervisor="" SuperStatus="Active" />
+  <row Id="64642" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Walker, Nicholas" ejtitle="Mobile Technology Technician" SuperId="64344" Supervisor="" SuperStatus="Active" />
+  <row Id="64339" PhysOffice="NY" LogOffice="99" DeptName="Information Resource Center" FullName="White, Dorothy" ejtitle="IRC Acquisitions Clerk" SuperId="50771" Supervisor="" SuperStatus="Active" />
   <row Id="65310" PhysOffice="NY" LogOffice="01" DeptName="Intellectual Property Litigati" FullName="Watson, Frank" ejtitle="Staff Attorney - Support" />
-  <row Id="64215" PhysOffice="NY" LogOffice="01" DeptName="Facilities" FullName="Ward, James" ejtitle="Maintenance Assistant" SuperId="50199" Supervisor="Silva, George" SuperStatus="Active" />
-  <row Id="63682" PhysOffice="NY" LogOffice="01" DeptName="Litigation Support" FullName="Diaz, Kevin" ejtitle="Litigation Support Analyst" SuperId="50965" Supervisor="Powers, Thomas" SuperStatus="Active" />
-  <row Id="50697" PhysOffice="LA" LogOffice="06" DeptName="Document Services Department" FullName="Roberts, Judith" ejtitle="Lead Document Services Operato" SuperId="51178" Supervisor="Wells, Sherryl" SuperStatus="Active" />
-  <row Id="50217" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Adams, Donna" ejtitle="Secretary - Unassigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="50449" PhysOffice="NY" LogOffice="01" DeptName="Conference Dining" FullName="Ross, Julia" ejtitle="Conference Services Assistant" SuperId="50825" Supervisor="Schodolski, Edmund" SuperStatus="Active" />
-  <row Id="50130" PhysOffice="NY" LogOffice="01" DeptName="Records Dept." FullName="Martinez, Kelly" ejtitle="Records Clerk" SuperId="63907" Supervisor="Franco, John" SuperStatus="Active" />
-  <row Id="59146" PhysOffice="CHI" LogOffice="11" DeptName="Business Reorganization Group" FullName="Gonzalez, Amanda" ejtitle="Partner" SuperId="53776" Supervisor="Macdonald, Andrew" SuperStatus="Active" />
-  <row Id="64068" PhysOffice="NY" LogOffice="01" DeptName="Corporate &amp; Finance" FullName="Martinez, Jimmy" ejtitle="Corp/Finance Transaction Analy" SuperId="63410" Supervisor="Burton, Lisa" SuperStatus="Active" />
-  <row Id="65345" PhysOffice="NY" LogOffice="99" DeptName="Business Development" FullName="Gonzales, Gloria" ejtitle="Dir of PR &amp; Communications" SuperId="65288" Supervisor="Pava, Elizabeth" SuperStatus="Active" />
-  <row Id="64977" PhysOffice="NY" LogOffice="01" DeptName="Technology Services" FullName="Roberts, Ashley" ejtitle="Computer Technician" SuperId="50795" Supervisor="Papazian, Janet" SuperStatus="Active" />
-  <row Id="64849" PhysOffice="NY" LogOffice="01" DeptName="Catering" FullName="Peterson, Patricia" ejtitle="Waiter" SuperId="50825" Supervisor="Schodolski, Edmund" SuperStatus="Active" />
-  <row Id="50204" PhysOffice="NY" LogOffice="01" DeptName="Reception/Console" FullName="Mitchell, Cynthia" ejtitle="Receptionist" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="64665" PhysOffice="NY" LogOffice="99" DeptName="Talent Development" FullName="Carter, Mark" ejtitle="Pro Bono Administrator" SuperId="64981" Supervisor="Sully, Elizabeth" SuperStatus="Active" />
-  <row Id="50404" PhysOffice="NY" LogOffice="99" DeptName="Document Services Department" FullName="Bennett, Andrew" ejtitle="P/T Document Services Proofreader" SuperId="50792" Supervisor="Campbell, Carol" SuperStatus="Active" />
-  <row Id="65336" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Anderson, Russell" ejtitle="User Support Specialist" SuperId="50807" Supervisor="Chin, Lisa" SuperStatus="Active" />
-  <row Id="63841" PhysOffice="NY" LogOffice="99" DeptName="Information Resource Center" FullName="Murphy, Catherine" ejtitle="Information Specialist" SuperId="50771" Supervisor="Khan, Shabeer" SuperStatus="Active" />
-  <row Id="50628" PhysOffice="DC" LogOffice="02" DeptName="Secretaries" FullName="Wilson, Philip" ejtitle="Secretary - Assigned" SuperId="51116" Supervisor="Ryan, Kathy" SuperStatus="Active" />
-  <row Id="64026" PhysOffice="NY" LogOffice="01" DeptName="Duplicating" FullName="Hernandez, Virginia" ejtitle="Duplicating Assistant Supervisor" SuperId="50780" Supervisor="Rosenbluth, Joel" SuperStatus="Terminated" />
-  <row Id="50273" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Hayes, Arthur" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="64981" PhysOffice="NY" LogOffice="99" DeptName="Talent Development" FullName="Bell, Elizabeth" ejtitle="Director of Talent Development" SuperId="65114" Supervisor="Hunter, Jeffrey" SuperStatus="Active" />
-  <row Id="50583" PhysOffice="NY" LogOffice="01" DeptName="Real Estate" FullName="Brooks, James" ejtitle="Senior Legal Assistant" SuperId="51061" Supervisor="Mastrosimone, Salvatore" SuperStatus="Active" />
-  <row Id="64713" PhysOffice="NY" LogOffice="01" DeptName="Product Liability Litigation" FullName="Lewis, Nicole" ejtitle="Legal Assistant" SuperId="65223" Supervisor="Makanova, Marina" SuperStatus="Active" />
-  <row Id="65036" PhysOffice="NY" LogOffice="99" DeptName="Document Services Department" FullName="Bryant, Amanda" ejtitle="Document Services Supervisor" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="65155" PhysOffice="SHA" LogOffice="10" DeptName="Corporate &amp; Finance" FullName="Brooks, Howard" ejtitle="Translator" SuperId="62885" Supervisor="Ho, Po Shan" SuperStatus="Active" />
-  <row Id="63002" PhysOffice="DC" LogOffice="02" DeptName="Secretaries" FullName="Collins, Willie" ejtitle="Secretary - Assigned" SuperId="51116" Supervisor="Ryan, Kathy" SuperStatus="Active" />
-  <row Id="50135" PhysOffice="NY" LogOffice="01" DeptName="Records Dept." FullName="Bennett, Susan" ejtitle="Records Clerk" SuperId="63907" Supervisor="Franco, John" SuperStatus="Active" />
-  <row Id="65123" PhysOffice="NY" LogOffice="01" DeptName="Beverage Service" FullName="Thomas, Kathleen" ejtitle="P/T Food Service Asst" SuperId="50825" Supervisor="Schodolski, Edmund" SuperStatus="Active" />
-  <row Id="64790" PhysOffice="NY" LogOffice="01" DeptName="Corporate &amp; Finance" FullName="Brooks, Virginia" ejtitle="Senior Legal Assistant" SuperId="63410" Supervisor="Burton, Lisa" SuperStatus="Active" />
-  <row Id="50176" PhysOffice="NY" LogOffice="01" DeptName="Mail Services" FullName="Cooper, Dennis" ejtitle="Mail Services Clerk" SuperId="50780" Supervisor="Rosenbluth, Joel" SuperStatus="Terminated" />
-  <row Id="64001" PhysOffice="LA" LogOffice="06" DeptName="Secretaries" FullName="Rodriguez, Walter" ejtitle="Secretary - Assigned" SuperId="51178" Supervisor="Wells, Sherryl" SuperStatus="Active" />
-  <row Id="65025" PhysOffice="NY" LogOffice="99" DeptName="Document Services Department" FullName="Edwards, Bobby" ejtitle="Lead Operator - 3rd" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="63902" PhysOffice="NY" LogOffice="01" DeptName="Real Estate" FullName="Garcia, Elizabeth" ejtitle="Legal Assistant" SuperId="51061" Supervisor="Mastrosimone, Salvatore" SuperStatus="Active" />
-  <row Id="50272" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Bennett, Julia" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="50687" PhysOffice="LA" LogOffice="06" DeptName="Mail Services" FullName="Butler, Judith" ejtitle="Office Services Clerk" SuperId="51181" Supervisor="Escalante, Salvador" SuperStatus="Active" />
-  <row Id="64151" PhysOffice="NY" LogOffice="01" DeptName="Mail Services" FullName="Harris, Kathleen" ejtitle="Mail Services Clerk" SuperId="50780" Supervisor="Rosenbluth, Joel" SuperStatus="Terminated" />
-  <row Id="64553" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Butler, Marilyn" ejtitle="User Support Specialist" SuperId="50807" Supervisor="Chin, Lisa" SuperStatus="Active" />
-  <row Id="50223" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Patterson, Jason" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="64291" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Powell, Catherine" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="51177" PhysOffice="LA" LogOffice="06" DeptName="Administration" FullName="Morgan, Antonio" ejtitle="Director Of Administration - L" SuperId="51177" Supervisor="Van Iderstine, Aurel" SuperStatus="Active" />
-  <row Id="63899" PhysOffice="DC" LogOffice="02" DeptName="Mail Services" FullName="Hill, Ralph" ejtitle="Facilities Assistant" SuperId="63747" Supervisor="Kingsland, Tomar" SuperStatus="Active" />
-  <row Id="50075" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Edwards, Denise" ejtitle="Hourly Sr.Time &amp; Bill Coord." SuperId="50759" Supervisor="Santanello, Susan" SuperStatus="Active" />
-  <row Id="50329" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Henderson, Matthew" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="50421" PhysOffice="NY" LogOffice="99" DeptName="Business Development" FullName="Phillips, Eric" ejtitle="Webmaster" SuperId="65288" Supervisor="Pava, Elizabeth" SuperStatus="Active" />
-  <row Id="65121" PhysOffice="NY" LogOffice="01" DeptName="Trusts &amp; Estates" FullName="James, James" ejtitle="Private Client Administrator" SuperId="65116" Supervisor="Ben-Jacob, Michael" SuperStatus="Active" />
-  <row Id="65268" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Williams, Laura" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="50080" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Brown, Keith" ejtitle="Accounts Receivable Assistant" SuperId="65021" Supervisor="Fersht, Svetlana" SuperStatus="Active" />
-  <row Id="50683" PhysOffice="LA" LogOffice="06" DeptName="Secretaries" FullName="Morris, Wayne" ejtitle="P/T Secretary - Assigned" SuperId="51178" Supervisor="Wells, Sherryl" SuperStatus="Active" />
-  <row Id="64588" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Gonzales, Andrew" ejtitle="Web Application Programmer" SuperId="50797" Supervisor="Pinsley, Howard" SuperStatus="Active" />
-  <row Id="50417" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Carter, Judith" ejtitle="Network Specialist" SuperId="50798" Supervisor="Palefsky, John" SuperStatus="Active" />
-  <row Id="65111" PhysOffice="DC" LogOffice="02" DeptName="Secretaries" FullName="Mitchell, Katherine" ejtitle="Secretary - Assigned" SuperId="51116" Supervisor="Ryan, Kathy" SuperStatus="Active" />
+  <row Id="64215" PhysOffice="NY" LogOffice="01" DeptName="Facilities" FullName="Ward, James" ejtitle="Maintenance Assistant" SuperId="50199" Supervisor="" SuperStatus="Active" />
+  <row Id="63682" PhysOffice="NY" LogOffice="01" DeptName="Litigation Support" FullName="Diaz, Kevin" ejtitle="Litigation Support Analyst" SuperId="50965" Supervisor="" SuperStatus="Active" />
+  <row Id="50697" PhysOffice="LA" LogOffice="06" DeptName="Document Services Department" FullName="Roberts, Judith" ejtitle="Lead Document Services Operato" SuperId="51178" Supervisor="" SuperStatus="Active" />
+  <row Id="50217" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Adams, Donna" ejtitle="Secretary - Unassigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="50449" PhysOffice="NY" LogOffice="01" DeptName="Conference Dining" FullName="Ross, Julia" ejtitle="Conference Services Assistant" SuperId="50825" Supervisor="" SuperStatus="Active" />
+  <row Id="50130" PhysOffice="NY" LogOffice="01" DeptName="Records Dept." FullName="Martinez, Kelly" ejtitle="Records Clerk" SuperId="63907" Supervisor="" SuperStatus="Active" />
+  <row Id="59146" PhysOffice="CHI" LogOffice="11" DeptName="Business Reorganization Group" FullName="Gonzalez, Amanda" ejtitle="Partner" SuperId="53776" Supervisor="" SuperStatus="Active" />
+  <row Id="64068" PhysOffice="NY" LogOffice="01" DeptName="Corporate &amp; Finance" FullName="Martinez, Jimmy" ejtitle="Corp/Finance Transaction Analy" SuperId="63410" Supervisor="" SuperStatus="Active" />
+  <row Id="65345" PhysOffice="NY" LogOffice="99" DeptName="Business Development" FullName="Gonzales, Gloria" ejtitle="Dir of PR &amp; Communications" SuperId="65288" Supervisor="" SuperStatus="Active" />
+  <row Id="64977" PhysOffice="NY" LogOffice="01" DeptName="Technology Services" FullName="Roberts, Ashley" ejtitle="Computer Technician" SuperId="50795" Supervisor="" SuperStatus="Active" />
+  <row Id="64849" PhysOffice="NY" LogOffice="01" DeptName="Catering" FullName="Peterson, Patricia" ejtitle="Waiter" SuperId="50825" Supervisor="" SuperStatus="Active" />
+  <row Id="50204" PhysOffice="NY" LogOffice="01" DeptName="Reception/Console" FullName="Mitchell, Cynthia" ejtitle="Receptionist" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="64665" PhysOffice="NY" LogOffice="99" DeptName="Talent Development" FullName="Carter, Mark" ejtitle="Pro Bono Administrator" SuperId="64981" Supervisor="" SuperStatus="Active" />
+  <row Id="50404" PhysOffice="NY" LogOffice="99" DeptName="Document Services Department" FullName="Bennett, Andrew" ejtitle="P/T Document Services Proofreader" SuperId="50792" Supervisor="" SuperStatus="Active" />
+  <row Id="65336" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Anderson, Russell" ejtitle="User Support Specialist" SuperId="50807" Supervisor="" SuperStatus="Active" />
+  <row Id="63841" PhysOffice="NY" LogOffice="99" DeptName="Information Resource Center" FullName="Murphy, Catherine" ejtitle="Information Specialist" SuperId="50771" Supervisor="" SuperStatus="Active" />
+  <row Id="50628" PhysOffice="DC" LogOffice="02" DeptName="Secretaries" FullName="Wilson, Philip" ejtitle="Secretary - Assigned" SuperId="51116" Supervisor="" SuperStatus="Active" />
+  <row Id="64026" PhysOffice="NY" LogOffice="01" DeptName="Duplicating" FullName="Hernandez, Virginia" ejtitle="Duplicating Assistant Supervisor" SuperId="50780" Supervisor="" SuperStatus="Terminated" />
+  <row Id="50273" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Hayes, Arthur" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="64981" PhysOffice="NY" LogOffice="99" DeptName="Talent Development" FullName="Bell, Elizabeth" ejtitle="Director of Talent Development" SuperId="65114" Supervisor="" SuperStatus="Active" />
+  <row Id="50583" PhysOffice="NY" LogOffice="01" DeptName="Real Estate" FullName="Brooks, James" ejtitle="Senior Legal Assistant" SuperId="51061" Supervisor="" SuperStatus="Active" />
+  <row Id="64713" PhysOffice="NY" LogOffice="01" DeptName="Product Liability Litigation" FullName="Lewis, Nicole" ejtitle="Legal Assistant" SuperId="65223" Supervisor="" SuperStatus="Active" />
+  <row Id="65036" PhysOffice="NY" LogOffice="99" DeptName="Document Services Department" FullName="Bryant, Amanda" ejtitle="Document Services Supervisor" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="65155" PhysOffice="SHA" LogOffice="10" DeptName="Corporate &amp; Finance" FullName="Brooks, Howard" ejtitle="Translator" SuperId="62885" Supervisor="" SuperStatus="Active" />
+  <row Id="63002" PhysOffice="DC" LogOffice="02" DeptName="Secretaries" FullName="Collins, Willie" ejtitle="Secretary - Assigned" SuperId="51116" Supervisor="" SuperStatus="Active" />
+  <row Id="50135" PhysOffice="NY" LogOffice="01" DeptName="Records Dept." FullName="Bennett, Susan" ejtitle="Records Clerk" SuperId="63907" Supervisor="" SuperStatus="Active" />
+  <row Id="65123" PhysOffice="NY" LogOffice="01" DeptName="Beverage Service" FullName="Thomas, Kathleen" ejtitle="P/T Food Service Asst" SuperId="50825" Supervisor="" SuperStatus="Active" />
+  <row Id="64790" PhysOffice="NY" LogOffice="01" DeptName="Corporate &amp; Finance" FullName="Brooks, Virginia" ejtitle="Senior Legal Assistant" SuperId="63410" Supervisor="" SuperStatus="Active" />
+  <row Id="50176" PhysOffice="NY" LogOffice="01" DeptName="Mail Services" FullName="Cooper, Dennis" ejtitle="Mail Services Clerk" SuperId="50780" Supervisor="" SuperStatus="Terminated" />
+  <row Id="64001" PhysOffice="LA" LogOffice="06" DeptName="Secretaries" FullName="Rodriguez, Walter" ejtitle="Secretary - Assigned" SuperId="51178" Supervisor="" SuperStatus="Active" />
+  <row Id="65025" PhysOffice="NY" LogOffice="99" DeptName="Document Services Department" FullName="Edwards, Bobby" ejtitle="Lead Operator - 3rd" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="63902" PhysOffice="NY" LogOffice="01" DeptName="Real Estate" FullName="Garcia, Elizabeth" ejtitle="Legal Assistant" SuperId="51061" Supervisor="" SuperStatus="Active" />
+  <row Id="50272" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Bennett, Julia" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="50687" PhysOffice="LA" LogOffice="06" DeptName="Mail Services" FullName="Butler, Judith" ejtitle="Office Services Clerk" SuperId="51181" Supervisor="" SuperStatus="Active" />
+  <row Id="64151" PhysOffice="NY" LogOffice="01" DeptName="Mail Services" FullName="Harris, Kathleen" ejtitle="Mail Services Clerk" SuperId="50780" Supervisor="" SuperStatus="Terminated" />
+  <row Id="64553" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Butler, Marilyn" ejtitle="User Support Specialist" SuperId="50807" Supervisor="" SuperStatus="Active" />
+  <row Id="50223" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Patterson, Jason" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="64291" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Powell, Catherine" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="51177" PhysOffice="LA" LogOffice="06" DeptName="Administration" FullName="Morgan, Antonio" ejtitle="Director Of Administration - L" SuperId="51177" Supervisor="" SuperStatus="Active" />
+  <row Id="63899" PhysOffice="DC" LogOffice="02" DeptName="Mail Services" FullName="Hill, Ralph" ejtitle="Facilities Assistant" SuperId="63747" Supervisor="" SuperStatus="Active" />
+  <row Id="50075" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Edwards, Denise" ejtitle="Hourly Sr.Time &amp; Bill Coord." SuperId="50759" Supervisor="" SuperStatus="Active" />
+  <row Id="50329" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Henderson, Matthew" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="50421" PhysOffice="NY" LogOffice="99" DeptName="Business Development" FullName="Phillips, Eric" ejtitle="Webmaster" SuperId="65288" Supervisor="" SuperStatus="Active" />
+  <row Id="65121" PhysOffice="NY" LogOffice="01" DeptName="Trusts &amp; Estates" FullName="James, James" ejtitle="Private Client Administrator" SuperId="65116" Supervisor="" SuperStatus="Active" />
+  <row Id="65268" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Williams, Laura" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="50080" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Brown, Keith" ejtitle="Accounts Receivable Assistant" SuperId="65021" Supervisor="" SuperStatus="Active" />
+  <row Id="50683" PhysOffice="LA" LogOffice="06" DeptName="Secretaries" FullName="Morris, Wayne" ejtitle="P/T Secretary - Assigned" SuperId="51178" Supervisor="" SuperStatus="Active" />
+  <row Id="64588" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Gonzales, Andrew" ejtitle="Web Application Programmer" SuperId="50797" Supervisor="" SuperStatus="Active" />
+  <row Id="50417" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Carter, Judith" ejtitle="Network Specialist" SuperId="50798" Supervisor="" SuperStatus="Active" />
+  <row Id="65111" PhysOffice="DC" LogOffice="02" DeptName="Secretaries" FullName="Mitchell, Katherine" ejtitle="Secretary - Assigned" SuperId="51116" Supervisor="" SuperStatus="Active" />
   <row Id="64097" PhysOffice="FF" LogOffice="14" DeptName="Information Resource Center" FullName="Ramirez, Marie" ejtitle="Library Assistant" />
   <row Id="65158" PhysOffice="SHA" LogOffice="10" DeptName="Corporate &amp; Finance" FullName="Patterson, Christine" ejtitle="PRC Legal Consultant" />
-  <row Id="65151" PhysOffice="SHA" LogOffice="10" DeptName="Secretaries" FullName="Wilson, Stephen" ejtitle="Secretary - Unassigned" SuperId="62885" Supervisor="Ho, Po Shan" SuperStatus="Active" />
-  <row Id="64823" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Robinson, Catherine" ejtitle="Senior Network Engineer" SuperId="50798" Supervisor="Palefsky, John" SuperStatus="Active" />
-  <row Id="50737" PhysOffice="CHI" LogOffice="11" DeptName="Secretaries" FullName="Garcia, Sandra" ejtitle="Secretary - Assigned" SuperId="50735" Supervisor="Gonzales, Raquel" SuperStatus="Active" />
-  <row Id="63817" PhysOffice="CHI" LogOffice="11" DeptName="Secretaries" FullName="Rodriguez, Louise" ejtitle="Secretary - Assigned" SuperId="50735" Supervisor="Gonzales, Raquel" SuperStatus="Active" />
-  <row Id="50226" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Griffin, Heather" ejtitle="P/T Secretary - Unassigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="63816" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Ward, Andrea" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="65266" PhysOffice="DC" LogOffice="02" DeptName="Complex Commercial Litigation" FullName="Peterson, Jonathan" ejtitle="Legal Assistant" SuperId="51116" Supervisor="Ryan, Kathy" SuperStatus="Active" />
-  <row Id="50136" PhysOffice="NY" LogOffice="01" DeptName="Records Dept." FullName="Henderson, Stephanie" ejtitle="Records Clerk" SuperId="63907" Supervisor="Franco, John" SuperStatus="Active" />
-  <row Id="63285" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Bailey, Michael" ejtitle="Check Requisition/AP Clerk" SuperId="50762" Supervisor="Jones, Caroline" SuperStatus="Active" />
-  <row Id="64214" PhysOffice="NY" LogOffice="01" DeptName="Litigation Support" FullName="Sanchez, John" ejtitle="Litigation Support Supervisor" SuperId="50965" Supervisor="Powers, Thomas" SuperStatus="Active" />
-  <row Id="64100" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Foster, George" ejtitle="Accounts Payable Assistant" SuperId="50762" Supervisor="Jones, Caroline" SuperStatus="Active" />
-  <row Id="64859" PhysOffice="DC" LogOffice="02" DeptName="Information Resource Center" FullName="Henderson, Johnny" ejtitle="Information Resource Assistant" SuperId="63989" Supervisor="Lyons, Mary" SuperStatus="Active" />
-  <row Id="50238" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Washington, Anna" ejtitle="Hourly Secretary - Unassigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="65365" PhysOffice="NY" LogOffice="01" DeptName="Product Liability Litigation" FullName="White, Irene" ejtitle="Litigation Project Assistant" SuperId="65223" Supervisor="Makanova, Marina" SuperStatus="Active" />
-  <row Id="50622" PhysOffice="DC" LogOffice="02" DeptName="Reception/Console" FullName="Bryant, Ruth" ejtitle="Receptionist" SuperId="51116" Supervisor="Ryan, Kathy" SuperStatus="Active" />
-  <row Id="51178" PhysOffice="LA" LogOffice="06" DeptName="Human Resources" FullName="Jackson, Harold" ejtitle="Human Resources Manager" SuperId="51177" Supervisor="Van Iderstine, Aurel" SuperStatus="Active" />
-  <row Id="64380" PhysOffice="FF" LogOffice="14" DeptName="Secretaries" FullName="Howard, Barbara" ejtitle="Secretary - Assigned" SuperId="64371" Supervisor="Batschi, Claudia" SuperStatus="Active" />
-  <row Id="50066" PhysOffice="NY" LogOffice="01" DeptName="Managing Attorney" FullName="Baker, Brian" ejtitle="Docketing Coordinator" SuperId="50758" Supervisor="Norber, Dan" SuperStatus="Active" />
-  <row Id="50338" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Morris, Timothy" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="50709" PhysOffice="LA" LogOffice="06" DeptName="Technology Services" FullName="Stewart, Willie" ejtitle="P/T Technology Services Assistant" SuperId="51176" Supervisor="Ybarra, Vincent" SuperStatus="Active" />
-  <row Id="65280" PhysOffice="NY" LogOffice="01" DeptName="Litigation Support" FullName="Price, Kelly" ejtitle="Litigation Support Analyst" SuperId="50965" Supervisor="Powers, Thomas" SuperStatus="Active" />
-  <row Id="65283" PhysOffice="NY" LogOffice="99" DeptName="Telecomm" FullName="Torres, Melissa" ejtitle="Audio Visual Technician" SuperId="50783" Supervisor="Fako, Mary" SuperStatus="Active" />
-  <row Id="50133" PhysOffice="NY" LogOffice="01" DeptName="Managing Attorney" FullName="Campbell, Kenneth" ejtitle="Docket Analyst" SuperId="50758" Supervisor="Norber, Dan" SuperStatus="Active" />
-  <row Id="50526" PhysOffice="NY" LogOffice="01" DeptName="Product Liability Litigation" FullName="Martin, Aaron" ejtitle="Senior Legal Assistant" SuperId="65223" Supervisor="Makanova, Marina" SuperStatus="Active" />
-  <row Id="50083" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Ward, Teresa" ejtitle="Sr. Billing Analyst" SuperId="50759" Supervisor="Santanello, Susan" SuperStatus="Active" />
-  <row Id="50810" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Robinson, Phillip" ejtitle="Assistant T.S. Operations Mana" SuperId="50795" Supervisor="Papazian, Janet" SuperStatus="Active" />
-  <row Id="51120" PhysOffice="DC" LogOffice="02" DeptName="Accounting" FullName="Ross, Frances" ejtitle="Accounting Manager" SuperId="51117" Supervisor="Morrison, Dorothy" SuperStatus="Active" />
-  <row Id="65312" PhysOffice="DC" LogOffice="02" DeptName="Technology Services" FullName="Richardson, Todd" ejtitle="Technical Support Analyst" SuperId="64300" Supervisor="Purdie, Deangelo" SuperStatus="Active" />
-  <row Id="65196" PhysOffice="NY" LogOffice="99" DeptName="Talent Development" FullName="Gonzales, Justin" ejtitle="Business Development Coord" SuperId="65288" Supervisor="Pava, Elizabeth" SuperStatus="Active" />
-  <row Id="50570" PhysOffice="NY" LogOffice="01" DeptName="Corporate &amp; Finance" FullName="Simmons, Jose" ejtitle="Sr Analyst, Aviation Finance" SuperId="63410" Supervisor="Burton, Lisa" SuperStatus="Active" />
-  <row Id="64058" PhysOffice="NY" LogOffice="01" DeptName="Managing Attorney" FullName="Hill, Jerry" ejtitle="Data Entry Coordinator" SuperId="50758" Supervisor="Norber, Dan" SuperStatus="Active" />
-  <row Id="65152" PhysOffice="SHA" LogOffice="10" DeptName="Secretaries" FullName="Jenkins, Joshua" ejtitle="Secretary - Unassigned" SuperId="62885" Supervisor="Ho, Po Shan" SuperStatus="Active" />
-  <row Id="65146" PhysOffice="SHA" LogOffice="10" DeptName="Corporate &amp; Finance" FullName="Brown, Angela" ejtitle="PRC Legal Consultant" SuperId="62885" Supervisor="Ho, Po Shan" SuperStatus="Active" />
+  <row Id="65151" PhysOffice="SHA" LogOffice="10" DeptName="Secretaries" FullName="Wilson, Stephen" ejtitle="Secretary - Unassigned" SuperId="62885" Supervisor="" SuperStatus="Active" />
+  <row Id="64823" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Robinson, Catherine" ejtitle="Senior Network Engineer" SuperId="50798" Supervisor="" SuperStatus="Active" />
+  <row Id="50737" PhysOffice="CHI" LogOffice="11" DeptName="Secretaries" FullName="Garcia, Sandra" ejtitle="Secretary - Assigned" SuperId="50735" Supervisor="" SuperStatus="Active" />
+  <row Id="63817" PhysOffice="CHI" LogOffice="11" DeptName="Secretaries" FullName="Rodriguez, Louise" ejtitle="Secretary - Assigned" SuperId="50735" Supervisor="" SuperStatus="Active" />
+  <row Id="50226" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Griffin, Heather" ejtitle="P/T Secretary - Unassigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="63816" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Ward, Andrea" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="65266" PhysOffice="DC" LogOffice="02" DeptName="Complex Commercial Litigation" FullName="Peterson, Jonathan" ejtitle="Legal Assistant" SuperId="51116" Supervisor="" SuperStatus="Active" />
+  <row Id="50136" PhysOffice="NY" LogOffice="01" DeptName="Records Dept." FullName="Henderson, Stephanie" ejtitle="Records Clerk" SuperId="63907" Supervisor="" SuperStatus="Active" />
+  <row Id="63285" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Bailey, Michael" ejtitle="Check Requisition/AP Clerk" SuperId="50762" Supervisor="" SuperStatus="Active" />
+  <row Id="64214" PhysOffice="NY" LogOffice="01" DeptName="Litigation Support" FullName="Sanchez, John" ejtitle="Litigation Support Supervisor" SuperId="50965" Supervisor="" SuperStatus="Active" />
+  <row Id="64100" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Foster, George" ejtitle="Accounts Payable Assistant" SuperId="50762" Supervisor="" SuperStatus="Active" />
+  <row Id="64859" PhysOffice="DC" LogOffice="02" DeptName="Information Resource Center" FullName="Henderson, Johnny" ejtitle="Information Resource Assistant" SuperId="63989" Supervisor="" SuperStatus="Active" />
+  <row Id="50238" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Washington, Anna" ejtitle="Hourly Secretary - Unassigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="65365" PhysOffice="NY" LogOffice="01" DeptName="Product Liability Litigation" FullName="White, Irene" ejtitle="Litigation Project Assistant" SuperId="65223" Supervisor="" SuperStatus="Active" />
+  <row Id="50622" PhysOffice="DC" LogOffice="02" DeptName="Reception/Console" FullName="Bryant, Ruth" ejtitle="Receptionist" SuperId="51116" Supervisor="" SuperStatus="Active" />
+  <row Id="51178" PhysOffice="LA" LogOffice="06" DeptName="Human Resources" FullName="Jackson, Harold" ejtitle="Human Resources Manager" SuperId="51177" Supervisor="" SuperStatus="Active" />
+  <row Id="64380" PhysOffice="FF" LogOffice="14" DeptName="Secretaries" FullName="Howard, Barbara" ejtitle="Secretary - Assigned" SuperId="64371" Supervisor="" SuperStatus="Active" />
+  <row Id="50066" PhysOffice="NY" LogOffice="01" DeptName="Managing Attorney" FullName="Baker, Brian" ejtitle="Docketing Coordinator" SuperId="50758" Supervisor="" SuperStatus="Active" />
+  <row Id="50338" PhysOffice="NY" LogOffice="01" DeptName="Secretaries" FullName="Morris, Timothy" ejtitle="Secretary - Assigned" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="50709" PhysOffice="LA" LogOffice="06" DeptName="Technology Services" FullName="Stewart, Willie" ejtitle="P/T Technology Services Assistant" SuperId="51176" Supervisor="" SuperStatus="Active" />
+  <row Id="65280" PhysOffice="NY" LogOffice="01" DeptName="Litigation Support" FullName="Price, Kelly" ejtitle="Litigation Support Analyst" SuperId="50965" Supervisor="" SuperStatus="Active" />
+  <row Id="65283" PhysOffice="NY" LogOffice="99" DeptName="Telecomm" FullName="Torres, Melissa" ejtitle="Audio Visual Technician" SuperId="50783" Supervisor="" SuperStatus="Active" />
+  <row Id="50133" PhysOffice="NY" LogOffice="01" DeptName="Managing Attorney" FullName="Campbell, Kenneth" ejtitle="Docket Analyst" SuperId="50758" Supervisor="" SuperStatus="Active" />
+  <row Id="50526" PhysOffice="NY" LogOffice="01" DeptName="Product Liability Litigation" FullName="Martin, Aaron" ejtitle="Senior Legal Assistant" SuperId="65223" Supervisor="" SuperStatus="Active" />
+  <row Id="50083" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Ward, Teresa" ejtitle="Sr. Billing Analyst" SuperId="50759" Supervisor="" SuperStatus="Active" />
+  <row Id="50810" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="Robinson, Phillip" ejtitle="Assistant T.S. Operations Mana" SuperId="50795" Supervisor="" SuperStatus="Active" />
+  <row Id="51120" PhysOffice="DC" LogOffice="02" DeptName="Accounting" FullName="Ross, Frances" ejtitle="Accounting Manager" SuperId="51117" Supervisor="" SuperStatus="Active" />
+  <row Id="65312" PhysOffice="DC" LogOffice="02" DeptName="Technology Services" FullName="Richardson, Todd" ejtitle="Technical Support Analyst" SuperId="64300" Supervisor="" SuperStatus="Active" />
+  <row Id="65196" PhysOffice="NY" LogOffice="99" DeptName="Talent Development" FullName="Gonzales, Justin" ejtitle="Business Development Coord" SuperId="65288" Supervisor="" SuperStatus="Active" />
+  <row Id="50570" PhysOffice="NY" LogOffice="01" DeptName="Corporate &amp; Finance" FullName="Simmons, Jose" ejtitle="Sr Analyst, Aviation Finance" SuperId="63410" Supervisor="" SuperStatus="Active" />
+  <row Id="64058" PhysOffice="NY" LogOffice="01" DeptName="Managing Attorney" FullName="Hill, Jerry" ejtitle="Data Entry Coordinator" SuperId="50758" Supervisor="" SuperStatus="Active" />
+  <row Id="65152" PhysOffice="SHA" LogOffice="10" DeptName="Secretaries" FullName="Jenkins, Joshua" ejtitle="Secretary - Unassigned" SuperId="62885" Supervisor="" SuperStatus="Active" />
+  <row Id="65146" PhysOffice="SHA" LogOffice="10" DeptName="Corporate &amp; Finance" FullName="Brown, Angela" ejtitle="PRC Legal Consultant" SuperId="62885" Supervisor="" SuperStatus="Active" />
   <row Id="63795" PhysOffice="SHA" LogOffice="10" DeptName="Corporate &amp; Finance" FullName="Harris, Bruce" ejtitle="PRC Legal Consultant" />
-  <row Id="65173" PhysOffice="FF" LogOffice="14" DeptName="Corporate &amp; Finance" FullName="Rogers, Joyce" ejtitle="Student" SuperId="64371" Supervisor="Batschi, Claudia" SuperStatus="Active" />
+  <row Id="65173" PhysOffice="FF" LogOffice="14" DeptName="Corporate &amp; Finance" FullName="Rogers, Joyce" ejtitle="Student" SuperId="64371" Supervisor="" SuperStatus="Active" />
   <row Id="65149" PhysOffice="SHA" LogOffice="10" DeptName="Corporate &amp; Finance" FullName="Harris, Theresa" ejtitle="PRC Legal Consultant" />
-  <row Id="50169" PhysOffice="NY" LogOffice="01" DeptName="Mail Services" FullName="Moore, Stephen" ejtitle="Lead Mail Services Clerk" SuperId="50780" Supervisor="Rosenbluth, Joel" SuperStatus="Terminated" />
-  <row Id="64720" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="James, Kathy" ejtitle="User Support Specialist" SuperId="50807" Supervisor="Chin, Lisa" SuperStatus="Active" />
-  <row Id="51176" PhysOffice="LA" LogOffice="06" DeptName="Technology Services" FullName="Coleman, Karen" ejtitle="TS/Telecom Project Manager" SuperId="51177" Supervisor="Van Iderstine, Aurel" SuperStatus="Active" />
-  <row Id="65169" PhysOffice="FF" LogOffice="14" DeptName="Accounting" FullName="Thompson, Billy" ejtitle="Accounting Assistant" SuperId="64167" Supervisor="Pamp, Petra" SuperStatus="Active" />
-  <row Id="65357" PhysOffice="NY" LogOffice="99" DeptName="Business Development" FullName="James, Jonathan" ejtitle="PR/Communications Manager" SuperId="65345" Supervisor="Sonnenfeld Berry, Sandra" SuperStatus="Active" />
-  <row Id="65218" PhysOffice="NY" LogOffice="99" DeptName="COO" FullName="Long, Victor" ejtitle="Manager of Practice Administration" SuperId="65114" Supervisor="Hunter, Jeffrey" SuperStatus="Active" />
-  <row Id="50360" PhysOffice="NY" LogOffice="99" DeptName="Document Services Department" FullName="Bennett, Louise" ejtitle="Document Services Operator" SuperId="50784" Supervisor="Howell, Harriet" SuperStatus="Active" />
-  <row Id="65289" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Ramirez, Helen" ejtitle="Staff Accountant" SuperId="65021" Supervisor="Fersht, Svetlana" SuperStatus="Active" />
-  <row Id="65190" PhysOffice="SHA" LogOffice="10" DeptName="Corporate &amp; Finance" FullName="Scott, Benjamin" ejtitle="PRC Legal Consultant" SuperId="62885" Supervisor="Ho, Po Shan" SuperStatus="Active" />
-  <row Id="50171" PhysOffice="NY" LogOffice="01" DeptName="Mail Services" FullName="Scott, Thomas" ejtitle="Mail Services Clerk" SuperId="50780" Supervisor="Rosenbluth, Joel" SuperStatus="Terminated" />
+  <row Id="50169" PhysOffice="NY" LogOffice="01" DeptName="Mail Services" FullName="Moore, Stephen" ejtitle="Lead Mail Services Clerk" SuperId="50780" Supervisor="" SuperStatus="Terminated" />
+  <row Id="64720" PhysOffice="NY" LogOffice="99" DeptName="Technology Services" FullName="James, Kathy" ejtitle="User Support Specialist" SuperId="50807" Supervisor="" SuperStatus="Active" />
+  <row Id="51176" PhysOffice="LA" LogOffice="06" DeptName="Technology Services" FullName="Coleman, Karen" ejtitle="TS/Telecom Project Manager" SuperId="51177" Supervisor="" SuperStatus="Active" />
+  <row Id="65169" PhysOffice="FF" LogOffice="14" DeptName="Accounting" FullName="Thompson, Billy" ejtitle="Accounting Assistant" SuperId="64167" Supervisor="" SuperStatus="Active" />
+  <row Id="65357" PhysOffice="NY" LogOffice="99" DeptName="Business Development" FullName="James, Jonathan" ejtitle="PR/Communications Manager" SuperId="65345" Supervisor="" SuperStatus="Active" />
+  <row Id="65218" PhysOffice="NY" LogOffice="99" DeptName="COO" FullName="Long, Victor" ejtitle="Manager of Practice Administration" SuperId="65114" Supervisor="" SuperStatus="Active" />
+  <row Id="50360" PhysOffice="NY" LogOffice="99" DeptName="Document Services Department" FullName="Bennett, Louise" ejtitle="Document Services Operator" SuperId="50784" Supervisor="" SuperStatus="Active" />
+  <row Id="65289" PhysOffice="NY" LogOffice="99" DeptName="Accounting" FullName="Ramirez, Helen" ejtitle="Staff Accountant" SuperId="65021" Supervisor="" SuperStatus="Active" />
+  <row Id="65190" PhysOffice="SHA" LogOffice="10" DeptName="Corporate &amp; Finance" FullName="Scott, Benjamin" ejtitle="PRC Legal Consultant" SuperId="62885" Supervisor="" SuperStatus="Active" />
+  <row Id="50171" PhysOffice="NY" LogOffice="01" DeptName="Mail Services" FullName="Scott, Thomas" ejtitle="Mail Services Clerk" SuperId="50780" Supervisor="" SuperStatus="Terminated" />
 </org>
